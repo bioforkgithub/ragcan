@@ -10,6 +10,7 @@ abstract: >
 type: software
 version: 3.0.0
 license: MIT
+doi: "10.5281/zenodo.22791638"
 repository-code: "https://github.com/bioforkgithub/ragcan"
 authors:
   - family-names: Victor
