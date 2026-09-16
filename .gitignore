@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# results, intermediates and proteomes are reconstructible and large
+*_Result/
+results/
+proteomes/
+*.dmnd
+*.tsv.gz
+*.log
+.DS_Store

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use RaGCAn, please cite it as below."
+title: "RaGCAn: Rapid Genome Coherence Analyzer"
+abstract: >
+  A rapid core-genome screen that asks whether a named prokaryotic genus holds
+  together. RaGCAn builds the core proteome of a set of genomes, computes
+  average amino-acid identity between every pair, and partitions the set by
+  complete-linkage clustering. A genus that returns one bin is coherent. More
+  than one bin is a proposed re-categorisation.
+type: software
+version: 3.0.0
+license: MIT
+repository-code: "https://github.com/bioforkgithub/ragcan"
+authors:
+  - family-names: Victor
+    given-names: Manish Prakash
+    affiliation: Institute of Marine Research, Bergen, Norway
+keywords:
+  - prokaryotic taxonomy
+  - average amino-acid identity
+  - core genome
+  - genus delimitation
