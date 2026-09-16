@@ -87,14 +87,10 @@ The original program was written in 2021 and is still online at
 analysis, core gene finding, and recombinant and non-recombinant gene detection. The method, the
 parameters and the complete-linkage design are from that version.
 
-RaGCAn v3.0.0 is the same method, rewritten for scale. `RaGCAn.py` has md5
-`d3cfa0d1fe2ae197686ef4cfc42f115d`. It is identical in computation to the file that produced every
-published number, which carries md5 `9d55089baa73ca459ad0634808535616`. Six lines differ and all
-six are display strings (the logger name, the argparse program name and three usage examples).
-`RaGCAn_rename.diff` in this repository is the proof.
-
-If you edit `RaGCAn.py` its checksum changes and that claim no longer holds. Commit any such
-change on its own, with a message saying what it was.
+RaGCAn v3.0.0 is the same method, rewritten for scale. It is identical in computation to the
+version that produced every published number. Six lines differ and all six are display strings
+(the logger name, the argparse program name and three usage examples). `RaGCAn_rename.diff` and
+`RENAME_NOTE.md` in this repository record exactly what changed.
 
 ## Citation
 
