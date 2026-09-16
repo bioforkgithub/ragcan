@@ -174,10 +174,34 @@ analysis_scripts/      the GTDB comparison, the statistics, the internal verific
 figures/               every figure in the paper, drawn from the result tables
 versions/              the 2021 original and the full pipeline, for checking the lineage
 SURVEY_PLAN.md         the protocol, written before the survey ran
+tools/                 the release script and the version check
 ```
 
 Nothing in `versions/` is maintained. It is there so the history can be checked rather than taken
 on trust. See `versions/README.md`.
+
+## Making a release
+
+```bash
+tools/release.sh v3.1.0 "What changed, in a sentence or two"
+```
+
+Use this instead of creating the release by hand. Zenodo archives a release the moment it is
+published, so the checks run first and the release is refused if any fails:
+
+- nothing is left uncommitted, and this copy matches GitHub
+- the tag is new, of the form `vX.Y.Z`, and newer than the last release
+- the version in `RaGCAn.py` equals the version in `CITATION.cff`
+- **if `RaGCAn.py` changed since the last release, the tag equals the version inside it**
+
+A release that changes only supporting files may keep the program's version. That is why v3.0.1
+and v3.0.2 ship a program that reports 3.0.0: the program file is byte-identical to v3.0.0.
+
+The same check runs on GitHub on every push and every release (`version check` under Actions). It
+cannot undo a release that is already out, so it is a warning, and the script is the guard.
+
+After a release, Zenodo mints a new DOI by itself, and the Bioconda bot opens the package update by
+itself.
 
 ## Citation
 

@@ -1,0 +1,28 @@
+name: version check
+
+# Re-runs tools/check_version.py on GitHub. It cannot stop a release that has already
+# been published (Zenodo archives it at once), so the real guard is tools/release.sh.
+# This makes any slip visible as a failed check.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  release:
+    types: [published]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: RaGCAn.py and CITATION.cff agree
+        if: github.event_name != 'release'
+        run: python3 tools/check_version.py
+      - name: Release tag matches the program it ships
+        if: github.event_name == 'release'
+        run: python3 tools/check_version.py --tag "${{ github.event.release.tag_name }}"
