@@ -30,7 +30,7 @@ DEVIATION FROM THE PAPER, AND WHY IT IS ACCEPTABLE
 Resumable: a genus already marked done is never recomputed. Hit tables are deleted per genus
 once its POCP matrix is written, so peak disk stays bounded.
 """
-import argparse, csv, fcntl, os, re, subprocess, sys, time
+import argparse, csv, fcntl, os, re, shutil, subprocess, sys, time
 from collections import defaultdict
 import numpy as np
 
@@ -44,7 +44,8 @@ LOGS = os.path.join(ROOT, 'logs')
 STATUS = os.path.join(REPORTS, 'pocp_status.tsv')
 LOCK = os.path.join(REPORTS, 'pocp.lock')
 PIDFILE = os.path.join(REPORTS, 'pocp.pid')
-DIAMOND = '/home/a40540/softwares/diamond'
+# DIAMOND is found at start-up: --diamond, then $RAGCAN_DIAMOND, then PATH. See main().
+DIAMOND = None
 
 MIN_ID, MIN_QCOV, MAX_E, POCP_THRESH = 40.0, 50.0, 1e-5, 50.0
 
@@ -215,7 +216,16 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('-t', '--threads', type=int, default=96)
     ap.add_argument('--retry-failed', action='store_true')
+    ap.add_argument('--diamond', metavar='PATH',
+                    help='DIAMOND executable (default: $RAGCAN_DIAMOND, then PATH)')
     a = ap.parse_args()
+
+    # Resolve DIAMOND before anything is written. If this were left to each genus, a missing
+    # binary would mark every genus 'failed' one by one instead of stopping once.
+    global DIAMOND
+    DIAMOND = a.diamond or os.environ.get('RAGCAN_DIAMOND') or shutil.which('diamond')
+    if not DIAMOND or not os.access(DIAMOND, os.X_OK):
+        sys.exit('DIAMOND not found. Put it on PATH, set RAGCAN_DIAMOND, or pass --diamond.')
     for d in (RESULTS, REPORTS, LOGS): os.makedirs(d, exist_ok=True)
     fh = open(LOCK, 'w')
     try: fcntl.flock(fh, fcntl.LOCK_EX | fcntl.LOCK_NB)

@@ -40,22 +40,21 @@ Measured, not estimated. One genus of 17 genomes (78,933 proteins), on **2 CPU c
 So an ordinary laptop with 8 GB of RAM runs a typical genus. Nothing here needs a cluster. The
 1,160-genus survey used many cores because it ran 1,160 genera, not because one genus is expensive.
 
-Measured on one AMD EPYC 7763 core pair with DIAMOND 2.1.8. Lowering `--block-size` does **not**
-reduce peak memory, because the memory is in the identity matrix rather than in DIAMOND, and the
-results are byte-identical either way.
+Measured on an AMD EPYC 7763 with DIAMOND 2.1.8 at default settings. The identity threshold is
+applied after the DIAMOND search, so changing `--pident` does not change this cost. Lowering
+`--block-size` does **not** reduce peak memory either, because the memory is in the identity matrix
+rather than in DIAMOND. The results were byte-identical both ways.
 
-Typical wall time by genus size, from the 1,160-genus survey:
+Typical wall time by genus size, from the 1,160-genus survey at 96 threads (1,144 runs):
 
 | Genomes in the genus | Genera | Median |
 |---|---|---|
-| 3 to 9 | 736 | 6 s |
-| 10 to 19 | 243 | 36 s |
-| 20 to 49 | 127 | 54 s |
+| 3 to 9 | 736 | 7 s |
+| 10 to 19 | 239 | 38 s |
+| 20 to 49 | 122 | 56 s |
 | 50 to 99 | 33 | 3.3 min |
-| 100 to 299 | 17 | 11 min |
-| 300 or more | 3 | 1.6 h |
-
-Those are at 140 threads. Divide by your core count and you will not be far off.
+| 100 to 299 | 11 | 12.8 min |
+| 300 or more | 3 | 0.7 to 1.9 h |
 
 ## Install
 
@@ -115,6 +114,28 @@ The same measurement carries species-level information. At a 94.10% AAI cut-off 
 same-species pairs in the survey stayed together and 99.6% of 788,943 different-species pairs
 separated (99.81% balanced accuracy). RaGCAn does not perform species delimitation and no such
 claim is made here.
+
+## Rerunning the analysis in the paper
+
+`RaGCAn.py` runs anywhere. The survey, analysis and figure scripts are the record of how the paper
+was produced. They need the result tables, which are too large for this repository, and they
+contain no paths tied to our machine.
+
+**Settings used in the paper.** The survey ran with `--pident 60 --bin-aai 65`, DIAMOND
+`--very-sensitive`, at 96 threads, using DIAMOND **2.1.8**. The program's own default for
+`--pident` is 85, so pass `--pident 60` to reproduce the survey. A fresh install may bring a newer
+DIAMOND; install `diamond=2.1.8` if you need the published numbers exactly.
+
+**Telling the scripts where the data are.**
+
+| Scripts | How they find the data |
+|---|---|
+| `figures/*.py`, `analysis_scripts/final_comparison.py` | `--root DIR`, or `RAGCAN_DATA_ROOT`, or they search upward from their own folder. `DIR` must contain `LPSN_Genus_Survey/` (and `POCP_run/` for the comparison) |
+| `analysis_scripts/pocp_driver.py` | Finds DIAMOND through `--diamond PATH`, or `RAGCAN_DIAMOND`, or `PATH`. It stops before writing anything if DIAMOND is missing |
+| the other seven `analysis_scripts/` | Ran from `LPSN_Genus_Survey/phase3/` and read the survey folder one level up. Place them in a subfolder of your survey folder |
+| `survey_scripts/` | Ran from `LPSN_Genus_Survey/scripts/` and write into the folder one level up |
+
+A wrong `--root` stops with a message saying what is missing, not a traceback.
 
 ## How it compares
 

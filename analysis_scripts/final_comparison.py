@@ -1,7 +1,37 @@
 #!/usr/bin/env python3
 """Final RaGCAn vs POCP comparison, all 1,160 genera. Run by finalise.sh when the POCP run ends."""
-import csv, math, pathlib
-R = pathlib.Path('/gpfs/gpfs0/prosjekt/.prosjekt2/15719-Res-Marine/Project_Work/Project_Pygemini')
+import argparse, csv, math, os, pathlib
+
+
+def _data_root():
+    """The directory holding POCP_run/ and LPSN_Genus_Survey/.
+
+    Order: --root, then $RAGCAN_DATA_ROOT, then walk up from this file. No path is hardcoded.
+    """
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--root', metavar='DIR',
+                    help='directory containing POCP_run/ and LPSN_Genus_Survey/')
+    a = ap.parse_args()
+    need = ('POCP_run', 'LPSN_Genus_Survey')
+
+    def ok(d):
+        return all((d / n).is_dir() for n in need)
+
+    for how, d in (('--root', a.root), ('$RAGCAN_DATA_ROOT', os.environ.get('RAGCAN_DATA_ROOT'))):
+        if d:
+            d = pathlib.Path(d).resolve()
+            if not ok(d):
+                raise SystemExit(f'{how} is {d}, but it does not contain both {need[0]}/ and {need[1]}/.')
+            return d
+    here = pathlib.Path(__file__).resolve()
+    for d in (here.parent, *here.parents):
+        if ok(d):
+            return d
+    raise SystemExit('Could not find the result tables. Pass --root, or set RAGCAN_DATA_ROOT, to the\n'
+                     'directory that contains POCP_run/ and LPSN_Genus_Survey/.')
+
+
+R = _data_root()
 pocp = {r['genus']: int(r['bins']) for r in
         csv.DictReader(open(R/'POCP_run'/'reports'/'pocp_status.tsv'), delimiter='\t')
         if r['state'] == 'done' and r['bins']}
