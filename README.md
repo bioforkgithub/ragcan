@@ -90,6 +90,23 @@ version that produced every published number. Six lines differ and all six are d
 (the logger name, the argparse program name and three usage examples). `RaGCAn_rename.diff` and
 `RENAME_NOTE.md` in this repository record exactly what changed.
 
+## What is in here
+
+```
+RaGCAn.py              the program. Run this one
+fast_aai.py            vectorised AAI for large genera
+run_fast.py            driver that calls it
+environment.yml        DIAMOND and numpy, nothing else
+survey_scripts/        how the 1,160-genus survey selected, fetched and ran
+analysis_scripts/      the GTDB comparison, the statistics, the internal verification
+figures/               every figure in the paper, drawn from the result tables
+versions/              the 2021 original and the full pipeline, for checking the lineage
+SURVEY_PLAN.md         the protocol, written before the survey ran
+```
+
+Nothing in `versions/` is maintained. It is there so the history can be checked rather than taken
+on trust. See `versions/README.md`.
+
 ## Citation
 
 `CITATION.cff` is in this repository. The manuscript is in preparation and this section will be
