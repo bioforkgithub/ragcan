@@ -104,3 +104,26 @@ updated with the reference on acceptance.
 ## Licence
 
 MIT. See `LICENSE`.
+
+## AI assistance
+
+This is disclosed because the work should be readable on its own terms.
+
+The science is mine. The question, the method, the pipeline design, the parameters and
+thresholds, the output design, the choice of tool stack and the interpretation of every result
+are my own. So is the 2021 original, `PY-GEMINI.py`, which I wrote by hand.
+
+An AI assistant (Anthropic Claude) was used for the engineering. It debugged the 2021 script,
+restructured it into a command-line tool, made it portable and packaged it, wrote the survey and
+analysis scripts in this repository, and did the large-scale runs under my direction.
+
+The two versions were measured against each other. Textual similarity between `PY-GEMINI.py` and
+the rewritten `pygemini.py` is about 2% at character level. Logical similarity, meaning the
+algorithm design, is about 100%. The analysis parameters are byte-identical and 29 of 31
+output-path names are preserved. A 2% textual and 100% logical result is what a faithful
+re-implementation looks like. The assistant wrote the code and I designed the program.
+
+The assistant was also wrong, and I corrected it. It removed my core-anchoring rule and called it
+actively harmful. The rule is sound and it is back in the program. A separate review caught a
+data-loss defect the assistant had introduced. Both are recorded in the full assistance record
+kept with the manuscript.
