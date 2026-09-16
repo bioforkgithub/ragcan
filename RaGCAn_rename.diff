@@ -1,0 +1,24 @@
+2c2
+< """PY-GEMINI - rapid core-genome screen for taxonomic coherence.
+---
+> """RaGCAn (Rapid Genome Coherence Analyzer) - rapid core-genome screen for taxonomic coherence.
+51c51
+< LOG = logging.getLogger('pygemini')
+---
+> LOG = logging.getLogger('RaGCAn')
+756c756
+<     add('PY-GEMINI %s - core genome screen' % __version__)
+---
+>     add('RaGCAn %s - core genome screen' % __version__)
+1146c1146
+<         prog='pygemini',
+---
+>         prog='RaGCAn',
+1150c1150
+<                '  pygemini -i proteomes/ -o results/ -t 16\n\n'
+---
+>                '  RaGCAn.py -i proteomes/ -o results/ -t 16\n\n'
+1152c1152
+<                '  micromamba env create -f environment.yml && micromamba activate pygemini\n')
+---
+>                '  micromamba env create -f environment.yml && micromamba activate ragcan\n')

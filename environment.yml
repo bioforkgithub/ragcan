@@ -1,0 +1,42 @@
+# RaGCAn runtime environment.
+#
+#   micromamba env create -f environment.yml
+#   micromamba activate ragcan
+#   RaGCAn.py --help
+#
+# conda works identically:
+#   conda env create -f environment.yml && conda activate ragcan
+#
+# Apple Silicon: bioconda publishes osx-arm64 builds, so this should install natively. If a
+# solve fails, fall back to emulation and make the choice stick:
+#   CONDA_SUBDIR=osx-64 micromamba env create -f environment.yml
+#   micromamba activate ragcan && micromamba config set subdir osx-64
+#
+# Windows: bioconda does not build for win-64. Use WSL2, or a Linux container.
+#
+# Reproducibility: nothing is pinned here, so the versions you get depend on when you solve.
+# Before publishing an analysis, record the exact versions with
+#   micromamba env export > environment.lock.yml
+# and archive that file alongside your results.
+name: ragcan
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.8
+  - numpy
+  # the only external program the screen needs
+  - diamond
+  #
+  # The full alignment-and-tree pipeline is preserved as pygemini_full.py but is NOT part of
+  # the default workflow. Uncomment these if you want to run it:
+  # - biopython>=1.79
+  # - blast          # makeblastdb, blastp
+  # - clustalw
+  # - fasttree
+  # - phipack        # Phi
+  #
+  # To continue past this program's output - align the ortholog groups and infer a tree -
+  # these are the tools to reach for:
+  # - mafft
+  # - iqtree
