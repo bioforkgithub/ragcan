@@ -1,9 +1,17 @@
 # RaGCAn
 
-**Rapid Genome Coherence Analyzer.** A core-genome screen that asks one question about a named
-prokaryotic genus. Do these genomes hold together?
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22791638.svg)](https://doi.org/10.5281/zenodo.22791638)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![version](https://img.shields.io/badge/version-3.0.0-informational)
 
----
+**Rapid Genome Coherence Analyzer.** Ask one question about a named prokaryotic genus in minutes,
+on a laptop. Do these genomes hold together?
+
+Given 389 *Pseudomonas* genomes and no taxonomic labels, RaGCAn pulled out exactly seven. All seven
+have since been reassigned to *Halopseudomonas*. The same seven came back on two further genome
+sets chosen a different way.
+
+It needs one protein search. No tree, no alignment, no reference database to download.
 
 ## What it does
 
@@ -19,9 +27,39 @@ drag two unrelated genomes into the same group.
 The aim of this program was to give a fast first check on a genus, not a final taxonomic answer.
 A flag from RaGCAn is a reason to run ANI, dDDH or a phylogeny. It is not a replacement for them.
 
+## It runs on a laptop
+
+Measured, not estimated. One genus of 17 genomes (78,933 proteins), on **2 CPU cores**:
+
+| | |
+|---|---|
+| Wall clock | **8 min 27 s** |
+| Peak memory | **3.6 GB** |
+| Cores used | 2 |
+
+So an ordinary laptop with 8 GB of RAM runs a typical genus. Nothing here needs a cluster. The
+1,160-genus survey used many cores because it ran 1,160 genera, not because one genus is expensive.
+
+Measured on one AMD EPYC 7763 core pair with DIAMOND 2.1.8. Lowering `--block-size` does **not**
+reduce peak memory, because the memory is in the identity matrix rather than in DIAMOND, and the
+results are byte-identical either way.
+
+Typical wall time by genus size, from the 1,160-genus survey:
+
+| Genomes in the genus | Genera | Median |
+|---|---|---|
+| 3 to 9 | 736 | 6 s |
+| 10 to 19 | 243 | 36 s |
+| 20 to 49 | 127 | 54 s |
+| 50 to 99 | 33 | 3.3 min |
+| 100 to 299 | 17 | 11 min |
+| 300 or more | 3 | 1.6 h |
+
+Those are at 140 threads. Divide by your core count and you will not be far off.
+
 ## Install
 
-Only DIAMOND (v2.1.9) and numpy are needed.
+Only DIAMOND (2.1.8) and numpy are needed.
 
 ```bash
 micromamba env create -f environment.yml
@@ -78,7 +116,20 @@ same-species pairs in the survey stayed together and 99.6% of 788,943 different-
 separated (99.81% balanced accuracy). RaGCAn does not perform species delimitation and no such
 claim is made here.
 
+## How it compares
+
+| | What it answers | Cost |
+|---|---|---|
+| **RaGCAn** | Does this genus hold together, and if not, where does it divide | One protein search. Minutes on a laptop |
+| POCP | Do two genomes belong to one genus | Comparable answers to RaGCAn in our hands, at higher cost |
+| ANI | Do two genomes belong to one species | Cheap, but it is a species criterion, not a genus one |
+| dDDH | Do two genomes belong to one species | The reference standard for species. Slow, usually a web submission |
+| Marker-gene phylogeny | How the organisms are related | The real answer. Slow and costly, so it is run where a problem is already suspected |
+
+Use RaGCAn to find out where to point the expensive methods. It is the first step, not the last.
+
 ## History
+
 
 The original program was written in 2021 and is still online at
 **https://github.com/ManishVictor/PY-GEMINI**. It was called PY-GEMINI then and it did taxonomic
