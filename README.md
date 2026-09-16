@@ -3,8 +3,6 @@
 **Rapid Genome Coherence Analyzer.** A core-genome screen that asks one question about a named
 prokaryotic genus. Do these genomes hold together?
 
-Manish Prakash Victor, Institute of Marine Research, Bergen, Norway.
-
 ---
 
 ## What it does
