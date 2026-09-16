@@ -11,3 +11,6 @@ proteomes/
 *.tsv.gz
 *.log
 .DS_Store
+
+# your own run of the worked example
+example/result/

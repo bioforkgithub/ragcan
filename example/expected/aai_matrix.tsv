@@ -1,0 +1,6 @@
+genome	Pseudomonas_abyssi__GCF_003444685.1	Pseudomonas_aeruginosa_PAO1__GCF_000006765.1	Pseudomonas_fluorescens__GCF_900215245.1	Pseudomonas_putida_NBRC_14164__GCF_000412675.1	Pseudomonas_syringae__GCF_018394375.1
+Pseudomonas_abyssi__GCF_003444685.1	100.00	64.70	62.42	62.78	63.11
+Pseudomonas_aeruginosa_PAO1__GCF_000006765.1	64.70	100.00	71.64	72.01	71.02
+Pseudomonas_fluorescens__GCF_900215245.1	62.42	71.64	100.00	75.86	77.89
+Pseudomonas_putida_NBRC_14164__GCF_000412675.1	62.78	72.01	75.86	100.00	74.72
+Pseudomonas_syringae__GCF_018394375.1	63.11	71.02	77.89	74.72	100.00

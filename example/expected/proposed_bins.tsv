@@ -1,0 +1,3 @@
+bin	genomes	core_genes	bin_reference	min_aai	mean_aai	members
+1	4	432	Pseudomonas_syringae__GCF_018394375.1	71.02	73.86	Pseudomonas_aeruginosa_PAO1__GCF_000006765.1 Pseudomonas_fluorescens__GCF_900215245.1 Pseudomonas_putida_NBRC_14164__GCF_000412675.1 Pseudomonas_syringae__GCF_018394375.1
+2	1	3903	Pseudomonas_abyssi__GCF_003444685.1	NA	NA	Pseudomonas_abyssi__GCF_003444685.1

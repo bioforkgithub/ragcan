@@ -13,6 +13,18 @@ sets chosen a different way.
 
 It needs one protein search. No tree, no alignment, no reference database to download.
 
+## Try it in two minutes
+
+```bash
+git clone https://github.com/bioforkgithub/ragcan && cd ragcan
+micromamba env create -f environment.yml && micromamba activate ragcan
+python3 RaGCAn.py -i example/proteomes -o example/result -t 2
+python3 example/check_example.py
+```
+
+Five genomes, about a minute on two cores. RaGCAn picks out the one that GTDB has since moved to
+*Halopseudomonas*. See `example/README.md`.
+
 ## What it does
 
 RaGCAn takes a directory of proteomes, one file per genome. It builds the core proteome of the
@@ -58,12 +70,17 @@ Typical wall time by genus size, from the 1,160-genus survey at 96 threads (1,14
 
 ## Install
 
-Only DIAMOND (2.1.8) and numpy are needed.
+Only DIAMOND and numpy are needed. The paper used DIAMOND 2.1.8.
 
 ```bash
 micromamba env create -f environment.yml
 micromamba activate ragcan
 ```
+
+A fresh install took 30 s with an empty package cache on a fast connection, and the environment is
+94 MB. The worked example has been run on Linux with Python 3.11 and 3.14 and DIAMOND 2.1.8 and
+2.2.6. Bioconda's tests install and start it on macOS as well. On Windows, use WSL2, because
+Bioconda does not build DIAMOND for Windows.
 
 ## Run
 
@@ -175,6 +192,7 @@ figures/               every figure in the paper, drawn from the result tables
 versions/              the 2021 original and the full pipeline, for checking the lineage
 SURVEY_PLAN.md         the protocol, written before the survey ran
 tools/                 the release script and the version check
+example/               five genomes, the expected result, and a checker
 ```
 
 Nothing in `versions/` is maintained. It is there so the history can be checked rather than taken

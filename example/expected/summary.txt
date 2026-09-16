@@ -1,0 +1,92 @@
+RaGCAn 3.0.0 - core genome screen
+========================================================================
+
+genomes    : 5
+proteins   : 25,697
+reference  : Pseudomonas_abyssi__GCF_003444685.1 (fewest homologs, 1993 - it anchors the core)
+
+thresholds : identity >= 85%, gap opens <= 3, e-value < 0.0001, coverage >= 0%
+binning    : AAI >= 65% (complete linkage)
+
+CORE GENOME: 95 genes shared by all 5 genomes
+
+------------------------------------------------------------------------
+PROPOSED BINS - each bin is a candidate sub-taxon
+
+  bin genomes core genes   min AAI mean AAI  members
+    1       4        432     71.02    73.86  Pseudomonas_aeruginosa_PAO1__GCF_000006765.1 Pseudomonas_fluorescens__GCF_900215
+    2       1       3903        NA       NA  Pseudomonas_abyssi__GCF_003444685.1
+
+  2 bins: the set as given does NOT form one coherent group at AAI >= 65%.
+  1 genome(s) bin alone, belonging with nothing else in the set:
+      Pseudomonas_abyssi__GCF_003444685.1
+
+------------------------------------------------------------------------
+SPECIATION PREDICTION
+
+Two independent lines of evidence per genome: average amino acid identity (AAI) to
+its nearest neighbour, and how much the shared core grows when it is removed. A
+claim is worth pursuing when the two AGREE; either on its own is weak evidence.
+
+  genome                       nearest                   AAI% core gain  verdict
+  Pseudomonas_abyssi__GCF_0034 Pseudomonas_aeruginosa    64.7      +337  CANDIDATE NOVEL TAXON
+  Pseudomonas_aeruginosa_PAO1_ Pseudomonas_putida_NBR   72.01        +4  distinct species within the genus
+  Pseudomonas_putida_NBRC_1416 Pseudomonas_fluorescen   75.86        +5  distinct species within the genus
+  Pseudomonas_fluorescens__GCF Pseudomonas_syringae__   77.89        +7  distinct species within the genus
+  Pseudomonas_syringae__GCF_01 Pseudomonas_fluorescen   77.89        +8  distinct species within the genus
+
+  Conventional boundaries (guidelines from the literature, not laws):
+    AAI >= 95%   same species
+    80 - 95%    same genus, different species
+    65 - 80%    same genus, divergent
+    AAI <  65%   likely a different genus
+
+------------------------------------------------------------------------
+HOMOLOGS PER GENOME (proteins hit from every other genome)
+
+  Pseudomonas_abyssi__GCF_003444685.1                1993
+  Pseudomonas_syringae__GCF_018394375.1              2296
+  Pseudomonas_aeruginosa_PAO1__GCF_000006765.1       2457
+  Pseudomonas_putida_NBRC_14164__GCF_000412675.1     2489
+  Pseudomonas_fluorescens__GCF_900215245.1           2506
+
+------------------------------------------------------------------------
+LEAVE-ONE-OUT (core size with each genome excluded)
+
+  excluded genome                                      core   change
+  Pseudomonas_abyssi__GCF_003444685.1                   432     +337
+  Pseudomonas_syringae__GCF_018394375.1                 103       +8
+  Pseudomonas_fluorescens__GCF_900215245.1              102       +7
+  Pseudomonas_putida_NBRC_14164__GCF_000412675.1        100       +5
+  Pseudomonas_aeruginosa_PAO1__GCF_000006765.1           99       +4
+
+------------------------------------------------------------------------
+GREEDY REMOVAL (core size as the worst genome is dropped repeatedly)
+
+   genomes     core   genome removed
+         5       95   
+         4      103   Pseudomonas_syringae__GCF_018394375.1
+         3      119   Pseudomonas_fluorescens__GCF_900215245.1
+         2      179   Pseudomonas_putida_NBRC_14164__GCF_000412675.1
+
+========================================================================
+WHAT THIS IS, AND WHAT TO DO NEXT
+
+This is a SCREEN, not a taxonomic conclusion. It is designed to be the first step:
+to let you say "the screen indicated this, which is why we then did the following".
+
+If a genome is flagged as a candidate novel taxon, or the bins disagree with the
+current classification, the conventional next steps are:
+
+  dry lab   ANI against type strains (< 95-96% supports a distinct species)
+            dDDH (< 70% supports a distinct species)
+            16S rRNA identity (< 98.7% supports a candidate new species)
+            a phylogeny: align the ortholog groups written by this run with MAFFT,
+            concatenate, and infer a tree with IQ-TREE
+
+  wet lab   phenotypic and chemotaxonomic characterisation of the candidate:
+            morphology, growth range, biochemistry, fatty acid and polar lipid
+            profiles, respiratory quinones - as required to describe a novel taxon
+
+Core gene sequences are written unaligned, per genome and per ortholog group, so
+the phylogenetic step can start directly from this output.
