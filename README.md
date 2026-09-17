@@ -66,7 +66,7 @@ Typical wall time by genus size, from the 1,160-genus survey at 96 threads (1,14
 | 20 to 49 | 122 | 56 s |
 | 50 to 99 | 33 | 3.3 min |
 | 100 to 299 | 11 | 12.8 min |
-| 300 or more | 3 | 0.7 to 1.9 h |
+| 300 or more | 4 | 0.7 to 13.4 h (longest: *Streptomyces*, 831 genomes) |
 
 ## Install
 
