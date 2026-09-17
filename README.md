@@ -57,13 +57,14 @@ applied after the DIAMOND search, so changing `--pident` does not change this co
 `--block-size` does **not** reduce peak memory either, because the memory is in the identity matrix
 rather than in DIAMOND. The results were byte-identical both ways.
 
-Typical wall time by genus size, from the 1,160-genus survey at 96 threads (1,144 runs):
+Typical wall time by genus size, as recorded by the program itself in the 1,160-genus survey, at 96
+threads (1,145 genera; 15 that ran at 140 threads are left out):
 
 | Genomes in the genus | Genera | Median |
 |---|---|---|
-| 3 to 9 | 736 | 7 s |
-| 10 to 19 | 239 | 38 s |
-| 20 to 49 | 122 | 56 s |
+| 3 to 9 | 736 | 6 s |
+| 10 to 19 | 239 | 37 s |
+| 20 to 49 | 122 | 54 s |
 | 50 to 99 | 33 | 3.3 min |
 | 100 to 299 | 11 | 12.8 min |
 | 300 or more | 4 | 0.7 to 13.4 h (longest: *Streptomyces*, 831 genomes) |
@@ -114,10 +115,14 @@ above threshold can be seen for what it is.
 
 ## What it has been tested on
 
-We ran it across 1,160 prokaryotic genera (17,979 genomes, bacteria and archaea) in 30 h on one
-machine. Against GTDB, 93.78% of genomes (15,984 of 17,045 with a GTDB assignment) fall in a bin
+We ran it across 1,160 prokaryotic genera, bacteria and archaea, on one machine: 17,979 genomes
+selected, 17,978 screened (one had no protein annotation), 30.8 h of run time in total. Against GTDB, 93.78% of genomes (15,984 of 17,045 with a GTDB assignment) fall in a bin
 whose majority label matches their GTDB genus. When RaGCAn does flag a genus, GTDB agrees that the
 genus should be divided in 70.0% of cases (95% CI 63.3-75.9).
+
+RaGCAn also set apart 25 genomes that GTDB has not classified, so they could not be scored. NCBI's
+own ANI check places 16 of them closest to a type strain of a different genus. One is the NCBI
+reference genome for *Lelliottia jeotgali*, which is 93.3% AAI to *Pseudomonas turukhanskensis*.
 
 The worked case is *Pseudomonas*. Out of 389 genomes it pulled out 7, and all 7 were
 *Halopseudomonas*. The same seven came back on 432 genomes and again on 391 genomes selected a
