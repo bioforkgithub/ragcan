@@ -1,0 +1,1062 @@
+# File S18. Genera with two or three named species, screened after the survey with the survey settings (--pident 60 --bin-aai 65, DIAMOND 2.1.8 --very-sensitive).
+# 1,046 genera (993 bacterial, 53 archaeal), 2,456 genomes, one per named species; all finished. GTDB release R232.
+# Scored by the survey rule (at least three GTDB-classified genomes): 309 genera; 251 agree-whole, 10 agree-divide, 42 missed, 6 flagged.
+# Genera with exactly two GTDB-classified genomes (659) are compared descriptively only (bins on those two genomes vs number of GTDB genera): 604 match.
+# Part A: one row per genus. gtdb_classified = genomes present in GTDB R232; bins_on_gtdb_genomes and gtdb_genera are computed on those genomes only.
+part	genus	domain	genomes_screened	gtdb_classified	all_bins	bins_on_gtdb_genomes	gtdb_genera	result	ari	gtdb_labels_of_the_two
+A	Absicoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Absicoccus,Absicoccus
+A	Acaryochloris	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Acaryochloris,RCC1774
+A	Acetatifactor	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Acetatifactor,Acetatifactor
+A	Acetoanaerobium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Acetomicrobium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Acidilobus	Archaea	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Acidimangrovimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Acidimangrovimonas,Acidimangrovimonas
+A	Acidiplasma	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Acidiplasma,Acidiplasma
+A	Actinobaculum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Actinobaculum,Actinobaculum
+A	Actinospica	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Actinospineispora	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Actinosynnema	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Actinosynnema,Actinosynnema
+A	Acutalibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Aeoliella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Aeropyrum	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Aeropyrum,Aeropyrum
+A	Aestuariibius	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aestuariibius,Aestuariibius
+A	Aestuariimicrobium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Aestuariirhabdus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aestuariirhabdus,Aestuariirhabdus
+A	Aestuariispira	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Aestuariispira_A,Aestuariispira
+A	Aetherobacter	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Afifella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Agaribacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Glaciecola,Glaciecola
+A	Agathobacter	Bacteria	2	2	2	2	1	not scored; two-genome comparison (differ)		Roseburia,Roseburia
+A	Agreia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Agreia,Agreia
+A	Agrilactobacillus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Agrilutibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Ahrensia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ahrensia,Ahrensia
+A	Aidingimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aidingimonas,Aidingimonas
+A	Akkermansia	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Albibacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Albimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Algimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Algorimicrobium	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Algorimicrobium,Algorimicrobium
+A	Aliagarivorans	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aliagarivorans,Aliagarivorans
+A	Aliamphritea	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Alicycliphilus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Alicycliphilus,Alicycliphilus
+A	Alienimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Alienimonas,Alienimonas
+A	Aliiglaciecola	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Aliiglaciecola,Aliiglaciecola
+A	Aliirhizobium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Aliiruegeria	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Alkalibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Alkalibaculum	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Alkalibaculum,Alkalibaculum_A
+A	Alkalihalophilus	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Alkalihalophilus,Alkalihalophilus
+A	Alkalimarinus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Alkalispirochaeta	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Alkalispirochaeta,Alkalispirochaeta
+A	Alkalithermobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Alkalithermobacter,Alkalithermobacter
+A	Alkanindiges	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Alkanindiges,Alkanindiges
+A	Allobacillus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Allobaculum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Allobrachymonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Allokutzneria	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Allopontixanthobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Allopontixanthobacter,Allopontixanthobacter
+A	Alloprevotella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Alloprevotella,Alloprevotella
+A	Allopusillimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Allopusillimonas,Allopusillimonas
+A	Allorhodopirellula	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhodopirellula,Rhodopirellula
+A	Alloyangia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Salipiger,Salipiger
+A	Alsobacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Alteribacillus	Bacteria	3	3	1	1	2	missed	0.0	
+A	Alteripontixanthobacter	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Alteripontixanthobacter,Pseudopontixanthobacter
+A	Alteriqipengyuania	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Alteriqipengyuania,Alteriqipengyuania
+A	Alterirhizorhabdus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Alterirhizorhabdus,Alterirhizorhabdus
+A	Alysiella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Simonsiella,Simonsiella
+A	Amaricoccus	Bacteria	3	3	2	2	1	flagged	0.0	
+A	Aminipila	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Aminobacterium	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Aminobacterium,Aminobacterium
+A	Ammonicoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Enemella,Enemella
+A	Ammonifex	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ammonifex,Ammonifex
+A	Ammoniphilus	Bacteria	3	2	2	2	2	not scored; two-genome comparison (match)		Ammoniphilus_A,Ammoniphilus
+A	Amorphus	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Amorphus,Amorphus
+A	Amygdalobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Amygdalobacter,Amygdalobacter
+A	Amylolactobacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Amylolactobacillus,Amylolactobacillus
+A	Anabaenopsis	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Anaerobiospirillum	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Anaerobiospirillum,Anaerobiospirillum_A
+A	Anaerobranca	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Anaerobranca,Anaerobranca
+A	Anaerobutyricum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Anaerobutyricum,Anaerobutyricum
+A	Anaerocellum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Caldicellulosiruptor,Caldicellulosiruptor
+A	Anaerofustis	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Anaerofustis,Anaerofustis
+A	Anaerolinea	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Anaerolinea,Anaerolinea
+A	Anaeromicropila	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Anaeromicropila,Anaeromicropila_A
+A	Anaeromonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Anaeromonas,Anaeromonas
+A	Anaerosacchariphilus	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Laedolimicola,Anaerosacchariphilus
+A	Anaerosalibacter	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Anaerosinus	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Selenobaculum,Massilibacillus
+A	Anaerosphaera	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Anaerosphaera,Anaerosphaera
+A	Anaerosporobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Anaerosporobacter,Anaerosporobacter
+A	Anaerotruncus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Anaerotruncus,Anaerotruncus
+A	Anaerovibrio	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Anaerovibrio,Anaerovibrio
+A	Anatilimnocola	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Andreesenella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Andreesenella,Andreesenella
+A	Andreprevotia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Andreprevotia,Andreprevotia
+A	Anoxynatronum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Anoxynatronum,Anoxynatronum
+A	Antarcticibacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Gillisia,Gillisia
+A	Antarcticimicrobium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Antarcticimicrobium,Antarcticimicrobium
+A	Antiquaquibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Antribacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Antribacter,Antribacter
+A	Aporhodopirellula	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Aquabacter	Bacteria	3	3	1	1	2	missed	0.0	
+A	Aquariibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aquariibacter,Aquariibacter
+A	Aquaspirillum	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Aquibaculum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aquibaculum,Aquibaculum
+A	Aquicella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aquicella,Aquicella
+A	Aquifex	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Aquiflexum	Bacteria	3	3	1	1	2	missed	0.0	
+A	Aquincola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aquincola,Aquincola
+A	Aquipuribacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Aquisalimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aquisalimonas,Aquisalimonas
+A	Aquisalinus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aquisalinus,Aquisalinus
+A	Aquisphaera	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aquisphaera,Aquisphaera
+A	Arachnia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Arachnia,Arachnia
+A	Arenicella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Arenicella,Arenicella
+A	Argonema	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Argonema,Argonema
+A	Aristaeella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aristaeella,Aristaeella
+A	Arminella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Ascidiimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ascidiimonas,Ascidiimonas
+A	Atlantibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Atlantibacter,Atlantibacter
+A	Atopobium	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Atopobium,Atopobium
+A	Atopomonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Atopomonas,Atopomonas
+A	Aurantibacter	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Aurantibacter,Aurantibacter_A
+A	Aurantimicrobium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aurantimicrobium,Aurantimicrobium
+A	Aurantivibrio	Bacteria	2	0	2			not scored; fewer than two GTDB-classified genomes		
+A	Auraticoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Auraticoccus,Auraticoccus
+A	Azoarcus	Bacteria	3	3	1	1	2	missed	0.0	
+A	Azomonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Azomonas,Azomonas
+A	Azonexus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Azorhizobium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Azospira	Bacteria	3	3	1	1	2	missed	0.0	
+A	Bacteriovorax	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Bacteriovorax,Bacteriovorax
+A	Baekduia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Baekduia,Baekduia
+A	Barnesiella	Bacteria	3	3	1	1	2	missed	0.0	
+A	Barrientosiimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Barrientosiimonas,Barrientosiimonas
+A	Beggiatoa	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Beggiatoa,Beggiatoa
+A	Beijerinckia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Beijerinckia,Beijerinckia
+A	Bernardetia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Bernardetia,Bernardetia
+A	Berryella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Berryella,Berryella
+A	Bisbaumannia	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Blastochloris	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Blastopirellula	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Blattabacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Bombiscardovia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Bombiscardovia,Bombiscardovia
+A	Borborobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudaminobacter,Pseudaminobacter
+A	Botrimarina	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Boudabousia	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Bowdeniella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Bowdeniella,Bowdeniella
+A	Brakhagea	Bacteria	3	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Branchiibius	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Branchiibius,Branchiibius
+A	Brasilonema	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Brasilonema,Brasilonema
+A	Brassicibacter	Bacteria	2	1	2			not scored; fewer than two GTDB-classified genomes		
+A	Bremerella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Breznakia	Bacteria	2	1	2			not scored; fewer than two GTDB-classified genomes		
+A	Brochothrix	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Brochothrix,Brochothrix
+A	Brooklawnia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Brooklawnia,Brooklawnia
+A	Brumicola	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Buchananella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Buchananella,Buchananella
+A	Budvicia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Budvicia,Budvicia
+A	Butyrivibrio	Bacteria	3	3	2	2	1	flagged	0.0	
+A	Bythopirellula	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Bythopirellula,Bythopirellula
+A	Caenispirillum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Caenispirillum,Caenispirillum
+A	Caldanaerobius	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Caldanaerobius,Caldanaerobius
+A	Caldicoprobacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Caldilinea	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Caldisericum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Caldisericum,Caldisericum
+A	Calditerricola	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Caldovatus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Caldovatus,Caldovatus
+A	Calidifontibacillus	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Calidifontibacillus,Calidifontibacillus_A
+A	Calidifontibacter	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Caloranaerobacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Calothrix	Bacteria	3	3	1	1	2	missed	0.0	
+A	Camelimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Caminibacter	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Caminibacter,Caminibacter
+A	Candidimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Candidimonas,Candidimonas
+A	Canibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Caproicibacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Carbonicoccus	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Cardiobacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Cardiobacterium,Cardiobacterium
+A	Carnimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Carnimonas,Carnimonas
+A	Caryophanon	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Caryophanon,Caryophanon
+A	Catalinimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Catenibacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Catenibacterium,Catenibacterium
+A	Catonella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Catonella,Catonella
+A	Cecembia	Bacteria	3	3	1	1	2	missed	0.0	
+A	Cellulosilyticum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Cellulosilyticum,Cellulosilyticum
+A	Cephaloticoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Cephaloticoccus,Cephaloticoccus
+A	Cerasibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Cerasibacillus,Cerasibacillus
+A	Cetobacterium	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Chachezhania	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Chachezhania,Chachezhania
+A	Chamaesiphon	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Chamaesiphon,Chamaesiphon
+A	Chengkuizengella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Chimaeribacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Chitinilyticum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Chitiniphilus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Chitinolyticbacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Chitinolyticbacter,Chitinolyticbacter
+A	Chlamydiifrater	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Chlamydiifrater,Chlamydiifrater
+A	Chloracidobacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Chloracidobacterium,Chloracidobacterium
+A	Chloroflexus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Chroococcidiopsis	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Chroococcidiopsis,Chroococcidiopsis
+A	Chryseolinea	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Chryseomicrobium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Chryseosolibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Chryseosolibacter,Chryseosolibacter
+A	Chthonobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Chthonobacter,Chthonobacter
+A	Citrifermentans	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Geomonas,Geomonas
+A	Claveliimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Claveliimonas,Claveliimonas
+A	Cloacibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Cloacibacillus,Cloacibacillus
+A	Cloacibacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Cobetia	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Cobetia,Cobetia
+A	Cognataquiflexum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Cognaticolwellia	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Cognatishimia	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Cognatiyoonia	Bacteria	3	3	1	1	2	missed	0.0	
+A	Conchiformibius	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Conchiformibius,Conchiformibius
+A	Conexibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Congregibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Consotaella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Consotaella,Consotaella
+A	Convivina	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Convivina,Convivina
+A	Conyzicola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Conyzicola,Conyzicola
+A	Coprobacter	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Coprobacter,Coprobacter
+A	Coprothermobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Coprothermobacter,Coprothermobacter
+A	Coralloluteibacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Coralloluteibacterium,Coralloluteibacterium
+A	Couchioplanes	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Actinoplanes,Actinoplanes
+A	Coxiella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Coxiella,Coxiella
+A	Crassaminicella	Bacteria	3	3	1	1	2	missed	0.0	
+A	Crateriforma	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Crateriforma,Crateriforma
+A	Cribrihabitans	Bacteria	3	3	1	1	2	missed	0.0	
+A	Croceivirga	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Crocinitomix	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Crocinitomix,Crocinitomix
+A	Crocosphaera	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Crossiella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Crossiella,Crossiella
+A	Crystallibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Cumulibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Cumulibacter,Cumulibacter
+A	Cuniculiplasma	Archaea	2	1	2			not scored; fewer than two GTDB-classified genomes		
+A	Cyanobium	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Cyanobium,Cyanobium_A
+A	Cylindrospermopsis	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Raphidiopsis,Raphidiopsis
+A	Cypionkella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Cysteiniphilum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Cytophaga	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Cytophaga,Cytophaga
+A	Daejeonella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Dapis	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Dasania	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Dasania,Dasania
+A	Dawidia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ohtaekwangia,Ohtaekwangia
+A	Deferrisoma	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Deferrivibrio	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Defluviitalea	Bacteria	3	3	1	1	2	missed	0.0	
+A	Dellaglioa	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Dellaglioa,Dellaglioa
+A	Denitratimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Denitratimonas,Denitratimonas
+A	Denitrificimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Denitrificimonas,Denitrificimonas
+A	Denitromonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Dermabacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Derxia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Derxia,Derxia
+A	Desertihabitans	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desertihabitans,Desertihabitans
+A	Desertivirga	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Desertivirga,Desertivirga
+A	Desmospora	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desmospora,Desmospora
+A	Desulfacinum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desulfacinum,Desulfacinum
+A	Desulfatibacillum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desulfatibacillum,Desulfatibacillum
+A	Desulfatiglans	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Desulfatitalea	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desulfatitalea,Desulfatitalea
+A	Desulfobacula	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desulfobacula,Desulfobacula
+A	Desulfobaculum	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Desulfobaculum,Desulfobaculum
+A	Desulfocicer	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Desulfocurvus	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Desulfofustis	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desulfofustis,Desulfofustis
+A	Desulfoluna	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Desulfolutivibrio	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desulfolutivibrio,Desulfolutivibrio
+A	Desulfonatronovibrio	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desulfonatronovibrio,Desulfonatronovibrio
+A	Desulfonauticus	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Desulfonema	Bacteria	3	3	2	2	3	agree-divide	0.0	
+A	Desulfopila	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Desulfopila,Desulfopila_A
+A	Desulforhopalus	Bacteria	3	2	2	2	2	not scored; two-genome comparison (match)		Desulforhopalus_A,Desulforhopalus
+A	Desulfoscipio	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Desulfoscipio,Sporotomaculum
+A	Desulfosediminicola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desulfopila,Desulfopila
+A	Desulfosoma	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Desulfothermus	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Desulfotignum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desulfotignum,Desulfotignum
+A	Desulfotomaculum	Bacteria	3	2	2	2	2	not scored; two-genome comparison (match)		Desulfotomaculum,Desulfotomaculum_G
+A	Desulfotruncus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desulfotruncus,Desulfotruncus
+A	Desulfurella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Desulfurella,Desulfurella
+A	Desulfuribacillus	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Desulfuribacillus,Desulfuribacillus_A
+A	Desulfurispirillum	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Desulfurococcus	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Desulfurococcus,Desulfurococcus
+A	Desulfuromusa	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Dictyoglomus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Dictyoglomus,Dictyoglomus
+A	Diplocloster	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Ditibartonella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Dolosigranulum	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Donghicola	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Dubosiella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Dubosiella,Dubosiella
+A	Dysosmobacter	Bacteria	3	2	2	2	1	not scored; two-genome comparison (differ)		Oscillibacter,Oscillibacter
+A	Edaphocola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Edaphocola,Edaphocola
+A	Edaphosphingomonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sphingomonas_E,Sphingomonas_E
+A	Eisenbergiella	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Eisenbergiella,Eisenbergiella
+A	Ekhidna	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ekhidna,Ekhidna
+A	Elioraea	Bacteria	3	3	1	1	2	missed	0.0	
+A	Elstera	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Elstera,Elstera
+A	Elusimicrobium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Embleya	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Endobacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Neorhizobium,Neorhizobium
+A	Enemella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Enemella,Enemella
+A	Enteractinococcus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Enterovirga	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Enterovirga,Enterovirga
+A	Entomomonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Entomomonas,Entomomonas
+A	Entomoplasma	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Entomoplasma,Williamsoniiplasma
+A	Entomospira	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Eudoraea	Bacteria	3	3	1	1	2	missed	0.0	
+A	Euzebya	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Euzebyella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Euzebyella,Euzebyella
+A	Ewingella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Extensimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Ezakiella	Bacteria	3	2	2	2	1	not scored; two-genome comparison (differ)		Ezakiella,Ezakiella
+A	Faecalibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Faecalibacillus,Faecalibacillus
+A	Faecalibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Faecalicoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Faecalicoccus,Faecalicoccus
+A	Faecalimonas	Bacteria	3	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Faecalispora	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Falsibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Falsibacillus,Falsibacillus
+A	Falsigemmobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Wagnerdoeblera,Wagnerdoeblera
+A	Falsiruegeria	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Falsiruegeria,Falsiruegeria
+A	Falsochrobactrum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Faucicola	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Fenollaria	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Ferrigenium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Gallionella,Gallionella
+A	Ferroplasma	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Ferroplasma,Ferroplasma
+A	Ferrovibrio	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Fervidibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Fervidibacillus,Fervidibacillus
+A	Fibrisoma	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Fibrisoma,Fibrisoma
+A	Fibrobacter	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Hallerella,Fibrobacter
+A	Filifactor	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Filifactor,Filifactor
+A	Filimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Finegoldia	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Fischerella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Fischerella,Fischerella
+A	Flaviaestuariibacter	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Flavisolibacter,Flavisolibacter
+A	Flavicella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Flavicella,Flavicella
+A	Flavimobilis	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Flaviramulus	Bacteria	3	3	1	1	3	missed	0.0	
+A	Flavitalea	Bacteria	3	1	2			not scored; fewer than two GTDB-classified genomes		
+A	Flavonifractor	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Floricoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Floricoccus,Floricoccus
+A	Fluctibacter	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Fluctibacter_A,Fluctibacter
+A	Fluoribacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Legionella,Legionella
+A	Fluviicola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Fluviicola,Fluviicola
+A	Fluviispira	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Fodinicola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Fodinicola,Fodinicola
+A	Fodinicurvata	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Fontibacillus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Franconibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Franconibacter,Franconibacter
+A	Franzmannia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Franzmannia,Franzmannia
+A	Frigidibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Frigoribacterium	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Frigoribacterium,Frigoribacterium
+A	Frischella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Frischella,Frischella
+A	Fulverythrobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Andeanibacterium,Andeanibacterium
+A	Fulvimonas	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Fulvimonas,Frateuria_A
+A	Fundicoccus	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Fundicoccus_A,Fundicoccus
+A	Fusicatenibacter	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Limivivens,Fusicatenibacter
+A	Gabonibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Gabonibacter,Gabonibacter
+A	Galactobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Galactobacter,Galactobacter
+A	Gaoshiqia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Gaoshiqia,Gaoshiqia
+A	Gelidimonas	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Gemelliphila	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Geminicoccus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Gemmatimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Gemmiger	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Gemmiger,Gemmiger
+A	Geoalkalibacter	Bacteria	3	3	1	1	2	missed	0.0	
+A	Geofilum	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Geoglobus	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Geoglobus,Geoglobus
+A	Geomicrobium	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Geomicrobium,Geomicrobium_A
+A	Geopseudomonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Geosporobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Geosporobacter,Geosporobacter
+A	Geotalea	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Geotalea,Geotalea
+A	Geothermobacter	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Geovibrio	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Geovibrio,Geovibrio
+A	Gibbsiella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Gibbsiella,Gibbsiella
+A	Giesbergeria	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Simplicispira,Simplicispira
+A	Gillisella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Glaciecola	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Glacieibacterium	Bacteria	3	3	1	1	3	missed	0.0	
+A	Glaciibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Glaciihabitans	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Conyzicola,Glaciihabitans
+A	Glaciimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Glaciimonas,Glaciimonas
+A	Glaesserella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Glaesserella,Glaesserella
+A	Gleimia	Bacteria	3	3	2	2	1	flagged	0.0	
+A	Globicatella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Globicatella,Globicatella
+A	Gloeobacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Gloeocapsopsis	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Gloeocapsopsis,Gloeocapsopsis
+A	Gloeothece	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Gloeothece,Gloeothece
+A	Glycocaulis	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Gordonibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Gorillibacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Gottschalkia	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Gottschalkia,Gottschalkia_A
+A	Gudongella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Gudongella,Gudongella
+A	Guyparkeria	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Haematobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Haematobacter,Haematobacter
+A	Hafnia	Bacteria	3	3	1	1	2	missed	0.0	
+A	Hahella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Halalkalibacillus	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Halalkalibacillus,Halalkalibacillus_A
+A	Halalkalibacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Halalkalibacterium,Halalkalibacterium
+A	Halapricum	Archaea	3	3	1	1	1	agree-whole	nan	
+A	Halegenticoccus	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Halegenticoccus,Halegenticoccus
+A	Haliea	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Haliea,Haliea
+A	Halioglobus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Halioglobus,Halioglobus
+A	Hallerella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Hallerella,Hallerella
+A	Halobacteriovorax	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Halobacteriovorax,Halobacteriovorax_A
+A	Halochromatium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Halocynthiibacter	Bacteria	3	3	1	1	2	missed	0.0	
+A	Halohasta	Archaea	3	3	1	1	1	agree-whole	nan	
+A	Halolactibacillus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Halomicrococcus	Archaea	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Halonovum	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		JAHENP01,JAHENP01
+A	Haloparvum	Archaea	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Halopelagius	Archaea	3	2	1	1	1	not scored; two-genome comparison (match)		Halopelagius,Halopelagius
+A	Halopenitus	Archaea	3	2	1	1	1	not scored; two-genome comparison (match)		Halopenitus,Halopenitus
+A	Halorarius	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Halorarius,Halorarius
+A	Halorarum	Archaea	3	3	1	1	1	agree-whole	nan	
+A	Halorubellus	Archaea	3	2	1	1	1	not scored; two-genome comparison (match)		Halorubellus,Halorubellus
+A	Halosegnis	Archaea	3	3	1	1	1	agree-whole	nan	
+A	Halosolutus	Archaea	3	3	1	1	1	agree-whole	nan	
+A	Halosquirtibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Halosquirtibacter,Halosquirtibacter
+A	Halothiobacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Halothiobacillus,Halothiobacillus
+A	Halovibrio	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Halospina,Vreelandella
+A	Halovulum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Halovulum,Halovulum
+A	Halpernia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Halpernia,Halpernia
+A	Hamadaea	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Hamadaea,Hamadaea
+A	Haploplasma	Bacteria	2	2	2	2	1	not scored; two-genome comparison (differ)		Haploplasma,Haploplasma
+A	Heliobacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Heliobacterium,Heliobacterium
+A	Heliorestis	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Heliorestis,Heliorestis
+A	Hephaestia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sphingomonas,Sphingomonas
+A	Herbinix	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Mobilitalea,Mobilitalea
+A	Hippea	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Hirschia	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Histidinibacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Oceanicola,Oceanicola
+A	Holdemanella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Holdemania	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Holdemania,Holdemania
+A	Holzapfeliella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Holzapfeliella,Holzapfeliella
+A	Hominimerdicola	Bacteria	3	2	2	2	1	not scored; two-genome comparison (differ)		Hominimerdicola,Hominimerdicola
+A	Hominisplanchenecus	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Hominisplanchenecus,Hominisplanchenecus_A
+A	Hominiventricola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Hominiventricola,Hominiventricola
+A	Homoserinibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Homoserinibacter,Homoserinibacter
+A	Hornefia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aminicella,Aminicella
+A	Hoskinsella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Hoskinsella,Hoskinsella
+A	Hufsiella	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Hufsiella_A,Hufsiella
+A	Humidesulfovibrio	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Hungatella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Hwangdonia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Hwangdonia,Hwangdonia
+A	Hydrocarboniphaga	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Hydrocarboniphaga,Hydrocarboniphaga
+A	Hydrocurvibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Hydrocurvibacter,Hydrocurvibacter
+A	Hydrogenivirga	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Hydrogenobacter	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Hydrogenobacter,Hydrogenobacter
+A	Hydrotalea	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Hypericibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Hypericibacter,Hypericibacter
+A	Ignicoccus	Archaea	2	2	2	2	1	not scored; two-genome comparison (differ)		Ignicoccus,Ignicoccus
+A	Ilumatobacter	Bacteria	3	3	2	2	2	agree-divide	1.0	
+A	Inconstantimicrobium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Inconstantimicrobium,Inconstantimicrobium
+A	Indolivaga	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Infirmifilum	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Thermofilum,Thermofilum
+A	Inquilinus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Inquilinus,Inquilinus
+A	Intestinimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Intestinimonas,Intestinimonas
+A	Iodidimonas	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Iodidimonas,Iodidimonas
+A	Isoalcanivorax	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Izhakiella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Izhakiella,Izhakiella
+A	Jejuia	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Jejuia,Wocania_A
+A	Jonesia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Jonesia,Jonesia
+A	Jutongia	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Butyribacter,Jutongia
+A	Kallipyga	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Kallipyga,Kallipyga
+A	Kamptonema	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Kamptonema,Kamptonema
+A	Kerstersia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Kerstersia,Kerstersia
+A	Ketobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ketobacter,Ketobacter
+A	Ketogulonicigenium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ketogulonicigenium,Ketogulonicigenium
+A	Kineobactrum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Kineobactrum,Kineobactrum
+A	Kineothrix	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Kineothrix,Kineothrix
+A	Kistimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Kistimonas,Kistimonas
+A	Koromonas	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Kosmotoga	Bacteria	3	3	1	1	2	missed	0.0	
+A	Ktedonobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ktedonobacter,Ktedonobacter
+A	Kyrpidia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Kyrpidia,Kyrpidia
+A	Kytococcus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Lachnoclostridium	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Lachnoclostridium_A,Lachnoclostridium
+A	Lacicoccus	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Lacicoccus,Lacicoccus
+A	Lacihabitans	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Leadbetterella,Leadbetterella
+A	Lacipirellula	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Lacipirellula,Lacipirellula
+A	Lacisediminihabitans	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Lacisediminihabitans,Lacisediminihabitans
+A	Lactovum	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Laedolimicola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Laedolimicola,Laedolimicola
+A	Lancefieldella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Lancefieldella,Lancefieldella
+A	Larsenimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Laspinema	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Laspinema,Laspinema
+A	Lautropia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Lautropia,Lautropia
+A	Lawsonibacter	Bacteria	3	3	1	1	3	missed	0.0	
+A	Leeia	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Leminorella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Leminorella,Leminorella
+A	Lentihominibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Lentihominibacter,Lentihominibacter
+A	Lentisalinibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Lentisphaera	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Leptobacterium	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Leptobacterium,Leptobacterium_A
+A	Leptospirillum	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Leptospirillum_A,Leptospirillum
+A	Leptothoe	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Leptothoe,Leptothoe
+A	Leptothrix	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Sphaerotilus,Sphaerotilus
+A	Leucothrix	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Leyella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Prevotella,Prevotella
+A	Lichenibacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Limnospira	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Lipingzhangella	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Lipingzhangella,Lipingzhangella_A
+A	Litoribacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Litoribacter,Litoribacter
+A	Litoribrevibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Litoribrevibacter,Litoribrevibacter
+A	Litorilituus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Colwellia,Colwellia
+A	Litorimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Lolliginicoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Lolliginicoccus,Lolliginicoccus
+A	Longimonas	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Longitalea	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Niastella,Niastella
+A	Luedemannella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Luedemannella,Luedemannella
+A	Lujinxingia	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Lunatimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Lunatimonas,Lunatimonas
+A	Luteimicrobium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Luteipulveratus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Lutispora	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Lutispora,Lutispora
+A	Lyngbya	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Capilliphycus,Lyngbya
+A	Macromonas	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Macromonas_A,Macromonas_B
+A	Magnetococcus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Magnetococcus,Magnetococcus
+A	Magnetovibrio	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Magnetovibrio,Magnetovibrio
+A	Malacoplasma	Bacteria	3	3	3	3	1	flagged	0.0	
+A	Malikia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Malikia,Malikia
+A	Mangrovibacter	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Mangrovibacter,Mangrovibacter
+A	Mangrovibacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Mangrovicoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Mangrovicoccus,Mangrovicoccus
+A	Mangrovivirga	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Mangrovivirga,Mangrovivirga
+A	Marichromatium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Marimonas	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Marimonas,Marimonas_A
+A	Marinactinospora	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Marinitenerispora,Marinactinospora
+A	Marinagarivorans	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Marinagarivorans,Marinagarivorans
+A	Marinicauda	Bacteria	3	3	1	1	2	missed	0.0	
+A	Marinicrinis	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Marinicrinis,Marinicrinis
+A	Marinilabilia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Marinilabilia,Marinilabilia
+A	Marinilactibacillus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Mariniluteicoccus	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Marininema	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Marininema,Marininema
+A	Mariniphaga	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Mariniphaga,Mariniphaga
+A	Mariniradius	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Mariniradius,Mariniradius
+A	Marinoscillum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Marinovum	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Marisediminicola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Marisediminicola,Marisediminicola
+A	Marixanthomonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Marixanthomonas,Marixanthomonas
+A	Massiliimalia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Massiliimalia,Massiliimalia
+A	Megalodesulfovibrio	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Megamonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Melaminivora	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Melghirimyces	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Membranihabitans	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Membranihabitans,Membranihabitans
+A	Mesobacterium	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Mesobacterium_A,Mesobacterium
+A	Mesoflavibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Mesoflavibacter,Mesoflavibacter
+A	Mesohalobacter	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Mesosutterella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Mesoterricola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Mesoterricola,Mesoterricola
+A	Mesotoga	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Metasolibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Metasolibacillus,Metasolibacillus
+A	Methanocella	Archaea	3	3	2	2	2	agree-divide	1.0	
+A	Methanogenium	Archaea	3	2	1	1	1	not scored; two-genome comparison (match)		Methanogenium,Methanogenium
+A	Methanolacinia	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Methanolacinia,Methanolacinia
+A	Methanolapillus	Archaea	3	3	1	1	1	agree-whole	nan	
+A	Methanomicrobium	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Methanomicrobium,Methanomicrobium
+A	Methanoplanus	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Methanoplanus,Methanoplanus
+A	Methanorbis	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Methanocorpusculum,Methanocorpusculum
+A	Methanoregula	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Methanoregula,Methanoregula
+A	Methanosalsum	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Methanosalsum,Methanosalsum
+A	Methanosphaera	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Methanosphaera,Methanosphaera
+A	Methanosphaerula	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Methanosphaerula,Methanosphaerula
+A	Methanothermococcus	Archaea	3	3	1	1	2	missed	0.0	
+A	Methanothrix	Archaea	3	3	3	3	3	agree-divide	nan	
+A	Methanotorris	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Methanotorris,Methanotorris
+A	Methylacidimicrobium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Methylacidimicrobium,Methylacidimicrobium
+A	Methylacidiphilum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Methylibium	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Methylibium,Pseudorivibacter
+A	Methylobrevis	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Methylobrevis_A,Methylobrevis
+A	Methylocaldum	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Methylocaldum,Methylocaldum
+A	Methylocella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Methylocapsa,Methylocapsa
+A	Methylococcus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Methyloligella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Methyloligella,Methyloligella
+A	Methylomarinovum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Methylohalobius,Methylohalobius
+A	Methylomarinum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Methylomarinum,Methylomarinum
+A	Methylomicrobium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Methylosinus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Methylosinus,Methylosinus
+A	Methylotenera	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Methylotuvimicrobium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Methylotuvimicrobium,Methylotuvimicrobium
+A	Methyloversatilis	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Methylovorus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Methylovulum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Methylovulum,Methylovulum
+A	Microbaculum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Micropruina	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Micropruina,Micropruina
+A	Microterricola	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Microvirgula	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Miltoncostaea	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Miltoncostaea,Miltoncostaea
+A	Miniphocaeibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Miniphocaeibacter,Miniphocaeibacter
+A	Mitsuokella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Mitsuokella,Mitsuokella
+A	Mobilicoccus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Moheibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Mongoliitalea	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Mongoliitalea,Mongoliitalea
+A	Moorella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Neomoorella,Neomoorella
+A	Moorena	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Moorena,Moorena
+A	Morganella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Morganella,Morganella
+A	Motiliproteus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Motiliproteus,Motiliproteus
+A	Murdochiella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Murdochiella,Murdochiella
+A	Muribaculum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Muriicola	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Musicola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Musicola,Musicola
+A	Mycetohabitans	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Mycetohabitans,Mycetohabitans
+A	Mycolicibacillus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Naasia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Naasia,Naasia
+A	Natranaeroarchaeum	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Natranaeroarchaeum,Natranaeroarchaeum
+A	Natranaerobius	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Natranaerobius,Natranaerobius_A
+A	Natranaerovirga	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Natranaerovirga,Natranaerovirga
+A	Natrarchaeobaculum	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Natrarchaeobaculum,Natrarchaeobaculum
+A	Natroniella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Natroniella,Natroniella
+A	Natronincola	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Natronincola_B,Natronincola_A
+A	Natronoarchaeum	Archaea	3	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Natronospira	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Naumannella	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Naumannella,Naumannella
+A	Nautilia	Bacteria	3	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Necropsobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Necropsobacter,Necropsobacter
+A	Neglectibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Acutalibacter,Acutalibacter
+A	Neiella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Neoalteromonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Neoaquamicrobium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Aerobium,Aerobium
+A	Neokomagataea	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Neomicrococcus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Neomicrococcus,Neomicrococcus
+A	Neopusillimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Neorhodopirellula	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhodopirellula,Rhodopirellula
+A	Neorickettsia	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Neptunicella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Neptunicella,Neptunicella
+A	Neptunicoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Amylibacter,Amylibacter
+A	Neptunitalea	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Neptunitalea,Neptunitalea
+A	Nevskia	Bacteria	2	2	2	2	1	not scored; two-genome comparison (differ)		Nevskia,Nevskia
+A	Nibrella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Nibrella,Nibrella
+A	Nibribacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Nibribacter,Nibribacter
+A	Nicoliella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Nicoliella,Nicoliella
+A	Ningiella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Glaciecola,Glaciecola
+A	Nitrobacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Nitrogeniibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Nitrogeniibacter,Nitrogeniibacter
+A	Nitrosophilus	Bacteria	3	3	1	1	2	missed	0.0	
+A	Nitrosospira	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Nitrospina	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Nitrospina,Nitrospina
+A	Niveibacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Njordella	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Nosocomiicoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Nosocomiicoccus,Nosocomiicoccus
+A	Notoacmeibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Notoacmeibacter,Notoacmeibacter
+A	Noviluteimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Novosphingopyxis	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Novosphingopyxis,Novosphingopyxis
+A	Oceanibaculum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Oceanidesulfovibrio	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Oceanidesulfovibrio,Oceanidesulfovibrio
+A	Oceaniferula	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Oceanithermus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Oceanithermus,Oceanithermus
+A	Oceanivirga	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Oceanivirga,Oceanivirga
+A	Oceanobacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Odoribacter	Bacteria	3	3	1	1	2	missed	0.0	
+A	Oenococcus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Ohtaekwangia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ohtaekwangia,Ohtaekwangia
+A	Okibacterium	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Oleiagrimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Oleiagrimonas,Oleiagrimonas
+A	Oleidesulfovibrio	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Oligella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Oligella,Oligella
+A	Onishia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Onishia,Onishia
+A	Opacimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Opacimonas,Opacimonas
+A	Orenia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Orenia,Orenia
+A	Oribacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Orientia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Orientia,Orientia
+A	Orlajensenia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Orlajensenia,Orlajensenia
+A	Ornithinicoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ornithinicoccus,Ornithinicoccus
+A	Orrella	Bacteria	3	3	2	2	2	agree-divide	1.0	
+A	Oryzobacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Oryzomonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Oxalicibacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Oxynema	Bacteria	3	3	1	1	2	missed	0.0	
+A	Pacificibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Celeribacter,Celeribacter
+A	Pacificimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Paenacidovorax	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Paenacidovorax,Acidovorax_F
+A	Paenochrobactrum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Palaeococcus	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Palaeococcus,Palaeococcus
+A	Palleniella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Prevotella,Prevotella
+A	Pallidibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pallidibacillus,Pallidibacillus
+A	Paludibacter	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Microbacter,Paludibacter
+A	Pampinifervens	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Panacibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Panacibacter,Panacibacter
+A	Parablautia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Suilimivivens,Suilimivivens
+A	Paracandidimonas	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Allopusillimonas,Paracandidimonas
+A	Paracholeplasma	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Paraconexibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Paraconexibacter,Paraconexibacter
+A	Paracraurococcus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Paracraurococcus,Paracraurococcus
+A	Paradesulfitobacterium	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Paradevosia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Paradevosia,Paradevosia
+A	Paraeggerthella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Paraeggerthella,Paraeggerthella
+A	Paraferrimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Paraferrimonas,Paraferrimonas
+A	Parafrigoribacterium	Bacteria	3	3	1	1	2	missed	0.0	
+A	Parahaliea	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Parahoeflea	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Paralcaligenes	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Paramylibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Amylibacter,Amylibacter
+A	Paraoerskovia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Paraoerskovia,Paraoerskovia
+A	Paraperibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Paraperibacillus,Paraperibacillus
+A	Paraperlucidibaca	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Perlucidibaca,Perlucidibaca
+A	Paraplanobispora	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Planobispora,Planobispora
+A	Paraprevotella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Paraprevotella,Paraprevotella
+A	Pararhodospirillum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pararhodospirillum,Pararhodospirillum
+A	Pararobbsia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pararobbsia,Pararobbsia
+A	Parasediminibacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Parasediminibacterium,Parasediminibacterium
+A	Parasphingopyxis	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Parasutterella	Bacteria	3	3	2	2	2	agree-divide	1.0	
+A	Parendozoicomonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Parvibaculum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Parviterribacter	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Pasteuria	Bacteria	2	1	2			not scored; fewer than two GTDB-classified genomes		
+A	Patiriisocius	Bacteria	3	3	1	1	2	missed	0.0	
+A	Paucibacter	Bacteria	3	3	1	1	2	missed	0.0	
+A	Paucidesulfovibrio	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Paucidesulfovibrio,Paucidesulfovibrio
+A	Paucisalibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ornithinibacillus,Ornithinibacillus
+A	Pelagibius	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pelagibius,Pelagibius
+A	Pelagicoccus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Pelagimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pelagimonas,Pelagimonas
+A	Pelobacter	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Pseudopelobacter,Seleniibacterium
+A	Pelodictyon	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Chlorobium,Chlorobium
+A	Pelosinus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Pendulispora	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Pengzhenrongella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Peptacetobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Peptacetobacter,Peptacetobacter
+A	Peptoclostridium	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Peptoclostridium_A,Peptoclostridium
+A	Peptococcus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Peptococcus,Peptococcus
+A	Peristeroidobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Steroidobacter,Steroidobacter
+A	Perlucidibaca	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Perlucidibaca,Perlucidibaca
+A	Permianibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Permianibacter,Permianibacter
+A	Persephonella	Bacteria	3	3	1	1	2	missed	0.0	
+A	Persicobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Persicobacter,Persicobacter
+A	Peterkaempfera	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Petrimonas	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Phaeocystidibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Phaeocystidibacter,Phaeocystidibacter
+A	Phaeodactylibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Phaeodactylibacter,Phaeodactylibacter
+A	Phaeovulum	Bacteria	3	3	1	1	3	missed	0.0	
+A	Phascolarctobacterium	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Phascolarctobacterium,Phascolarctobacterium_A
+A	Phocicoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Phocicoccus,Phocicoccus
+A	Phocoenobacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Phormidium	Bacteria	3	3	3	3	3	agree-divide	nan	
+A	Phycobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Phycobacter,Phycobacter
+A	Pilimelia	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Pilosibacter	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Pinibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pinibacter,Pinibacter
+A	Piscibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Piscibacillus,Piscibacillus
+A	Piscirickettsia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Piscirickettsia,Piscirickettsia
+A	Planctomonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Planctomonas,Planctomonas
+A	Planctopirus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Planifilum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Planifilum,Planifilum
+A	Planktotalea	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Planktotalea,Planktotalea
+A	Planobispora	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Planobispora,Planobispora
+A	Planomicrobium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Plantibacter	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Plantibacter,Plantibacter
+A	Plasticicumulans	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Plasticicumulans,Plasticicumulans_A
+A	Plastoroseomonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Plastoroseomonas,Plastoroseomonas
+A	Plebeiibacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Saccharicrinis,Saccharicrinis
+A	Pleionea	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Pleomorphochaeta	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Polycladidibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudovibrio,Pseudovibrio
+A	Polycladomyces	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Polymorphospora	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Polymorphospora,Polymorphospora
+A	Pontibaca	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pontibaca,Pontibaca
+A	Pontibacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pontibacterium,Pontibacterium
+A	Ponticaulis	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ponticaulis,Ponticaulis
+A	Ponticoccus	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Pontiella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Pontimicrobium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pontimicrobium,Pontimicrobium
+A	Portibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Portibacter,Portibacter
+A	Porticoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Porticoccus,Porticoccus
+A	Poseidonocella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Poseidonocella,Poseidonocella
+A	Posidoniimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Posidoniimonas,Posidoniimonas
+A	Pricia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pricia,Pricia
+A	Prolixibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Prolixibacter,Prolixibacter
+A	Propionispira	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Propionispira,Propionispira
+A	Propionispora	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Propionispora,Propionispora
+A	Prosthecodimorpha	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Prosthecodimorpha,Prosthecodimorpha
+A	Protaetiibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Proteiniclasticum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Proteiniphilum	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Proteinivorax	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Proteinivorax,Proteinivorax
+A	Pseudactinotalea	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudactinotalea,Pseudactinotalea
+A	Pseudaestuariivita	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Pseudaestuariivita,Parasulfitobacter
+A	Pseudobacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudobacillus,Pseudobacillus
+A	Pseudobutyrivibrio	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudobutyrivibrio,Pseudobutyrivibrio
+A	Pseudochelatococcus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudochelatococcus,Pseudochelatococcus
+A	Pseudocolwellia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudocolwellia,Pseudocolwellia
+A	Pseudodonghicola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudodonghicola,Pseudodonghicola
+A	Pseudoglutamicibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudoglutamicibacter,Pseudoglutamicibacter
+A	Pseudogulbenkiania	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudogulbenkiania,Pseudogulbenkiania
+A	Pseudohalioglobus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Halioglobus,Halioglobus
+A	Pseudohongiella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Pseudokineococcus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Pseudolysinimonas	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Pseudolysinimonas,Pseudolysinimonas_A
+A	Pseudomarimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudomarimonas,Pseudomarimonas
+A	Pseudomyxococcus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Myxococcus,Myxococcus
+A	Pseudopedobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudopedobacter,Pseudopedobacter
+A	Pseudoramibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Pseudorhodoferax	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudorhodoferax,Pseudorhodoferax
+A	Pseudoroseicyclus	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Pseudoroseicyclus,Pseudoroseicyclus_A
+A	Pseudoroseomonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudoroseomonas,Pseudoroseomonas
+A	Pseudoscardovia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudoscardovia,Pseudoscardovia
+A	Pseudoselenomonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Selenomonas_A,Selenomonas_A
+A	Pseudosulfitobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pseudosulfitobacter,Pseudosulfitobacter
+A	Pseudotamlana	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Pseudothioclava	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Psittacicella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Psychrilyobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Psychrilyobacter,Psychrilyobacter
+A	Psychromarinibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Psychromarinibacter,Psychromarinibacter
+A	Pullulanibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pullulanibacillus,Pullulanibacillus
+A	Pumilibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pumilibacter,Pumilibacter
+A	Puniceibacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Pusillimonas	Bacteria	3	3	1	1	2	missed	0.0	
+A	Pyramidobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Pyramidobacter,Pyramidobacter
+A	Quadrisphaera	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Quadrisphaera,Quadrisphaera
+A	Quyinboa	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Racemicystis	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Radiobacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Radiobacillus,Radiobacillus
+A	Raineyella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Raineyella,Raineyella
+A	Raoultibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Rarobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rarobacter,Rarobacter
+A	Rhabdothermincola	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Rhabdothermincola_A,Rhabdothermincola
+A	Rhizomicrobium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhizomicrobium,Rhizomicrobium
+A	Rhodobium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhodobium,Rhodobium
+A	Rhodoblastus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhodoblastus,Rhodoblastus
+A	Rhodocyclus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Rhodocytophaga	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhodocytophaga,Rhodocytophaga
+A	Rhodoglobus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhodoglobus,Rhodoglobus
+A	Rhodoligotrophos	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Rhodoluna	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhodoluna,Rhodoluna
+A	Rhodomicrobium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Rhodonellum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhodonellum,Rhodonellum
+A	Rhodosalinus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhodosalinus,Rhodosalinus
+A	Rhodospirillum	Bacteria	2	1	2			not scored; fewer than two GTDB-classified genomes		
+A	Rhodothermus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Rhodovarius	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhodovarius,Rhodovarius
+A	Rhodovibrio	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhodovibrio,Rhodovibrio
+A	Richelia	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Richelia,FACHB-800
+A	Rickettsiella	Bacteria	3	3	2	2	2	agree-divide	1.0	
+A	Riemerella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Robbsia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Robbsia,Robbsia
+A	Roseibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Roseibacillus,Roseibacillus
+A	Roseicella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Roseiconus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Stieleria,Stieleria
+A	Roseimaritima	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Rosettibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rosettibacter,Rosettibacter
+A	Rosistilla	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Rubinisphaera	Bacteria	3	3	2	2	1	flagged	0.0	
+A	Rudanella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rudanella,Rudanella
+A	Rugosimonospora	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rugosimonospora,Rugosimonospora
+A	Ruicaihuangia	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Ruminococcoides	Bacteria	2	2	2	2	1	not scored; two-genome comparison (differ)		Ruminococcoides,Ruminococcoides
+A	Rummeliibacillus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Ruoffia	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Ruthenibacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ruthenibacterium,Ruthenibacterium
+A	Sabulicella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Saccharicrinis	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Sagittula	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Salibaculum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Salibaculum,Salibaculum
+A	Salinarchaeum	Archaea	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Salinibacillus	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Salinibacillus,Salinibacillus
+A	Salinibacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Rhodoglobus,Rhodoglobus
+A	Salinibaculum	Archaea	3	3	1	1	1	agree-whole	nan	
+A	Salinifilum	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Salinirubellus	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Salinirubellus,Salinirubellus
+A	Salirhabdus	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Salirhabdus,Salirhabdus_A
+A	Salisediminibacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Salisediminibacterium,Salisediminibacterium
+A	Salmonella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Salmonella,Salmonella
+A	Salsuginibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Salsuginibacillus,Salsuginibacillus
+A	Sandaracinobacteroides	Bacteria	3	3	1	1	2	missed	0.0	
+A	Savagea	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Savagea,Savagea
+A	Scardovia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Scardovia,Scardovia
+A	Schinkia	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Schleiferilactobacillus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Schlesneria	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Schlesneria,Schlesneria
+A	Schumannella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Schumannella,Schumannella
+A	Sciscionella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sciscionella,Sciscionella
+A	Scopulibacillus	Bacteria	3	3	1	1	2	missed	0.0	
+A	Scrofimicrobium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Scrofimicrobium,Scrofimicrobium
+A	Sedimentibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Sedimenticola	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Sedimentisphaera	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sedimentisphaera,Sedimentisphaera
+A	Sediminicola	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Sediminicola,HQA918
+A	Sediminispirochaeta	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sediminispirochaeta,Sediminispirochaeta
+A	Segetibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Segetibacter,Segetibacter
+A	Segniliparus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Segniliparus,Segniliparus
+A	Sellimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Senegalimassilia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Senegalimassilia,Senegalimassilia
+A	Seohaeicola	Bacteria	3	3	1	1	2	missed	0.0	
+A	Seongchinamella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Halioglobus,Halioglobus
+A	Serinibacter	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Litorihabitans,Serinibacter
+A	Serpentinimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Sharpea	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sharpea,Sharpea
+A	Shimazuella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Shimwellia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Shimwellia,Shimwellia
+A	Siccibacter	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Siccirubricoccus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Silanimonas	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Silicimonas	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Silicimonas,JAVJUV01
+A	Silvania	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Enterobacter,Enterobacter
+A	Silvanigrella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Silvanigrella,Silvanigrella
+A	Silvibacterium	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Silvibacterium,Silvibacterium
+A	Sinimarinibacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Sinisalibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sinisalibacter,Sinisalibacter
+A	Sinobacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sinobacterium,Sinobacterium
+A	Sinosporangium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sinosporangium,Sinosporangium
+A	Siphonobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Siphonobacter,Siphonobacter
+A	Sneathia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sneathia,Sneathia
+A	Snodgrassella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Snuella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Snuella,Snuella
+A	Sodalis-like	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		GCA-001602625,G964059955
+A	Soehngenia	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Solibaculum	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Solibaculum_A,Solibaculum
+A	Solicola	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		JAURVT01,Solicola
+A	Soonwooa	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Spartinivicinus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Spectribacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Spectribacter,Spectribacter
+A	Sphaerimonospora	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sphaerimonospora,Sphaerimonospora
+A	Sphaerospermopsis	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Spirabiliibacterium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Spirulina	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Spirulina,Spirulina_A
+A	Spongiactinospora	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Spongiactinospora,Spongiactinospora
+A	Sporichthya	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sporichthya,Sporichthya
+A	Stagnihabitans	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Stagnihabitans,Stagnihabitans
+A	Staphylothermus	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Staphylothermus,Staphylothermus
+A	Streptoalloteichus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Streptoalloteichus,Streptoalloteichus
+A	Stygiolobus	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Stygiolobus,Stygiolobus
+A	Succinivibrio	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Succinivibrio,Succinivibrio
+A	Sulfoacidibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sulfoacidibacillus,Sulfoacidibacillus
+A	Sulfobacillus	Bacteria	3	3	2	2	2	agree-divide	1.0	
+A	Sulfolobus	Archaea	2	2	2	2	2	not scored; two-genome comparison (match)		Sulfolobus,Saccharolobus
+A	Sulfuracidifex	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Sulfuracidifex,Sulfuracidifex
+A	Sulfuricystis	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Sulfuricystis,Sulfuricystis
+A	Sulfurihydrogenibium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Sulfurisphaera	Archaea	3	3	1	1	1	agree-whole	nan	
+A	Suttonella	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Suttonella,Suttonella_A
+A	Symmachiella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Symmachiella,Symmachiella
+A	Synechococcus	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Synechococcus,Synechococcus_D
+A	Syntrophotalea	Bacteria	3	3	1	1	2	missed	0.0	
+A	Syntrophus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Taklimakanibacter	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Taklimakanibacter,Taklimakanibacter
+A	Tamlana	Bacteria	3	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Tannerella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Tannerella,Tannerella
+A	Tardiphaga	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Tardiphaga,Tardiphaga
+A	Tardisphaera	Archaea	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Taylorella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Taylorella,Taylorella
+A	Telluribacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Telluribacter,Telluribacter
+A	Tenuifilum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Tenuifilum,Tenuifilum
+A	Tepidanaerobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Tepidanaerobacter,Tepidanaerobacter
+A	Tepidicella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Tepidicella,Tepidicella
+A	Tepidiforma	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Terribium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Mesorhizobium,Mesorhizobium
+A	Terrihabitans	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Flaviflagellibacter,Flaviflagellibacter
+A	Terrilactibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Terrilactibacillus,Terrilactibacillus
+A	Tersicoccus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Testudinibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Chelonobacter,Chelonobacter
+A	Thalassobacterium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thalassobacterium,Thalassobacterium
+A	Thalassobaculum	Bacteria	3	3	1	1	2	missed	0.0	
+A	Thalassobellus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Thalassoglobus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thalassoglobus,Thalassoglobus
+A	Thalassomonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Thaumasiovibrio	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thaumasiovibrio,Thaumasiovibrio
+A	Thermanaerothrix	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thermanaerothrix,Thermanaerothrix
+A	Thermanaerovibrio	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thermanaerovibrio,Thermanaerovibrio
+A	Thermithiobacillus	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		JBBPCO01,Thermithiobacillus
+A	Thermobacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thermobacillus,Thermobacillus
+A	Thermoclostridium	Bacteria	2	2	2	2	2	not scored; two-genome comparison (match)		Thermoclostridium_A,Thermoclostridium
+A	Thermocrispum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thermocrispum,Thermocrispum
+A	Thermodesulfatator	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Thermodesulfobium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Thermofilum	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Thermofilum,Thermofilum
+A	Thermoflavifilum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thermoflavifilum,Thermoflavifilum
+A	Thermoflavimicrobium	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thermoflavimicrobium,Thermoflavimicrobium
+A	Thermogutta	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Thermohalobaculum	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thermohalobaculum,Thermohalobaculum
+A	Thermoleptolyngbya	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thermoleptolyngbya,Thermoleptolyngbya
+A	Thermonema	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thermonema,Thermonema
+A	Thermoplasma	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Thermoplasma,Thermoplasma
+A	Thermoproteus	Archaea	3	2	1	1	1	not scored; two-genome comparison (match)		Thermoproteus,Thermoproteus
+A	Thermosediminibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thermosediminibacter,Thermosediminibacter
+A	Thermosinus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thermosinus,Thermosinus
+A	Thermosphaera	Archaea	2	2	1	1	1	not scored; two-genome comparison (match)		Thermosphaera,Thermosphaera
+A	Thermosulfurimonas	Bacteria	2	2	1	1	2	not scored; two-genome comparison (differ)		Thermosulfurimonas,Thermosulfurimonas_A
+A	Thermosynechococcus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thermosynechococcus,Thermosynechococcus
+A	Thermosyntropha	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Thermovibrio	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Thermovibrio,Thermovibrio
+A	Thiobacter	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Thiocystis	Bacteria	3	3	1	1	2	missed	0.0	
+A	Thiohalocapsa	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thiohalocapsa,Thiohalocapsa
+A	Thiohalorhabdus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thiohalorhabdus,Thiohalorhabdus
+A	Thiopseudomonas	Bacteria	3	3	1	1	2	missed	0.0	
+A	Thiorhodovibrio	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Thorsellia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Thorsellia,Thorsellia
+A	Tianweitania	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Tigheibacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Tigheibacillus,Tigheibacillus
+A	Tindallia	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Tindallia,Tindallia
+A	Tistrella	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Tistrella,Tistrella
+A	Tolumonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Tolypothrix	Bacteria	3	3	1	1	2	missed	0.0	
+A	Trabulsiella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Trabulsiella,Trabulsiella
+A	Tractidigestivibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Tractidigestivibacter,Tractidigestivibacter
+A	Tranquillimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Tranquillimonas,Tranquillimonas
+A	Trichlorobacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Tropicibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Tropicibacter,Tropicibacter
+A	Trujillonella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Trujillonella,Trujillonella
+A	Tuanshanicoccus	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Tumidithrix	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Tumidithrix,Tumidithrix
+A	Tundrisphaera	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Tundrisphaera,Tundrisphaera
+A	Turicibacter	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Ulvibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ulvibacter,Ulvibacter
+A	Umezawaea	Bacteria	3	3	1	1	2	missed	0.0	
+A	Urechidicola	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Urechidicola,Urechidicola
+A	Urinicoccus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Urinicoccus,Urinicoccus
+A	Ursidibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Ursidibacter,Ursidibacter
+A	Uruburuella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Neisseria,Neisseria
+A	Usitatibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Usitatibacter,Usitatibacter
+A	Verminephrobacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Acidovorax,Acidovorax
+A	Veronia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Veronia,Veronia
+A	Verticiella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Verticiella,Verticiella
+A	Vescimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Victivallis	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Victivallis,Victivallis
+A	Virgisporangium	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Viridibacillus	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Vitiosangium	Bacteria	2	0	1			not scored; fewer than two GTDB-classified genomes		
+A	Vitreoscilla	Bacteria	3	3	2	2	2	agree-divide	1.0	
+A	Volucribacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Volucribacter,Volucribacter
+A	Vulcaniibacterium	Bacteria	3	3	1	1	3	missed	0.0	
+A	Waltera	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Acetatifactor,Acetatifactor
+A	Weizmannia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Weizmannia,Weizmannia
+A	Wenjunlia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Wenjunlia,Wenjunlia
+A	Wenxinia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Wenxinia,Wenxinia
+A	Williamsoniiplasma	Bacteria	3	3	2	2	1	flagged	0.0	
+A	Winogradskya	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Actinoplanes,Actinoplanes
+A	Winslowiella	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Wocania	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Wocania_A,Wocania_A
+A	Wohlfahrtiimonas	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Wolbachia	Bacteria	2	1	1			not scored; fewer than two GTDB-classified genomes		
+A	Xanthocytophaga	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Xanthocytophaga,Xanthocytophaga
+A	Xaviernesmea	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Xaviernesmea,Xaviernesmea
+A	Xenophilus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Xenophilus,Xenophilus
+A	Xylella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Xylella,Xylella
+A	Xylocopilactobacillus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Xylocopilactobacillus,Xylocopilactobacillus
+A	Xylophilus	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Xylophilus,Xylophilus
+A	Yaniella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Yaniella,Yaniella
+A	Yeosuana	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Yeosuana,Yeosuana
+A	Yinghuangia	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Youngiibacter	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Youngiibacter,Youngiibacter
+A	Zavarzinia	Bacteria	3	3	1	1	1	agree-whole	nan	
+A	Zeimonas	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Zeimonas,Zeimonas
+A	Zestomonas	Bacteria	3	2	1	1	1	not scored; two-genome comparison (match)		Aquipseudomonas,Aquipseudomonas
+A	Zhengella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Zhengella,Zhengella
+A	Zhouia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Zhouia,Zhouia
+A	Zongyangia	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Zongyangia,Zongyangia
+A	Zooshikella	Bacteria	2	2	1	1	1	not scored; two-genome comparison (match)		Zooshikella,Zooshikella
+A	Zwartia	Bacteria	3	3	1	1	1	agree-whole	nan	
+# Part B: the 8 genomes (7 genera) that the program set apart and that GTDB R232 does not classify. Not checked further.
+part	genus	accession	organism_name	all_bins_in_genus
+B	Aurantivibrio	GCF_054767315.1	Aurantivibrio infirmus	2
+B	Aurantivibrio	GCF_055392955.1	Aurantivibrio plasticivorans	2
+B	Brassicibacter	GCF_055378355.1	Brassicibacter thermophilus	2
+B	Breznakia	GCF_055378965.1	Breznakia pachnodae	2
+B	Cuniculiplasma	GCF_052315355.1	Cuniculiplasma thermophilum	2
+B	Flavitalea	GCF_054461535.1	Flavitalea antarctica	2
+B	Pasteuria	GCF_056496785.1	Pasteuria ramosa	2
+B	Rhodospirillum	GCF_055387715.1	Rhodospirillum centenum	2
