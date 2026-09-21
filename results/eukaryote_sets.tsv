@@ -1,0 +1,548 @@
+# File S17. Eukaryote genomes screened with RaGCAn v3.0.0 (settings as in the bacterial survey; longest protein per gene).
+# Reference genus: NCBI Taxonomy name. Predictions were recorded before any run.
+# Part 0: predictions and outcomes.
+prediction	statement	outcome
+E1	The two Homo sapiens assemblies are >= 99.5% AAI to each other	HELD (99.92)
+E2	Pan troglodytes and Pan paniscus are closer to each other than to Homo; Homo is closest to Pan	HELD (Pan-Pan 98.89; Pan-Homo 98.06; nearest to Homo: Pan)
+E3	Nakaseomyces glabratus is closer to Saccharomyces cerevisiae than to Candida albicans	HELD (67.60 vs 57.19)
+E4	At 65% the Candida genomes share no bin with any Saccharomycetaceae genome	HELD (own bin; <= 57.91 to any other yeast)
+E5	Scaptodrosophila lebanonensis is further from every Drosophila genome than any two Drosophila genomes are from each other	FAILED (73.32-75.06 to Drosophila; 342 of 861 Drosophila pairs below 75.06)
+E6	The three Caenorhabditis genomes form one bin at 65%	HELD (77.04-78.10)
+# Part A: every genome with its bin at 65% AAI.
+set	organism	accession	ncbi_genus	bin_at_65
+yeasts	Kazachstania africana CBS 2517	GCF_000304475.1	Kazachstania	1
+yeasts	Nakaseomyces bracarensis	GCF_045282275.1	Nakaseomyces	1
+yeasts	Nakaseomyces glabratus	GCF_010111755.1	Nakaseomyces	1
+yeasts	Naumovozyma castellii	GCF_000237345.1	Naumovozyma	1
+yeasts	Naumovozyma dairenensis CBS 421	GCF_000227115.2	Naumovozyma	1
+yeasts	Saccharomyces cerevisiae S288C	GCF_000146045.2	Saccharomyces	1
+yeasts	Saccharomyces eubayanus	GCF_001298625.1	Saccharomyces	1
+yeasts	Saccharomyces kudriavzevii IFO 1802	GCF_947243775.1	Saccharomyces	1
+yeasts	Saccharomyces mikatae IFO 1815	GCF_947241705.1	Saccharomyces	1
+yeasts	Saccharomyces paradoxus	GCF_002079055.1	Saccharomyces	1
+yeasts	Kluyveromyces lactis	GCF_000002515.2	Kluyveromyces	2
+yeasts	Kluyveromyces marxianus DMKU3-1042	GCF_001417885.1	Kluyveromyces	2
+yeasts	Lachancea lanzarotensis	GCF_000938715.1	Lachancea	2
+yeasts	Lachancea thermotolerans CBS 6340	GCF_000142805.1	Lachancea	2
+yeasts	Candida albicans SC5314	GCF_000182965.3	Candida	3
+yeasts	Candida dubliniensis CD36	GCF_000026945.1	Candida	3
+yeasts	Candida tropicalis MYA-3404	GCF_000006335.3	Candida	3
+yeasts	Eremothecium cymbalariae DBVPG#7215	GCF_000235365.1	Eremothecium	4
+yeasts	Eremothecium gossypii ATCC 10895	GCF_000091025.4	Eremothecium	4
+yeasts	Eremothecium sinecaudum	GCF_001548555.1	Eremothecium	4
+yeasts	Torulaspora delbrueckii	GCF_000243375.1	Torulaspora	5
+yeasts	Torulaspora globosa	GCF_014133895.1	Torulaspora	5
+yeasts	Zygosaccharomyces rouxii	GCF_000026365.1	Zygosaccharomyces	5
+yeasts	Tetrapisispora phaffii CBS 4417	GCF_000236905.1	Tetrapisispora	6
+yeasts	Vanderwaltozyma polyspora DSM 70294	GCF_000150035.1	Vanderwaltozyma	6
+caenorhabditis	Caenorhabditis briggsae	GCF_000004555.2	Caenorhabditis	1
+caenorhabditis	Caenorhabditis elegans	GCF_000002985.6	Caenorhabditis	1
+caenorhabditis	Caenorhabditis remanei	GCF_010183535.1	Caenorhabditis	1
+drosophila	Drosophila albomicans	GCF_009650485.2	Drosophila	1
+drosophila	Drosophila ananassae	GCF_017639315.1	Drosophila	1
+drosophila	Drosophila arizonae	GCF_001654025.1	Drosophila	1
+drosophila	Drosophila biarmipes	GCF_025231255.1	Drosophila	1
+drosophila	Drosophila bipectinata	GCF_030179905.1	Drosophila	1
+drosophila	Drosophila busckii	GCF_011750605.1	Drosophila	1
+drosophila	Drosophila elegans	GCF_018152505.1	Drosophila	1
+drosophila	Drosophila erecta	GCF_003286155.1	Drosophila	1
+drosophila	Drosophila eugracilis	GCF_018153835.1	Drosophila	1
+drosophila	Drosophila ficusphila	GCF_018152265.1	Drosophila	1
+drosophila	Drosophila grimshawi	GCF_018153295.1	Drosophila	1
+drosophila	Drosophila guanche	GCF_900245975.1	Drosophila	1
+drosophila	Drosophila gunungcola	GCF_025200985.1	Drosophila	1
+drosophila	Drosophila hydei	GCF_003285905.1	Drosophila	1
+drosophila	Drosophila innubila	GCF_004354385.1	Drosophila	1
+drosophila	Drosophila kikkawai	GCF_030179895.1	Drosophila	1
+drosophila	Drosophila mauritiana	GCF_004382145.1	Drosophila	1
+drosophila	Drosophila melanogaster	GCF_000001215.4	Drosophila	1
+drosophila	Drosophila miranda	GCF_003369915.1	Drosophila	1
+drosophila	Drosophila mojavensis	GCF_018153725.1	Drosophila	1
+drosophila	Drosophila montana	GCF_035044405.1	Drosophila	1
+drosophila	Drosophila nasuta	GCF_023558535.2	Drosophila	1
+drosophila	Drosophila navojoa	GCF_001654015.2	Drosophila	1
+drosophila	Drosophila novamexicana	GCF_003285875.2	Drosophila	1
+drosophila	Drosophila obscura	GCF_018151105.1	Drosophila	1
+drosophila	Drosophila persimilis	GCF_003286085.1	Drosophila	1
+drosophila	Drosophila pseudoobscura	GCF_009870125.1	Drosophila	1
+drosophila	Drosophila rhopaloa	GCF_018152115.1	Drosophila	1
+drosophila	Drosophila santomea	GCF_016746245.2	Drosophila	1
+drosophila	Drosophila sechellia	GCF_004382195.2	Drosophila	1
+drosophila	Drosophila serrata	GCF_035046125.1	Drosophila	1
+drosophila	Drosophila simulans	GCF_016746395.2	Drosophila	1
+drosophila	Drosophila subobscura	GCF_008121235.1	Drosophila	1
+drosophila	Drosophila subpulchrella	GCF_014743375.2	Drosophila	1
+drosophila	Drosophila sulfurigaster albostrigata	GCF_023558435.1	Drosophila	1
+drosophila	Drosophila suzukii	GCF_043229965.1	Drosophila	1
+drosophila	Drosophila takahashii	GCF_030179915.1	Drosophila	1
+drosophila	Drosophila teissieri	GCF_016746235.2	Drosophila	1
+drosophila	Drosophila tropicalis	GCF_018151085.1	Drosophila	1
+drosophila	Drosophila virilis	GCF_030788295.1	Drosophila	1
+drosophila	Drosophila willistoni	GCF_018902025.1	Drosophila	1
+drosophila	Drosophila yakuba	GCF_016746365.2	Drosophila	1
+drosophila	Scaptodrosophila lebanonensis	GCF_003285725.1	Scaptodrosophila	1
+primates	Chlorocebus sabaeus	GCF_047675955.1	Chlorocebus	1
+primates	Gorilla gorilla gorilla	GCF_029281585.2	Gorilla	1
+primates	Homo sapiens	GCF_000001405.40	Homo	1
+primates	Homo sapiens	GCF_009914755.1	Homo	1
+primates	Hylobates moloch	GCF_009828535.3	Hylobates	1
+primates	Macaca fascicularis	GCF_037993035.2	Macaca	1
+primates	Macaca mulatta	GCF_049350105.2	Macaca	1
+primates	Macaca nemestrina	GCF_043159975.1	Macaca	1
+primates	Macaca thibetana thibetana	GCF_024542745.1	Macaca	1
+primates	Nomascus leucogenys	GCF_006542625.1	Nomascus	1
+primates	Pan paniscus	GCF_029289425.2	Pan	1
+primates	Pan troglodytes	GCF_028858775.2	Pan	1
+primates	Papio anubis	GCF_008728515.1	Papio	1
+primates	Pongo abelii	GCF_028885655.2	Pongo	1
+primates	Pongo pygmaeus	GCF_028885625.2	Pongo	1
+primates	Symphalangus syndactylus	GCF_028878055.3	Symphalangus	1
+primates	Theropithecus gelada	GCF_040869185.1	Theropithecus	1
+# Part B: threshold sweep per set against NCBI genus. ari = adjusted Rand index; exact = partition equals the NCBI genera.
+# ari is "nan" for caenorhabditis because the set has one genus, for which the index is undefined; use the exact column there.
+set	threshold	bins	ari_vs_ncbi_genus	exact
+yeasts	50.0	1	0.0000	0
+yeasts	50.5	1	0.0000	0
+yeasts	51.0	1	0.0000	0
+yeasts	51.5	1	0.0000	0
+yeasts	52.0	1	0.0000	0
+yeasts	52.5	1	0.0000	0
+yeasts	53.0	1	0.0000	0
+yeasts	53.5	1	0.0000	0
+yeasts	54.0	1	0.0000	0
+yeasts	54.5	1	0.0000	0
+yeasts	55.0	1	0.0000	0
+yeasts	55.5	1	0.0000	0
+yeasts	56.0	2	0.0416	0
+yeasts	56.5	2	0.0416	0
+yeasts	57.0	2	0.0416	0
+yeasts	57.5	2	0.0416	0
+yeasts	58.0	2	0.0416	0
+yeasts	58.5	2	0.0416	0
+yeasts	59.0	2	0.0416	0
+yeasts	59.5	2	0.0416	0
+yeasts	60.0	2	0.0416	0
+yeasts	60.5	2	0.0416	0
+yeasts	61.0	2	0.0416	0
+yeasts	61.5	2	0.0416	0
+yeasts	62.0	3	0.1814	0
+yeasts	62.5	3	0.1814	0
+yeasts	63.0	3	0.1814	0
+yeasts	63.5	4	0.2107	0
+yeasts	64.0	4	0.2107	0
+yeasts	64.5	5	0.2948	0
+yeasts	65.0	6	0.4555	0
+yeasts	65.5	7	0.4859	0
+yeasts	66.0	8	0.5665	0
+yeasts	66.5	8	0.5665	0
+yeasts	67.0	10	0.6908	0
+yeasts	67.5	10	0.6908	0
+yeasts	68.0	11	0.8747	0
+yeasts	68.5	12	0.8976	0
+yeasts	69.0	14	0.9178	0
+yeasts	69.5	14	0.9178	0
+yeasts	70.0	14	0.9178	0
+yeasts	70.5	14	0.9178	0
+yeasts	71.0	14	0.9178	0
+yeasts	71.5	14	0.9178	0
+yeasts	72.0	14	0.9178	0
+yeasts	72.5	15	0.8877	0
+yeasts	73.0	16	0.8562	0
+yeasts	73.5	16	0.8562	0
+yeasts	74.0	16	0.8562	0
+yeasts	74.5	16	0.8562	0
+yeasts	75.0	16	0.8562	0
+yeasts	75.5	16	0.8562	0
+yeasts	76.0	18	0.7514	0
+yeasts	76.5	19	0.7126	0
+yeasts	77.0	19	0.7126	0
+yeasts	77.5	19	0.7126	0
+yeasts	78.0	19	0.7126	0
+yeasts	78.5	20	0.6717	0
+yeasts	79.0	20	0.6717	0
+yeasts	79.5	20	0.6717	0
+yeasts	80.0	20	0.6717	0
+yeasts	80.5	20	0.6717	0
+yeasts	81.0	20	0.6717	0
+yeasts	81.5	20	0.6717	0
+yeasts	82.0	20	0.6717	0
+yeasts	82.5	20	0.6717	0
+yeasts	83.0	20	0.6717	0
+yeasts	83.5	20	0.6717	0
+yeasts	84.0	21	0.4819	0
+yeasts	84.5	21	0.4819	0
+yeasts	85.0	21	0.4819	0
+yeasts	85.5	22	0.3044	0
+yeasts	86.0	22	0.3044	0
+yeasts	86.5	22	0.3044	0
+yeasts	87.0	22	0.3044	0
+yeasts	87.5	23	0.1637	0
+yeasts	88.0	23	0.1637	0
+yeasts	88.5	23	0.1637	0
+yeasts	89.0	23	0.1637	0
+yeasts	89.5	23	0.1637	0
+yeasts	90.0	23	0.1637	0
+yeasts	90.5	23	0.1637	0
+yeasts	91.0	24	0.0851	0
+yeasts	91.5	24	0.0851	0
+yeasts	92.0	25	0.0000	0
+yeasts	92.5	25	0.0000	0
+yeasts	93.0	25	0.0000	0
+yeasts	93.5	25	0.0000	0
+yeasts	94.0	25	0.0000	0
+yeasts	94.5	25	0.0000	0
+yeasts	95.0	25	0.0000	0
+yeasts	95.5	25	0.0000	0
+yeasts	96.0	25	0.0000	0
+yeasts	96.5	25	0.0000	0
+yeasts	97.0	25	0.0000	0
+yeasts	97.5	25	0.0000	0
+yeasts	98.0	25	0.0000	0
+yeasts	98.5	25	0.0000	0
+yeasts	99.0	25	0.0000	0
+yeasts	99.5	25	0.0000	0
+caenorhabditis	50.0	1	nan	1
+caenorhabditis	50.5	1	nan	1
+caenorhabditis	51.0	1	nan	1
+caenorhabditis	51.5	1	nan	1
+caenorhabditis	52.0	1	nan	1
+caenorhabditis	52.5	1	nan	1
+caenorhabditis	53.0	1	nan	1
+caenorhabditis	53.5	1	nan	1
+caenorhabditis	54.0	1	nan	1
+caenorhabditis	54.5	1	nan	1
+caenorhabditis	55.0	1	nan	1
+caenorhabditis	55.5	1	nan	1
+caenorhabditis	56.0	1	nan	1
+caenorhabditis	56.5	1	nan	1
+caenorhabditis	57.0	1	nan	1
+caenorhabditis	57.5	1	nan	1
+caenorhabditis	58.0	1	nan	1
+caenorhabditis	58.5	1	nan	1
+caenorhabditis	59.0	1	nan	1
+caenorhabditis	59.5	1	nan	1
+caenorhabditis	60.0	1	nan	1
+caenorhabditis	60.5	1	nan	1
+caenorhabditis	61.0	1	nan	1
+caenorhabditis	61.5	1	nan	1
+caenorhabditis	62.0	1	nan	1
+caenorhabditis	62.5	1	nan	1
+caenorhabditis	63.0	1	nan	1
+caenorhabditis	63.5	1	nan	1
+caenorhabditis	64.0	1	nan	1
+caenorhabditis	64.5	1	nan	1
+caenorhabditis	65.0	1	nan	1
+caenorhabditis	65.5	1	nan	1
+caenorhabditis	66.0	1	nan	1
+caenorhabditis	66.5	1	nan	1
+caenorhabditis	67.0	1	nan	1
+caenorhabditis	67.5	1	nan	1
+caenorhabditis	68.0	1	nan	1
+caenorhabditis	68.5	1	nan	1
+caenorhabditis	69.0	1	nan	1
+caenorhabditis	69.5	1	nan	1
+caenorhabditis	70.0	1	nan	1
+caenorhabditis	70.5	1	nan	1
+caenorhabditis	71.0	1	nan	1
+caenorhabditis	71.5	1	nan	1
+caenorhabditis	72.0	1	nan	1
+caenorhabditis	72.5	1	nan	1
+caenorhabditis	73.0	1	nan	1
+caenorhabditis	73.5	1	nan	1
+caenorhabditis	74.0	1	nan	1
+caenorhabditis	74.5	1	nan	1
+caenorhabditis	75.0	1	nan	1
+caenorhabditis	75.5	1	nan	1
+caenorhabditis	76.0	1	nan	1
+caenorhabditis	76.5	1	nan	1
+caenorhabditis	77.0	1	nan	1
+caenorhabditis	77.5	2	0.0000	0
+caenorhabditis	78.0	2	0.0000	0
+caenorhabditis	78.5	3	0.0000	0
+caenorhabditis	79.0	3	0.0000	0
+caenorhabditis	79.5	3	0.0000	0
+caenorhabditis	80.0	3	0.0000	0
+caenorhabditis	80.5	3	0.0000	0
+caenorhabditis	81.0	3	0.0000	0
+caenorhabditis	81.5	3	0.0000	0
+caenorhabditis	82.0	3	0.0000	0
+caenorhabditis	82.5	3	0.0000	0
+caenorhabditis	83.0	3	0.0000	0
+caenorhabditis	83.5	3	0.0000	0
+caenorhabditis	84.0	3	0.0000	0
+caenorhabditis	84.5	3	0.0000	0
+caenorhabditis	85.0	3	0.0000	0
+caenorhabditis	85.5	3	0.0000	0
+caenorhabditis	86.0	3	0.0000	0
+caenorhabditis	86.5	3	0.0000	0
+caenorhabditis	87.0	3	0.0000	0
+caenorhabditis	87.5	3	0.0000	0
+caenorhabditis	88.0	3	0.0000	0
+caenorhabditis	88.5	3	0.0000	0
+caenorhabditis	89.0	3	0.0000	0
+caenorhabditis	89.5	3	0.0000	0
+caenorhabditis	90.0	3	0.0000	0
+caenorhabditis	90.5	3	0.0000	0
+caenorhabditis	91.0	3	0.0000	0
+caenorhabditis	91.5	3	0.0000	0
+caenorhabditis	92.0	3	0.0000	0
+caenorhabditis	92.5	3	0.0000	0
+caenorhabditis	93.0	3	0.0000	0
+caenorhabditis	93.5	3	0.0000	0
+caenorhabditis	94.0	3	0.0000	0
+caenorhabditis	94.5	3	0.0000	0
+caenorhabditis	95.0	3	0.0000	0
+caenorhabditis	95.5	3	0.0000	0
+caenorhabditis	96.0	3	0.0000	0
+caenorhabditis	96.5	3	0.0000	0
+caenorhabditis	97.0	3	0.0000	0
+caenorhabditis	97.5	3	0.0000	0
+caenorhabditis	98.0	3	0.0000	0
+caenorhabditis	98.5	3	0.0000	0
+caenorhabditis	99.0	3	0.0000	0
+caenorhabditis	99.5	3	0.0000	0
+drosophila	50.0	1	0.0000	0
+drosophila	50.5	1	0.0000	0
+drosophila	51.0	1	0.0000	0
+drosophila	51.5	1	0.0000	0
+drosophila	52.0	1	0.0000	0
+drosophila	52.5	1	0.0000	0
+drosophila	53.0	1	0.0000	0
+drosophila	53.5	1	0.0000	0
+drosophila	54.0	1	0.0000	0
+drosophila	54.5	1	0.0000	0
+drosophila	55.0	1	0.0000	0
+drosophila	55.5	1	0.0000	0
+drosophila	56.0	1	0.0000	0
+drosophila	56.5	1	0.0000	0
+drosophila	57.0	1	0.0000	0
+drosophila	57.5	1	0.0000	0
+drosophila	58.0	1	0.0000	0
+drosophila	58.5	1	0.0000	0
+drosophila	59.0	1	0.0000	0
+drosophila	59.5	1	0.0000	0
+drosophila	60.0	1	0.0000	0
+drosophila	60.5	1	0.0000	0
+drosophila	61.0	1	0.0000	0
+drosophila	61.5	1	0.0000	0
+drosophila	62.0	1	0.0000	0
+drosophila	62.5	1	0.0000	0
+drosophila	63.0	1	0.0000	0
+drosophila	63.5	1	0.0000	0
+drosophila	64.0	1	0.0000	0
+drosophila	64.5	1	0.0000	0
+drosophila	65.0	1	0.0000	0
+drosophila	65.5	1	0.0000	0
+drosophila	66.0	1	0.0000	0
+drosophila	66.5	1	0.0000	0
+drosophila	67.0	1	0.0000	0
+drosophila	67.5	1	0.0000	0
+drosophila	68.0	1	0.0000	0
+drosophila	68.5	1	0.0000	0
+drosophila	69.0	1	0.0000	0
+drosophila	69.5	1	0.0000	0
+drosophila	70.0	1	0.0000	0
+drosophila	70.5	1	0.0000	0
+drosophila	71.0	1	0.0000	0
+drosophila	71.5	1	0.0000	0
+drosophila	72.0	1	0.0000	0
+drosophila	72.5	1	0.0000	0
+drosophila	73.0	1	0.0000	0
+drosophila	73.5	2	0.0493	0
+drosophila	74.0	3	0.1067	0
+drosophila	74.5	3	0.1067	0
+drosophila	75.0	4	0.0849	0
+drosophila	75.5	4	0.0849	0
+drosophila	76.0	4	0.0849	0
+drosophila	76.5	4	0.0849	0
+drosophila	77.0	6	0.0456	0
+drosophila	77.5	6	0.0456	0
+drosophila	78.0	6	0.0456	0
+drosophila	78.5	7	0.0387	0
+drosophila	79.0	7	0.0387	0
+drosophila	79.5	8	0.0313	0
+drosophila	80.0	9	0.0300	0
+drosophila	80.5	9	0.0300	0
+drosophila	81.0	10	0.0242	0
+drosophila	81.5	10	0.0242	0
+drosophila	82.0	10	0.0242	0
+drosophila	82.5	11	0.0237	0
+drosophila	83.0	12	0.0217	0
+drosophila	83.5	12	0.0217	0
+drosophila	84.0	12	0.0217	0
+drosophila	84.5	13	0.0140	0
+drosophila	85.0	13	0.0140	0
+drosophila	85.5	15	0.0083	0
+drosophila	86.0	15	0.0083	0
+drosophila	86.5	16	0.0078	0
+drosophila	87.0	16	0.0078	0
+drosophila	87.5	17	0.0067	0
+drosophila	88.0	17	0.0067	0
+drosophila	88.5	19	0.0059	0
+drosophila	89.0	21	0.0055	0
+drosophila	89.5	21	0.0055	0
+drosophila	90.0	21	0.0055	0
+drosophila	90.5	22	0.0053	0
+drosophila	91.0	23	0.0035	0
+drosophila	91.5	24	0.0033	0
+drosophila	92.0	25	0.0031	0
+drosophila	92.5	26	0.0028	0
+drosophila	93.0	26	0.0028	0
+drosophila	93.5	26	0.0028	0
+drosophila	94.0	27	0.0025	0
+drosophila	94.5	29	0.0022	0
+drosophila	95.0	30	0.0019	0
+drosophila	95.5	32	0.0015	0
+drosophila	96.0	34	0.0013	0
+drosophila	96.5	36	0.0010	0
+drosophila	97.0	37	0.0008	0
+drosophila	97.5	40	0.0003	0
+drosophila	98.0	42	0.0001	0
+drosophila	98.5	43	0.0000	0
+drosophila	99.0	43	0.0000	0
+drosophila	99.5	43	0.0000	0
+primates	50.0	1	0.0000	0
+primates	50.5	1	0.0000	0
+primates	51.0	1	0.0000	0
+primates	51.5	1	0.0000	0
+primates	52.0	1	0.0000	0
+primates	52.5	1	0.0000	0
+primates	53.0	1	0.0000	0
+primates	53.5	1	0.0000	0
+primates	54.0	1	0.0000	0
+primates	54.5	1	0.0000	0
+primates	55.0	1	0.0000	0
+primates	55.5	1	0.0000	0
+primates	56.0	1	0.0000	0
+primates	56.5	1	0.0000	0
+primates	57.0	1	0.0000	0
+primates	57.5	1	0.0000	0
+primates	58.0	1	0.0000	0
+primates	58.5	1	0.0000	0
+primates	59.0	1	0.0000	0
+primates	59.5	1	0.0000	0
+primates	60.0	1	0.0000	0
+primates	60.5	1	0.0000	0
+primates	61.0	1	0.0000	0
+primates	61.5	1	0.0000	0
+primates	62.0	1	0.0000	0
+primates	62.5	1	0.0000	0
+primates	63.0	1	0.0000	0
+primates	63.5	1	0.0000	0
+primates	64.0	1	0.0000	0
+primates	64.5	1	0.0000	0
+primates	65.0	1	0.0000	0
+primates	65.5	1	0.0000	0
+primates	66.0	1	0.0000	0
+primates	66.5	1	0.0000	0
+primates	67.0	1	0.0000	0
+primates	67.5	1	0.0000	0
+primates	68.0	1	0.0000	0
+primates	68.5	1	0.0000	0
+primates	69.0	1	0.0000	0
+primates	69.5	1	0.0000	0
+primates	70.0	1	0.0000	0
+primates	70.5	1	0.0000	0
+primates	71.0	1	0.0000	0
+primates	71.5	1	0.0000	0
+primates	72.0	1	0.0000	0
+primates	72.5	1	0.0000	0
+primates	73.0	1	0.0000	0
+primates	73.5	1	0.0000	0
+primates	74.0	1	0.0000	0
+primates	74.5	1	0.0000	0
+primates	75.0	1	0.0000	0
+primates	75.5	1	0.0000	0
+primates	76.0	1	0.0000	0
+primates	76.5	1	0.0000	0
+primates	77.0	1	0.0000	0
+primates	77.5	1	0.0000	0
+primates	78.0	1	0.0000	0
+primates	78.5	1	0.0000	0
+primates	79.0	1	0.0000	0
+primates	79.5	1	0.0000	0
+primates	80.0	1	0.0000	0
+primates	80.5	1	0.0000	0
+primates	81.0	1	0.0000	0
+primates	81.5	1	0.0000	0
+primates	82.0	1	0.0000	0
+primates	82.5	1	0.0000	0
+primates	83.0	1	0.0000	0
+primates	83.5	1	0.0000	0
+primates	84.0	1	0.0000	0
+primates	84.5	1	0.0000	0
+primates	85.0	1	0.0000	0
+primates	85.5	1	0.0000	0
+primates	86.0	1	0.0000	0
+primates	86.5	1	0.0000	0
+primates	87.0	1	0.0000	0
+primates	87.5	1	0.0000	0
+primates	88.0	1	0.0000	0
+primates	88.5	1	0.0000	0
+primates	89.0	1	0.0000	0
+primates	89.5	1	0.0000	0
+primates	90.0	1	0.0000	0
+primates	90.5	1	0.0000	0
+primates	91.0	1	0.0000	0
+primates	91.5	1	0.0000	0
+primates	92.0	1	0.0000	0
+primates	92.5	1	0.0000	0
+primates	93.0	1	0.0000	0
+primates	93.5	1	0.0000	0
+primates	94.0	1	0.0000	0
+primates	94.5	1	0.0000	0
+primates	95.0	2	0.1398	0
+primates	95.5	2	0.1398	0
+primates	96.0	3	0.2507	0
+primates	96.5	4	0.3396	0
+primates	97.0	4	0.3396	0
+primates	97.5	4	0.3396	0
+primates	98.0	8	0.7275	0
+primates	98.5	11	1.0000	1
+primates	99.0	16	0.1893	0
+primates	99.5	16	0.1893	0
+# Part C: flies, NCBI Taxonomy subgenus and species group.
+species	ncbi_genus	subgenus	species_group	retrieved
+Drosophila albomicans	Drosophila	Drosophila	immigrans group	NCBI Datasets API 2026-09-17
+Drosophila ananassae	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila arizonae	Drosophila	Drosophila	repleta group	NCBI Datasets API 2026-09-17
+Drosophila biarmipes	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila bipectinata	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila busckii	Drosophila	Dorsilopha	-	NCBI Datasets API 2026-09-17
+Drosophila elegans	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila erecta	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila eugracilis	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila ficusphila	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila grimshawi	Drosophila	-	grimshawi group	NCBI Datasets API 2026-09-17
+Drosophila guanche	Drosophila	Sophophora	obscura group	NCBI Datasets API 2026-09-17
+Drosophila gunungcola	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila hydei	Drosophila	Drosophila	repleta group	NCBI Datasets API 2026-09-17
+Drosophila innubila	Drosophila	Drosophila	quinaria group	NCBI Datasets API 2026-09-17
+Drosophila kikkawai	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila mauritiana	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila melanogaster	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila miranda	Drosophila	Sophophora	obscura group	NCBI Datasets API 2026-09-17
+Drosophila mojavensis	Drosophila	Drosophila	repleta group	NCBI Datasets API 2026-09-17
+Drosophila montana	Drosophila	Drosophila	virilis group	NCBI Datasets API 2026-09-17
+Drosophila nasuta	Drosophila	Drosophila	immigrans group	NCBI Datasets API 2026-09-17
+Drosophila navojoa	Drosophila	Drosophila	repleta group	NCBI Datasets API 2026-09-17
+Drosophila novamexicana	Drosophila	Drosophila	virilis group	NCBI Datasets API 2026-09-17
+Drosophila obscura	Drosophila	Sophophora	obscura group	NCBI Datasets API 2026-09-17
+Drosophila persimilis	Drosophila	Sophophora	obscura group	NCBI Datasets API 2026-09-17
+Drosophila pseudoobscura	Drosophila	Sophophora	obscura group	NCBI Datasets API 2026-09-17
+Drosophila rhopaloa	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila santomea	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila sechellia	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila serrata	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila simulans	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila subobscura	Drosophila	Sophophora	obscura group	NCBI Datasets API 2026-09-17
+Drosophila subpulchrella	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila sulfurigaster	Drosophila	Drosophila	immigrans group	NCBI Datasets API 2026-09-17
+Drosophila suzukii	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila takahashii	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila teissieri	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Drosophila tropicalis	Drosophila	Sophophora	willistoni group	NCBI Datasets API 2026-09-17
+Drosophila virilis	Drosophila	Drosophila	virilis group	NCBI Datasets API 2026-09-17
+Drosophila willistoni	Drosophila	Sophophora	willistoni group	NCBI Datasets API 2026-09-17
+Drosophila yakuba	Drosophila	Sophophora	melanogaster group	NCBI Datasets API 2026-09-17
+Scaptodrosophila lebanonensis	Scaptodrosophila	-	victoria group	NCBI Datasets API 2026-09-17

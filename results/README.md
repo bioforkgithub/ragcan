@@ -11,6 +11,9 @@ the paper can be traced to a file here. Tab-separated, one header line, no hidde
 | `unscored_flags_ncbi_check.tsv` | The 25 genomes the program set apart that GTDB does not classify, each checked against NCBI's own ANI taxonomy check |
 | `two_to_three_species_genera.tsv` | The extension: the 1,046 genera with two or three named species, one row each, and the genomes set apart that GTDB does not classify |
 | `genera_tested.txt` | Every genus tested, survey and extension, in one readable list with its result |
+| `enterobacteriaceae_family_screen.tsv` | The 37 genera GTDB places in Enterobacteriaceae, screened as one set of 456 genomes, with the three predictions made before the run |
+| `eukaryote_sets.tsv` | Yeasts, *Caenorhabditis*, *Drosophila* and primates: each genome with its bin, the sweep against NCBI genera, and the six predictions made before the runs |
+| `threshold_sweep_per_genus.tsv` | For every scored genus, how the agreement with GTDB changes as the cut-off moves from 50% to 95% |
 
 The survey covered every genus with four or more named species. The extension covered those with
 two or three. Together that is every bacterial and archaeal genus with at least two named species
