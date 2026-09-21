@@ -1,0 +1,26 @@
+survey_genus	accession	genome	ncbi_taxonomy_check	ncbi_match_status	ncbi_best_type_match	ani	match_category	checkm_completeness	checkm_contamination	release_date	genus_scored_against_GTDB	ncbi_closest_type_genus_vs_filed_genus
+Actinotalea	GCF_054781575.1	Actinotalea_caeni	OK	species_match	Actinotalea caeni	99.99	type	91.51	4.18	2025-04-29	yes	same genus
+Aerococcus	GCF_053762225.1	Aerococcus_vaginalis	OK	low_coverage	Aerococcus suis	87.43	type	69.7	3.54	2025-11-29	yes	same genus
+Bacteroides	GCF_003096855.1	Bacteroides_galacturonicus	Inconclusive	mismatch	[Lactobacillus] rogosae	99.27	suspected_type	78.95	11.16	2018-05-07	yes	different genus
+Caldalkalibacillus	GCF_055397565.1	Caldalkalibacillus_mannanilyticus	OK	species_match	Caldalkalibacillus mannanilyticus	99.97	type	96.08	2.39	2025-08-27	yes	same genus
+Desulfovibrio	GCF_055388615.1	Desulfovibrio_biadhensis	OK	low_coverage	Oceanidesulfovibrio marinus	88.89	type	98.05	3.05	2025-07-19	yes	different genus
+Fulvivirga	GCF_020328055.1	Fulvivirga_sedimenti	OK	low_coverage	Robiginitalea sediminis	93.69	type	99.54	32.42	2021-10-06	yes	different genus
+Fusibacter	GCF_054657815.1	Fusibacter_bizertensis	OK	low_coverage	Fusibacter paucivorans	88.92	type	100	3.07	2025-07-27	yes	same genus
+Fusibacter	GCF_055378735.1	Fusibacter_fontis	OK	low_coverage	Paraclostridium bifermentans	85.41	type	99.12	0.88	2025-07-19	yes	different genus
+Geobacter	GCF_056821595.1	Geobacter_psychrophilus	Inconclusive	low_coverage	Geomobilimonas luticola	88.1	type	98.43	4.65	2026-04-21	yes	different genus
+Lelliottia	GCF_977068015.1	Lelliottia_jeotgali	Inconclusive	below_threshold_mismatch	Pseudomonas turukhanskensis	89.45	type	95.87	3.86	2025-12-07	yes	different genus
+Marinobacterium	GCF_982447095.1	Marinobacterium_marisflavi	Inconclusive	low_coverage	Marinobacterium sediminicola	83.3	type	77.94	4.22	2026-04-13	yes	same genus
+Mycoplasma	GCF_054170725.1	Mycoplasma_pogonae	OK	low_coverage	[Mycoplasma] collis	85.43	type	99.47	1.32	2025-12-24	yes	unclear
+Mycoplasmopsis	GCF_056388415.1	Mycoplasmopsis_alligatoris_A21JP2	OK	species_match	Mycoplasmopsis alligatoris	99.98	type	94.83	-	2026-03-28	yes	same genus
+Nitrospira	GCF_059568365.1	Nitrospira_marina	Inconclusive	below_threshold_mismatch	Candidatus Nitrospira allomarina	94.11	type	90.76	9.89	2026-07-22	yes	same genus
+Nocardiopsis	GCF_045809185.1	Nocardiopsis_yanglingensis	OK	below_threshold_mismatch	Stenotrophomonas africana	93.7	type	53.22	14.13	2024-12-08	yes	different genus
+Parasphingorhabdus	GCF_054779195.1	Parasphingorhabdus_pacifica	OK	below_threshold_mismatch	Saccharopolyspora taberi	83.17	type	68.62	12.92	2025-04-29	yes	different genus
+Rhizobium	GCF_030160035.1	Rhizobium_albus	Inconclusive	below_threshold_mismatch	Georhizobium profundi	95.09	type	89.46	2	2023-02-15	yes	different genus
+Rhizobium	GCF_011319365.1	Rhizobium_flavescens	OK	low_coverage	Shinella zoogloeoides	97.42	suspected_type	0.49	-	2020-03-16	yes	different genus
+Ruminococcus	GCF_016680995.1	Ruminococcus_difficilis	OK	low_coverage	Hominisplanchenecus faecis	96.07	type	87.75	24.97	2021-01-18	yes	different genus
+Ruminococcus	GCF_054655175.1	Ruminococcus_sporogenes	OK	low_coverage	Vescimonas sanitatis	97.81	type	97.93	1.59	2025-10-23	yes	different genus
+Sphaerisporangium	GCF_055567015.1	Sphaerisporangium_cinnabarinum	Inconclusive	below_threshold_mismatch	Cellulosimicrobium funkei	95.5	suspected_type	59.06	6.03	2026-02-28	yes	different genus
+Spiroplasma	GCF_059729505.1	Spiroplasma_ixodetis	Inconclusive	low_coverage	Spiroplasma floricola	85.89	type	90.21	4.59	2026-02-18	yes	same genus
+Syntrophomonas	GCF_055395365.1	Syntrophomonas_erecta_subsp._sporosyntropha	OK	low_coverage	Alkalithermobacter paradoxus	94.89	type	96.03	5.06	2025-07-19	yes	different genus
+Treponema	GCF_001028545.1	Treponema_endosymbiont_of_Eucomonympha_sp.	Inconclusive	low_coverage	Cutibacterium acnes	99.77	type	50.22	5.03	2015-06-05	yes	different genus
+Angustibacter	GCF_054777815.1	Angustibacter_speluncae	Inconclusive	below_threshold_mismatch	Thalassiella azotivora	82.27	type	99.93	0.14	2025-04-29	no (only 1 of 4 genomes in GTDB)	different genus

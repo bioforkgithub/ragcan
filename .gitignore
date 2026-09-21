@@ -3,9 +3,8 @@ __pycache__/
 *.pyo
 .ipynb_checkpoints/
 
-# results, intermediates and proteomes are reconstructible and large
+# intermediates and proteomes are reconstructible and large (the published tables in results/ are kept)
 *_Result/
-results/
 proteomes/
 # ...except the five genomes of the worked example
 !example/proteomes/

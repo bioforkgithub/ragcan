@@ -1,0 +1,1161 @@
+genus	domain	n_species	core_genes	bins_65	min_aai	mean_aai	pairs_ge95	gtdb_genera	genomes_in_gtdb	genomes_not_in_gtdb	ari_vs_gtdb	outcome	wall_seconds
+Acetivibrio	Bacteria	7	117	3	48.00	65.15	0	4	6	1	0.5946	both split	7
+Acetobacter	Bacteria	37	615	1	65.58	73.31	4	1	34	3	nan	both coherent	40
+Acetobacterium	Bacteria	8	1290	1	74.24	78.20	1	1	8	0	nan	both coherent	9
+Acholeplasma	Bacteria	7	183	3	54.53	63.45	0	2	7	0	0.2759	both split	4
+Achromobacter	Bacteria	25	1742	1	71.23	86.52	3	2	20	5	0.0	RaGCAn one bin, GTDB splits	175
+Acidaminococcus	Bacteria	6	863	1	69.25	78.33	0	1	6	0	nan	both coherent	5
+Acidianus	Archaea	6	987	1	66.70	75.28	1	2	6	0	0.0	RaGCAn one bin, GTDB splits	50
+Acidicapsa	Bacteria	4	1526	1	70.26	72.49	0	1	3	1	nan	both coherent	6
+Acidihalobacter	Bacteria	4	1173	1	68.00	75.28	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Acidiphilium	Bacteria	5	1625	1	73.28	78.58	1	1	5	0	nan	both coherent	5
+Acidipropionibacterium	Bacteria	5	950	1	70.24	75.58	0	2	5	0	0.0	RaGCAn one bin, GTDB splits	5
+Acidisoma	Bacteria	4	2080	1	71.82	78.23	0	1	3	1	nan	both coherent	6
+Acidithiobacillus	Bacteria	16	737	1	66.74	76.09	1	4	15	1	0.0	RaGCAn one bin, GTDB splits	46
+Acidocella	Bacteria	5	1243	1	69.97	75.80	1	1	4	1	nan	both coherent	5
+Acidovorax	Bacteria	12	1108	1	68.57	78.85	0	4	10	2	0.0	RaGCAn one bin, GTDB splits	17
+Acinetobacter	Bacteria	104	580	1	67.07	76.02	21	1	99	5	nan	both coherent	297
+Acrocarpospora	Bacteria	5	3847	1	79.33	84.13	0	1	5	0	nan	both coherent	14
+Actibacterium	Bacteria	6	1129	1	68.55	71.30	0	5	6	0	0.0	RaGCAn one bin, GTDB splits	6
+Actinacidiphila	Bacteria	15	1489	1	70.48	76.87	0	1	15	0	nan	both coherent	41
+Actinoallomurus	Bacteria	11	2566	1	73.18	80.00	1	1	10	1	nan	both coherent	39
+Actinoalloteichus	Bacteria	5	1578	1	66.93	74.36	0	2	5	0	0.0	RaGCAn one bin, GTDB splits	8
+Actinobacillus	Bacteria	15	376	2	63.83	77.87	7	6	15	0	0.1159	both split	8
+Actinocatenispora	Bacteria	4	3072	1	74.54	82.23	0	1	4	0	nan	both coherent	8
+Actinocorallia	Bacteria	7	1987	1	70.37	75.00	0	1	5	2	nan	both coherent	16
+Actinokineospora	Bacteria	17	1364	1	69.67	74.36	1	1	16	1	nan	both coherent	105
+Actinomadura	Bacteria	67	677	2	61.27	74.87	1	5	66	1	0.3775	both split	560
+Actinomyces	Bacteria	45	96	6	54.34	67.99	0	4	45	0	0.8302	both split	44
+Actinomycetospora	Bacteria	18	1423	1	71.05	77.95	0	1	18	0	nan	both coherent	106
+Actinophytocola	Bacteria	7	2289	1	71.50	75.89	0	1	6	1	nan	both coherent	17
+Actinoplanes	Bacteria	33	1584	1	69.79	75.91	2	1	32	1	nan	both coherent	259
+Actinopolymorpha	Bacteria	5	2472	1	72.19	78.80	0	1	5	0	nan	both coherent	9
+Actinopolyspora	Bacteria	9	2167	1	77.25	82.63	1	1	8	1	nan	both coherent	10
+Actinotalea	Bacteria	10	493	2	60.60	69.16	0	1	8	2	nan	both coherent	9
+Actinotignum	Bacteria	11	574	1	66.65	90.07	28	1	10	1	nan	both coherent	6
+Actomonas	Bacteria	4	1898	1	72.21	75.88	0					not scored (no GTDB data)	6
+Acuticoccus	Bacteria	5	1421	1	67.03	70.47	0	1	4	1	nan	both coherent	8
+Adhaeribacter	Bacteria	10	853	2	64.32	70.18	0	2	10	0	1.0	both split	14
+Adlercreutzia	Bacteria	12	387	2	64.44	74.02	1	4	11	1	0.4898	both split	10
+Advenella	Bacteria	6	1241	1	68.36	77.87	0	1	5	1	nan	both coherent	7
+Aedoeadaptatus	Bacteria	6	754	1	68.37	76.54	1	1	6	0	nan	both coherent	4
+Aequorivita	Bacteria	21	1212	1	74.24	81.07	3	1	21	0	nan	both coherent	19
+Aeribacillus	Bacteria	4	900	1	65.36	68.70	0	4	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Aerococcus	Bacteria	13	180	6	56.08	63.10	6	1	12	1	0.0	RaGCAn split, GTDB one genus	19
+Aeromicrobium	Bacteria	24	659	1	65.57	70.43	0	1	24	0	nan	both coherent	27
+Aeromonas	Bacteria	38	1391	1	76.17	86.12	16	1	34	4	nan	both coherent	76
+Aestuariibaculum	Bacteria	5	1742	1	76.33	82.95	0	1	4	1	nan	both coherent	6
+Aestuariivivens	Bacteria	4	1773	1	78.74	80.28	0	1	4	0	nan	both coherent	5
+Affinirhizobium	Bacteria	7	2112	1	76.59	80.32	1	1	6	1	nan	both coherent	10
+Affinundibacterium	Bacteria	9	1810	1	75.64	81.35	1	1	9	0	nan	both coherent	10
+Afipia	Bacteria	8	1417	1	71.78	78.38	0	1	7	1	nan	both coherent	9
+Agarivorans	Bacteria	5	2564	1	78.75	85.33	2	1	5	0	nan	both coherent	7
+Agathobaculum	Bacteria	6	1028	1	74.39	81.19	3	1	6	0	nan	both coherent	5
+Aggregatibacter	Bacteria	4	1349	1	87.77	89.90	1	1	4	0	nan	both coherent	4
+Agrobacterium	Bacteria	19	1496	1	69.31	83.08	4	2	17	2	0.0	RaGCAn one bin, GTDB splits	43
+Agrococcus	Bacteria	14	592	2	63.02	75.30	0	1	14	0	0.0	RaGCAn split, GTDB one genus	11
+Agromyces	Bacteria	49	593	1	67.43	75.70	0	1	48	1	nan	both coherent	131
+Albidovulum	Bacteria	9	1359	1	71.32	75.50	0	1	9	0	nan	both coherent	9
+Alcaligenes	Bacteria	8	1501	1	70.83	88.37	7	1	7	1	nan	both coherent	9
+Alcanivorax	Bacteria	9	866	1	65.29	72.94	0	3	9	0	0.0	RaGCAn one bin, GTDB splits	7
+Algibacter	Bacteria	11	1308	1	74.21	78.88	0	5	11	0	0.0	RaGCAn one bin, GTDB splits	9
+Algoriphagus	Bacteria	44	1164	1	68.53	73.96	2	1	44	0	nan	both coherent	90
+Aliarcobacter	Bacteria	9	992	1	72.87	77.94	0	1	9	0	nan	both coherent	6
+Alicyclobacillus	Bacteria	18	358	5	58.21	64.40	1	4	18	0	0.5204	both split	29
+Aliidiomarina	Bacteria	13	711	2	64.22	69.42	1	1	13	0	0.0	RaGCAn split, GTDB one genus	46
+Aliikangiella	Bacteria	5	1200	1	66.93	68.12	0	1	3	2	nan	both coherent	6
+Aliiroseovarius	Bacteria	12	1361	1	72.94	78.25	0	2	12	0	0.0	RaGCAn one bin, GTDB splits	9
+Aliivibrio	Bacteria	9	1290	1	69.72	84.58	0	2	4	5	0.0	RaGCAn one bin, GTDB splits	10
+Alishewanella	Bacteria	6	1879	1	78.26	82.35	1	1	6	0	nan	both coherent	6
+Alistipes	Bacteria	17	289	3	59.85	71.85	1	3	17	0	1.0	both split	28
+Alkalibacillus	Bacteria	7	1296	1	70.96	76.54	0	1	7	0	nan	both coherent	5
+Alkalibacterium	Bacteria	10	777	1	68.77	75.19	1	1	9	1	nan	both coherent	34
+Alkalicoccobacillus	Bacteria	4	2045	1	75.89	78.71	0	1	4	0	nan	both coherent	5
+Alkalicoccus	Bacteria	6	1146	1	67.83	69.86	0	1	5	1	nan	both coherent	5
+Alkalihalobacillus	Bacteria	6	930	3	61.24	68.55	0	3	6	0	1.0	both split	6
+Alkalihalobacterium	Bacteria	4	1541	1	66.87	75.23	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	5
+Alkalimonas	Bacteria	5	2054	1	79.38	84.77	0	1	4	1	nan	both coherent	6
+Alkaliphilus	Bacteria	9	605	4	61.32	64.50	0	5	8	1	0.7113	both split	8
+Alloalcanivorax	Bacteria	8	1771	1	74.46	79.86	3	1	8	0	nan	both coherent	8
+Allobosea	Bacteria	14	1773	1	74.89	78.54	0	1	13	1	nan	both coherent	30
+Allochromatium	Bacteria	5	1603	1	81.53	86.71	0	1	5	0	nan	both coherent	5
+Allofrancisella	Bacteria	4	1175	1	88.73	92.37	1	1	3	1	nan	both coherent	4
+Allorhizobium	Bacteria	5	1386	1	67.80	73.51	0	2	4	1	0.0	RaGCAn one bin, GTDB splits	7
+Alloscardovia	Bacteria	5	653	1	73.53	75.79	0	1	5	0	nan	both coherent	4
+Allosphingosinicella	Bacteria	6	895	1	67.56	71.06	0	1	6	0	nan	both coherent	5
+Allostigmatella	Bacteria	4	5467	1	85.91	90.78	1	1	4	0	nan	both coherent	11
+Alteraurantiacibacter	Bacteria	5	1514	1	73.02	76.61	0	1	5	0	nan	both coherent	5
+Altererythrobacter	Bacteria	8	1170	1	73.31	76.64	0	1	7	1	nan	both coherent	6
+Alteribacter	Bacteria	6	1802	1	72.24	77.06	1	1	6	0	nan	both coherent	6
+Altericroceibacterium	Bacteria	4	1134	1	70.18	72.98	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Alteromonas	Bacteria	28	838	2	64.52	73.48	2	2	27	1	1.0	both split	35
+Aminobacter	Bacteria	6	3406	1	86.46	89.74	0	1	6	0	nan	both coherent	10
+Amnibacterium	Bacteria	5	705	2	62.37	71.79	0	2	5	0	1.0	both split	5
+Amphibacillus	Bacteria	6	956	1	66.28	71.43	0	4	6	0	0.0	RaGCAn one bin, GTDB splits	5
+Amphritea	Bacteria	5	2009	1	77.42	81.68	1	1	5	0	nan	both coherent	7
+Amycolatopsis	Bacteria	90	874	1	67.65	73.95	13	3	88	2	0.0	RaGCAn one bin, GTDB splits	884
+Anabaena	Bacteria	6	2210	1	74.80	81.71	0	4	6	0	0.0	RaGCAn one bin, GTDB splits	10
+Anaerobacillus	Bacteria	5	1286	1	74.55	77.38	0	1	4	1	nan	both coherent	5
+Anaerococcus	Bacteria	24	354	3	62.09	69.22	3	1	24	0	0.0	RaGCAn split, GTDB one genus	14
+Anaerocolumna	Bacteria	6	899	2	64.46	69.47	0	1	6	0	0.0	RaGCAn split, GTDB one genus	8
+Anaeromyxobacter	Bacteria	7	1142	1	67.24	71.81	0	3	7	0	0.0	RaGCAn one bin, GTDB splits	9
+Anaerostipes	Bacteria	6	958	1	67.88	73.37	0	1	6	0	nan	both coherent	5
+Anaerotignum	Bacteria	4	849	1	67.98	71.00	0	2	3	1	0.0	RaGCAn one bin, GTDB splits	4
+Anaplasma	Bacteria	7	280	3	64.15	70.47	0	1	7	0	0.0	RaGCAn split, GTDB one genus	4
+Ancylobacter	Bacteria	20	1312	1	73.05	78.21	1	1	20	0	nan	both coherent	36
+Ancylomarina	Bacteria	4	1468	1	68.76	78.36	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	5
+Aneurinibacillus	Bacteria	9	1179	1	68.23	73.87	0	3	9	0	0.0	RaGCAn one bin, GTDB splits	10
+Angustibacter	Bacteria	4	780	2	62.68	68.23	0					not scored (no GTDB data)	5
+Anoxybacillus	Bacteria	12	973	2	64.06	88.13	11	2	12	0	1.0	both split	9
+Anoxybacteroides	Bacteria	4	1907	1	79.92	84.45	0	1	4	0	nan	both coherent	5
+Antarctobacter	Bacteria	5	2588	1	78.83	80.51	0	2	4	1	0.0	RaGCAn one bin, GTDB splits	7
+Antrihabitans	Bacteria	5	2010	1	71.27	75.80	1	1	5	0	nan	both coherent	8
+Aphanothece	Bacteria	4	283	2	51.91	62.67	1	3	4	0	0.5714	both split	4
+Apibacter	Bacteria	4	951	1	70.42	72.00	0	1	4	0	nan	both coherent	4
+Apilactobacillus	Bacteria	14	580	1	67.35	77.18	8	1	14	0	nan	both coherent	7
+Aquabacterium	Bacteria	7	824	2	62.50	71.44	0	2	7	0	1.0	both split	8
+Aquamicrobium	Bacteria	8	1019	1	67.21	75.18	0	2	7	1	0.0	RaGCAn one bin, GTDB splits	8
+Aquibacillus	Bacteria	8	1170	1	69.62	71.64	0	5	8	0	0.0	RaGCAn one bin, GTDB splits	7
+Aquibium	Bacteria	4	2634	1	76.57	80.57	0	1	4	0	nan	both coherent	7
+Aquimarina	Bacteria	34	661	2	63.31	73.65	1	1	33	1	0.0	RaGCAn split, GTDB one genus	98
+Aquipseudomonas	Bacteria	4	2694	1	83.33	86.36	1	1	4	0	nan	both coherent	6
+Aquirufa	Bacteria	14	1208	1	73.05	79.47	3	1	14	0	nan	both coherent	54
+Aquitalea	Bacteria	6	2743	1	87.25	90.92	3	1	6	0	nan	both coherent	8
+Arachidicoccus	Bacteria	5	888	1	65.39	71.39	0	1	5	0	nan	both coherent	6
+Arcanobacterium	Bacteria	12	293	4	61.83	67.85	0	2	12	0	0.5629	both split	6
+Archaeoglobus	Archaea	5	367	4	61.04	64.44	0	4	5	0	1.0	both split	20
+Archangium	Bacteria	6	3886	1	80.35	82.78	0	1	5	1	nan	both coherent	22
+Arcicella	Bacteria	6	1962	1	74.02	84.01	3	1	6	0	nan	both coherent	8
+Arcobacter	Bacteria	18	620	2	64.99	73.76	0	5	18	0	-0.1306	both split	16
+Arcticibacter	Bacteria	4	1495	1	68.91	75.21	0	1	4	0	nan	both coherent	5
+Arenibacter	Bacteria	15	1669	1	74.62	80.78	2	1	15	0	nan	both coherent	21
+Arenimonas	Bacteria	13	480	1	65.27	75.74	0	1	11	2	nan	both coherent	36
+Aromatoleum	Bacteria	11	1673	1	77.26	83.52	0	1	11	0	nan	both coherent	15
+Arsenicicoccus	Bacteria	4	1044	1	68.02	74.87	0	1	4	0	nan	both coherent	4
+Arsenophonus	Bacteria	4	415	1	69.24	76.30	0	1	4	0	nan	both coherent	4
+Arsukibacterium	Bacteria	4	2404	1	85.03	87.46	0	1	4	0	nan	both coherent	6
+Arthrobacter	Bacteria	87	405	4	62.94	68.71	3	13	79	8	0.5625	both split	247
+Asaia	Bacteria	8	1803	1	81.82	84.89	1	1	5	3	nan	both coherent	7
+Asanoa	Bacteria	5	4383	1	83.12	85.07	0	1	5	0	nan	both coherent	11
+Asticcacaulis	Bacteria	11	843	1	66.43	70.11	0	1	11	0	nan	both coherent	10
+Aurantiacibacter	Bacteria	17	955	1	69.71	74.61	0	1	17	0	nan	both coherent	57
+Aurantimonas	Bacteria	6	1938	1	75.36	79.58	1	1	6	0	nan	both coherent	7
+Aureibaculum	Bacteria	6	1831	1	80.41	84.15	0	1	6	0	nan	both coherent	6
+Aureimonas	Bacteria	13	802	2	63.79	68.90	0	2	13	0	-0.1375	both split	60
+Autumnicola	Bacteria	7	1880	1	78.43	82.78	0	1	7	0	nan	both coherent	7
+Avibacterium	Bacteria	5	1408	1	87.93	93.05	6	1	5	0	nan	both coherent	5
+Azohydromonas	Bacteria	5	1334	1	69.22	77.67	0	2	5	0	0.0	RaGCAn one bin, GTDB splits	9
+Azospirillum	Bacteria	30	1135	1	68.05	76.96	10	1	28	2	nan	both coherent	153
+Azotobacter	Bacteria	7	1750	1	79.45	86.40	0	1	4	3	nan	both coherent	8
+Bacillus	Bacteria	132	150	26	53.82	64.11	59	41	118	14	0.9676	both split	578
+Bacteroides	Bacteria	58	10	3	42.10	74.61	7	3	54	4	0.4031	both split	160
+Bartonella	Bacteria	55	305	1	66.70	80.95	7	1	53	2	nan	both coherent	40
+Bathymodiolus	Bacteria	5	160	2	51.75	64.16	0	2	5	0	1.0	both split	7
+Bdellovibrio	Bacteria	4	1579	1	71.97	74.14	0	1	4	0	nan	both coherent	5
+Belliella	Bacteria	9	1811	1	75.80	80.43	0	1	9	0	nan	both coherent	9
+Belnapia	Bacteria	4	3493	1	84.40	86.43	0	1	4	0	nan	both coherent	9
+Bergeyella	Bacteria	4	687	1	67.60	70.19	0	3	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Bhargavaea	Bacteria	6	1831	1	76.55	85.75	0	1	6	0	nan	both coherent	6
+Bifidobacterium	Bacteria	109	137	2	64.54	71.49	12	3	105	4	0.7302	both split	194
+Billgrantia	Bacteria	18	1478	1	77.84	84.29	3	1	17	1	nan	both coherent	27
+Bizionia	Bacteria	8	152	1	66.92	75.51	1	2	7	1	0.0	RaGCAn one bin, GTDB splits	5
+Blastococcus	Bacteria	17	1242	1	77.25	80.10	0	2	17	0	0.0	RaGCAn one bin, GTDB splits	84
+Blastomonas	Bacteria	4	2305	1	82.41	85.12	0	1	4	0	nan	both coherent	5
+Blautia	Bacteria	29	382	5	59.12	68.20	5	4	27	2	0.9175	both split	43
+Bombella	Bacteria	8	1252	1	81.15	85.75	1	1	8	0	nan	both coherent	5
+Bombilactobacillus	Bacteria	6	502	1	66.02	68.15	0	1	6	0	nan	both coherent	4
+Bordetella	Bacteria	17	1033	1	69.96	76.32	3	3	14	3	0.0	RaGCAn one bin, GTDB splits	36
+Borrelia	Bacteria	16	573	1	72.98	81.88	5	1	14	2	nan	both coherent	36
+Borreliella	Bacteria	17	790	1	88.13	91.39	5	1	17	0	nan	both coherent	44
+Bowmanella	Bacteria	4	2146	1	73.64	79.13	0	1	3	1	nan	both coherent	5
+Brachybacterium	Bacteria	29	513	1	67.55	72.38	1	1	28	1	nan	both coherent	37
+Brachyspira	Bacteria	11	917	1	73.67	81.14	0	1	11	0	nan	both coherent	9
+Bradyrhizobium	Bacteria	90	944	1	70.24	81.58	21	2	86	4	0.0	RaGCAn one bin, GTDB splits	814
+Brenneria	Bacteria	12	1715	1	77.95	85.60	4	2	12	0	0.0	RaGCAn one bin, GTDB splits	16
+Brevibacillus	Bacteria	34	826	3	62.99	71.26	3	9	32	2	0.6076	both split	127
+Brevibacterium	Bacteria	40	373	5	61.87	69.86	1	1	40	0	0.0	RaGCAn split, GTDB one genus	56
+Brevundimonas	Bacteria	40	403	1	65.07	73.86	2	1	40	0	nan	both coherent	45
+Brucella	Bacteria	27	1284	1	80.90	87.66	51	1	26	1	nan	both coherent	50
+Brumimicrobium	Bacteria	5	1529	1	74.16	77.57	0	1	5	0	nan	both coherent	5
+Burkholderia	Bacteria	46	1750	1	76.21	85.39	20	1	46	0	nan	both coherent	212
+Buttiauxella	Bacteria	9	2678	1	90.61	92.58	3	1	9	0	nan	both coherent	11
+Butyricicoccus	Bacteria	4	434	3	59.47	63.30	0	3	4	0	1.0	both split	4
+Butyricimonas	Bacteria	7	1631	1	78.94	84.41	1	1	7	0	nan	both coherent	12
+Caballeronia	Bacteria	26	2082	1	74.61	82.61	1	1	26	0	nan	both coherent	193
+Caenimonas	Bacteria	5	1690	1	73.13	75.17	0	1	5	0	nan	both coherent	7
+Caldalkalibacillus	Bacteria	5	737	4	61.61	65.09	0	3	4	1	1.0	both split	5
+Caldicellulosiruptor	Bacteria	10	1228	1	79.46	85.87	2	1	10	0	nan	both coherent	7
+Caldimonas	Bacteria	9	1205	1	70.67	76.65	1	1	8	1	nan	both coherent	9
+Calidithermus	Bacteria	4	2182	1	86.68	89.23	1	1	4	0	nan	both coherent	5
+Caloramator	Bacteria	5	631	3	64.06	68.28	0	3	5	0	1.0	both split	4
+Campylobacter	Bacteria	55	118	11	54.64	63.30	1	6	55	0	0.8159	both split	34
+Capnocytophaga	Bacteria	15	459	3	63.96	72.25	1	1	15	0	0.0	RaGCAn split, GTDB one genus	8
+Caproiciproducens	Bacteria	4	1354	1	75.94	82.91	0					not scored (no GTDB data)	4
+Carboxydothermus	Bacteria	4	1865	1	85.68	90.77	1	1	4	0	nan	both coherent	5
+Carboxylicivirga	Bacteria	10	1310	1	68.36	74.59	1	1	10	0	nan	both coherent	37
+Carnobacterium	Bacteria	12	665	1	65.32	72.61	0	3	11	1	0.0	RaGCAn one bin, GTDB splits	8
+Castellaniella	Bacteria	6	1624	1	79.72	86.44	0	1	6	0	nan	both coherent	6
+Catellatospora	Bacteria	10	3044	1	76.91	86.44	1	1	10	0	nan	both coherent	144
+Catenovulum	Bacteria	4	1239	1	67.45	68.84	0	1	4	0	nan	both coherent	5
+Catenulispora	Bacteria	6	3443	1	77.61	81.62	0	1	6	0	nan	both coherent	17
+Catenuloplanes	Bacteria	5	4228	1	81.67	85.35	0	1	5	0	nan	both coherent	12
+Caulobacter	Bacteria	13	980	1	65.91	74.79	1	1	13	0	nan	both coherent	66
+Cedecea	Bacteria	5	2537	1	83.62	89.54	1	2	5	0	0.0	RaGCAn one bin, GTDB splits	7
+Celeribacter	Bacteria	10	1314	1	72.45	77.67	0	1	10	0	nan	both coherent	10
+Celerinatantimonas	Bacteria	4	1587	1	70.60	74.67	0	1	4	0	nan	both coherent	5
+Cellulomonas	Bacteria	50	421	1	65.51	72.16	1	4	46	4	0.0	RaGCAn one bin, GTDB splits	132
+Cellulophaga	Bacteria	6	1427	1	70.72	76.77	0	1	6	0	nan	both coherent	6
+Cellulosimicrobium	Bacteria	7	1691	1	79.62	86.31	3	1	7	0	nan	both coherent	7
+Cellvibrio	Bacteria	7	1026	1	66.56	73.62	0	1	7	0	nan	both coherent	7
+Centipeda	Bacteria	8	1175	1	78.10	83.22	0	1	8	0	nan	both coherent	5
+Cerasicoccus	Bacteria	4	1827	1	74.37	77.42	0	1	4	0	nan	both coherent	5
+Cereibacter	Bacteria	6	1922	1	75.74	83.56	2	2	6	0	0.0	RaGCAn one bin, GTDB splits	7
+Chelativorans	Bacteria	8	1166	1	68.97	76.48	1	1	8	0	nan	both coherent	10
+Chelatococcus	Bacteria	6	955	2	61.34	71.46	0	3	6	0	0.5	both split	9
+Chitinibacter	Bacteria	4	1814	1	77.57	80.61	0	1	4	0	nan	both coherent	5
+Chitinimonas	Bacteria	7	1250	1	68.74	73.65	0	2	5	2	0.0	RaGCAn one bin, GTDB splits	7
+Chitinophaga	Bacteria	48	779	3	64.01	68.82	0	1	48	0	0.0	RaGCAn split, GTDB one genus	292
+Chlamydia	Bacteria	17	363	1	65.68	74.10	0	1	17	0	nan	both coherent	25
+Chlorobaculum	Bacteria	4	1437	1	81.14	84.69	0	1	4	0	nan	both coherent	4
+Chlorobium	Bacteria	4	834	1	68.62	70.59	0	1	4	0	nan	both coherent	4
+Chondromyces	Bacteria	5	4120	1	75.44	82.38	0					not scored (no GTDB data)	16
+Christensenella	Bacteria	6	902	1	71.44	77.36	0	1	6	0	nan	both coherent	5
+Christiangramia	Bacteria	18	1435	1	73.11	78.66	0	1	18	0	nan	both coherent	81
+Chromobacterium	Bacteria	16	1996	1	75.15	82.26	6	1	16	0	nan	both coherent	114
+Chromohalobacter	Bacteria	7	2216	1	87.15	91.37	3	1	7	0	nan	both coherent	7
+Chryseobacterium	Bacteria	137	528	1	68.01	80.52	14	4	133	4	0.0	RaGCAn one bin, GTDB splits	595
+Ciceribacter	Bacteria	5	2300	1	75.71	86.18	0	1	5	0	nan	both coherent	7
+Citricoccus	Bacteria	5	1797	1	82.56	88.81	0	1	5	0	nan	both coherent	5
+Citrobacter	Bacteria	21	2435	1	82.31	90.97	43	5	21	0	0.0	RaGCAn one bin, GTDB splits	52
+Clavibacter	Bacteria	14	1947	1	89.44	91.63	5	1	12	2	nan	both coherent	17
+Clostridium	Bacteria	164	10	46	45.72	58.01	8	45	157	7	0.5197	both split	708
+Cognatiluteimonas	Bacteria	5	1101	1	73.59	76.89	0	1	5	0	nan	both coherent	4
+Cognatilysobacter	Bacteria	6	1068	1	71.06	75.82	0	2	6	0	0.0	RaGCAn one bin, GTDB splits	5
+Cognatundibacterium	Bacteria	10	1587	1	71.30	78.69	3	1	10	0	nan	both coherent	9
+Cohaesibacter	Bacteria	5	1365	1	66.54	71.99	0	1	4	1	nan	both coherent	6
+Cohnella	Bacteria	37	513	2	63.08	69.51	1	1	37	0	0.0	RaGCAn split, GTDB one genus	151
+Collimonas	Bacteria	7	2385	1	85.65	87.75	0	1	7	0	nan	both coherent	9
+Collinsella	Bacteria	11	391	1	65.92	70.88	1	1	11	0	nan	both coherent	6
+Colwellia	Bacteria	13	676	1	65.16	72.77	0	3	11	2	0.0	RaGCAn one bin, GTDB splits	47
+Comamonas	Bacteria	32	566	2	64.77	72.68	2	4	30	2	0.2817	both split	83
+Commensalibacter	Bacteria	5	978	1	69.13	76.25	0	1	5	0	nan	both coherent	4
+Companilactobacillus	Bacteria	36	553	1	66.93	76.33	5	1	35	1	nan	both coherent	36
+Confluentibacter	Bacteria	4	1944	1	84.44	87.52	0	1	4	0	nan	both coherent	5
+Coprococcus	Bacteria	7	289	3	56.52	63.21	1	4	7	0	0.8591	both split	5
+Coraliomargarita	Bacteria	4	924	1	67.92	68.87	0	4	4	0	0.0	RaGCAn one bin, GTDB splits	5
+Corallincola	Bacteria	4	2456	1	76.05	87.31	3	1	4	0	nan	both coherent	5
+Corallococcus	Bacteria	14	2821	1	72.91	85.43	0	2	13	1	0.0	RaGCAn one bin, GTDB splits	192
+Corynebacterium	Bacteria	183	133	16	59.30	64.90	23	1	182	1	0.0	RaGCAn split, GTDB one genus	466
+Crenobacter	Bacteria	5	1147	1	67.79	73.66	0	3	5	0	0.0	RaGCAn one bin, GTDB splits	5
+Croceibacterium	Bacteria	9	822	1	67.80	71.72	0	4	9	0	0.0	RaGCAn one bin, GTDB splits	7
+Croceicoccus	Bacteria	11	717	2	64.77	72.69	0	2	11	0	1.0	both split	8
+Croceitalea	Bacteria	4	1655	1	72.77	76.41	0	1	4	0	nan	both coherent	5
+Cronobacter	Bacteria	7	3160	1	92.60	94.20	7	1	7	0	nan	both coherent	9
+Cryobacterium	Bacteria	35	797	1	70.71	76.75	1	1	35	0	nan	both coherent	88
+Cryptosporangium	Bacteria	5	3368	1	78.63	81.36	0	1	5	0	nan	both coherent	12
+Cupriavidus	Bacteria	29	1617	1	75.48	81.86	19	1	28	1	nan	both coherent	108
+Curtobacterium	Bacteria	18	1023	1	72.07	81.73	1	1	17	1	nan	both coherent	65
+Curvibacter	Bacteria	7	1008	1	69.63	75.71	1	3	6	1	0.0	RaGCAn one bin, GTDB splits	10
+Cutibacterium	Bacteria	8	756	1	70.22	83.05	0	1	6	2	nan	both coherent	5
+Cyclobacterium	Bacteria	10	2177	1	72.21	77.76	1	1	9	1	nan	both coherent	59
+Cystobacter	Bacteria	6	3870	1	77.67	84.36	1					not scored (no GTDB data)	19
+Cytobacillus	Bacteria	18	1098	1	65.55	72.41	0	2	17	1	0.0	RaGCAn one bin, GTDB splits	26
+Dactylosporangium	Bacteria	11	2358	1	73.82	78.13	0	1	10	1	nan	both coherent	49
+Dechloromonas	Bacteria	5	1675	1	75.65	80.23	1	1	5	0	nan	both coherent	6
+Deefgea	Bacteria	5	1898	1	80.44	83.91	0	1	5	0	nan	both coherent	5
+Deferribacter	Bacteria	4	1306	1	72.49	77.51	0	1	4	0	nan	both coherent	4
+Dehalogenimonas	Bacteria	4	783	1	68.48	73.78	0	1	4	0	nan	both coherent	4
+Deinococcus	Bacteria	91	181	5	55.15	70.33	12	4	90	1	0.4073	both split	271
+Delftia	Bacteria	4	4474	1	94.22	95.57	4	1	4	0	nan	both coherent	9
+Demequina	Bacteria	26	276	2	61.11	72.16	0	1	26	0	0.0	RaGCAn split, GTDB one genus	37
+Dermacoccus	Bacteria	4	1674	1	77.75	87.62	3	1	4	0	nan	both coherent	5
+Desulfitobacterium	Bacteria	7	1053	1	66.15	74.20	0	2	6	1	0.0	RaGCAn one bin, GTDB splits	8
+Desulfobacter	Bacteria	5	1590	1	82.55	84.81	0	1	5	0	nan	both coherent	6
+Desulfobotulus	Bacteria	4	1759	1	74.81	79.18	0	1	3	1	nan	both coherent	5
+Desulfobulbus	Bacteria	6	534	2	61.06	68.39	0	1	6	0	0.0	RaGCAn split, GTDB one genus	6
+Desulfofundulus	Bacteria	7	1480	1	76.46	86.22	1	2	7	0	0.0	RaGCAn one bin, GTDB splits	6
+Desulfogranum	Bacteria	4	1393	1	66.22	68.93	0	1	3	1	nan	both coherent	6
+Desulfomicrobium	Bacteria	8	1272	1	71.96	82.29	4	1	6	2	nan	both coherent	9
+Desulfonatronum	Bacteria	5	1666	1	75.21	79.83	0	1	4	1	nan	both coherent	7
+Desulforamulus	Bacteria	8	889	1	70.83	74.67	0	1	7	1	nan	both coherent	6
+Desulfosarcina	Bacteria	5	1894	1	71.29	73.21	0	1	4	1	nan	both coherent	10
+Desulfosporosinus	Bacteria	14	1137	1	71.61	77.45	1	1	12	2	nan	both coherent	74
+Desulfovibrio	Bacteria	19	121	9	51.66	59.04	0	8	16	3	1.0	both split	17
+Desulfurivibrio	Bacteria	4	1164	1	73.39	76.71	0	1	4	0	nan	both coherent	4
+Desulfurobacterium	Bacteria	5	600	1	65.62	70.25	0	2	3	2	0.0	RaGCAn one bin, GTDB splits	4
+Desulfuromonas	Bacteria	6	485	3	59.51	63.00	0	4	4	2	0.0	both split	6
+Dethiosulfovibrio	Bacteria	6	1361	1	72.24	88.50	6	1	6	0	nan	both coherent	5
+Devosia	Bacteria	42	470	2	64.09	73.98	0	3	40	2	0.9928	both split	100
+Dialister	Bacteria	6	381	3	61.46	65.46	0	2	6	0	0.5872	both split	4
+Diaphorobacter	Bacteria	6	1183	1	72.92	78.14	0	3	5	1	0.0	RaGCAn one bin, GTDB splits	7
+Dickeya	Bacteria	13	2391	1	85.90	90.75	10	1	13	0	nan	both coherent	136
+Dictyobacter	Bacteria	7	1804	1	71.13	77.31	0	1	5	2	nan	both coherent	13
+Dietzia	Bacteria	13	818	2	64.32	81.47	5	1	12	1	0.0	RaGCAn split, GTDB one genus	53
+Dokdonella	Bacteria	6	1075	1	67.27	70.07	0	2	6	0	0.0	RaGCAn one bin, GTDB splits	6
+Dokdonia	Bacteria	5	1468	1	71.39	75.80	1	1	5	0	nan	both coherent	5
+Dolichospermum	Bacteria	5	2250	1	85.27	87.98	0	1	5	0	nan	both coherent	6
+Domibacillus	Bacteria	9	1467	1	75.52	80.42	0	1	9	0	nan	both coherent	8
+Dongia	Bacteria	5	1079	4	63.66	65.46	0	3	5	0	0.4118	both split	7
+Dorea	Bacteria	7	701	1	69.06	73.14	0	5	6	1	0.0	RaGCAn one bin, GTDB splits	5
+Draconibacterium	Bacteria	5	2132	1	74.81	83.88	0	1	5	0	nan	both coherent	7
+Dryocola	Bacteria	5	2300	1	87.91	90.39	0	1	5	0	nan	both coherent	6
+Duganella	Bacteria	24	1894	1	75.71	82.17	5	1	20	4	nan	both coherent	70
+Duncaniella	Bacteria	4	962	1	72.02	75.16	0	1	4	0	nan	both coherent	4
+Dyadobacter	Bacteria	30	1284	1	68.65	75.58	1	1	29	1	nan	both coherent	161
+Dyella	Bacteria	38	941	1	71.12	75.87	0	6	34	4	0.0	RaGCAn one bin, GTDB splits	71
+Dysgonomonas	Bacteria	6	875	1	67.76	74.61	0	1	4	2	nan	both coherent	6
+Echinicola	Bacteria	11	1535	1	70.93	77.67	0	1	10	1	nan	both coherent	15
+Ectobacillus	Bacteria	6	1181	1	67.10	71.24	0	1	6	0	nan	both coherent	6
+Ectopseudomonas	Bacteria	9	2829	1	88.89	92.19	3	1	8	1	nan	both coherent	12
+Ectothiorhodospira	Bacteria	7	1236	1	72.36	79.32	1	1	7	0	nan	both coherent	6
+Edaphobacter	Bacteria	8	1141	1	69.85	74.05	0	1	8	0	nan	both coherent	9
+Edwardsiella	Bacteria	5	2379	1	86.76	90.44	1	1	5	0	nan	both coherent	5
+Effusibacillus	Bacteria	4	1402	1	70.87	73.41	0	1	4	0	nan	both coherent	5
+Eggerthella	Bacteria	5	1797	1	83.60	88.36	1	1	5	0	nan	both coherent	7
+Ehrlichia	Bacteria	7	47	2	48.30	72.51	0	2	7	0	1.0	both split	3
+Eikenella	Bacteria	5	1237	1	85.94	89.14	0	1	5	0	nan	both coherent	4
+Elizabethkingia	Bacteria	7	1378	1	77.76	87.52	2	1	7	0	nan	both coherent	6
+Empedobacter	Bacteria	5	1819	1	84.97	87.83	0	1	5	0	nan	both coherent	5
+Emticicia	Bacteria	7	1824	1	72.01	77.10	0	1	6	1	nan	both coherent	9
+Endozoicomonas	Bacteria	10	1065	1	65.84	72.29	0	2	10	0	0.0	RaGCAn one bin, GTDB splits	68
+Enorma	Bacteria	5	863	1	75.63	79.84	1	1	5	0	nan	both coherent	4
+Ensifer	Bacteria	6	1901	1	71.45	79.67	0	3	6	0	0.0	RaGCAn one bin, GTDB splits	10
+Enterobacter	Bacteria	28	2686	1	91.66	94.01	98	1	28	0	nan	both coherent	57
+Enterocloster	Bacteria	6	1123	1	69.27	74.27	0	1	5	1	nan	both coherent	8
+Enterococcus	Bacteria	71	242	5	60.87	68.28	7	13	63	8	0.5369	both split	137
+Enterovibrio	Bacteria	10	2028	1	78.10	82.47	2	1	10	0	nan	both coherent	105
+Epilithonimonas	Bacteria	14	1474	1	80.60	84.81	0	1	14	0	nan	both coherent	83
+Erwinia	Bacteria	24	1456	1	78.04	82.69	8	1	22	2	nan	both coherent	66
+Erysipelothrix	Bacteria	10	301	5	56.38	69.06	3	1	10	0	0.0	RaGCAn split, GTDB one genus	23
+Erythrobacter	Bacteria	21	577	1	65.41	73.73	0	3	21	0	0.0	RaGCAn one bin, GTDB splits	45
+Escherichia	Bacteria	6	2759	1	91.54	94.31	6	1	6	0	nan	both coherent	7
+Eubacterium	Bacteria	16	38	11	47.15	53.50	1	12	16	0	0.8248	both split	14
+Evansella	Bacteria	6	1262	1	67.57	69.42	0	2	6	0	0.0	RaGCAn one bin, GTDB splits	7
+Exiguobacterium	Bacteria	18	882	2	63.33	73.78	4	2	16	2	1.0	both split	55
+Facklamia	Bacteria	4	524	2	63.37	65.21	0	1	3	1	0.0	RaGCAn split, GTDB one genus	4
+Faecalibacterium	Bacteria	12	941	1	74.42	84.18	3	1	12	0	nan	both coherent	9
+Faecalicatena	Bacteria	5	802	2	64.87	71.17	0	4	5	0	0.1379	both split	6
+Falsirhodobacter	Bacteria	4	1312	1	73.67	75.55	0	1	4	0	nan	both coherent	5
+Falsiroseomonas	Bacteria	10	2030	1	73.93	78.34	0	1	10	0	nan	both coherent	134
+Ferdinandcohnia	Bacteria	4	2085	1	73.51	78.96	1	1	4	0	nan	both coherent	6
+Ferrimonas	Bacteria	11	998	2	63.78	69.01	0	1	11	0	0.0	RaGCAn split, GTDB one genus	9
+Ferruginibacter	Bacteria	5	752	2	64.19	67.06	0	1	4	1	0.0	RaGCAn split, GTDB one genus	5
+Fervidobacterium	Bacteria	7	937	1	70.56	78.12	1	2	7	0	0.0	RaGCAn one bin, GTDB splits	5
+Fibrella	Bacteria	7	2152	1	74.26	78.27	0	1	7	0	nan	both coherent	10
+Fictibacillus	Bacteria	16	1006	2	64.51	72.65	1	3	16	0	0.8992	both split	63
+Flagellimonas	Bacteria	48	1138	1	70.51	77.99	2	3	48	0	0.0	RaGCAn one bin, GTDB splits	91
+Flammeovirga	Bacteria	6	2017	1	70.13	73.74	0	1	6	0	nan	both coherent	10
+Flaviflexus	Bacteria	5	1182	1	73.99	77.22	0	1	5	0	nan	both coherent	4
+Flavihumibacter	Bacteria	8	1337	1	67.55	71.59	0	1	7	1	nan	both coherent	9
+Flavisolibacter	Bacteria	5	1237	1	66.12	69.94	0	1	4	1	nan	both coherent	6
+Flavivirga	Bacteria	9	1669	1	77.02	82.79	0	2	9	0	0.0	RaGCAn one bin, GTDB splits	11
+Flavobacterium	Bacteria	327	248	4	62.34	72.88	24	1	319	8	0.0	RaGCAn split, GTDB one genus	2383
+Flectobacillus	Bacteria	4	2755	1	76.77	85.79	1	1	4	0	nan	both coherent	7
+Flexivirga	Bacteria	7	1580	1	74.03	78.74	0	1	6	1	nan	both coherent	7
+Flintibacter	Bacteria	4	822	1	68.01	70.71	0	1	4	0	nan	both coherent	4
+Floridaenema	Bacteria	4	3346	1	86.17	88.29	0					not scored (no GTDB data)	8
+Fodinibius	Bacteria	9	1058	1	70.39	73.11	0	1	9	0	nan	both coherent	8
+Formosa	Bacteria	7	1901	1	80.09	83.00	0	1	7	0	nan	both coherent	7
+Francisella	Bacteria	15	614	1	69.17	81.94	4	1	15	0	nan	both coherent	20
+Frankia	Bacteria	8	1154	1	66.54	77.40	0	2	8	0	0.0	RaGCAn one bin, GTDB splits	13
+Frateuria	Bacteria	7	935	1	66.52	79.25	0	3	7	0	0.0	RaGCAn one bin, GTDB splits	6
+Frondihabitans	Bacteria	4	1309	1	73.77	76.10	0	1	4	0	nan	both coherent	5
+Fructilactobacillus	Bacteria	11	475	2	63.95	72.71	2	1	11	0	0.0	RaGCAn split, GTDB one genus	5
+Fructobacillus	Bacteria	13	609	1	71.21	77.03	2	1	13	0	nan	both coherent	39
+Fulvimarina	Bacteria	6	1696	1	71.51	77.41	0	1	6	0	nan	both coherent	6
+Fulvivirga	Bacteria	11	787	3	61.87	67.78	0	1	10	1	0.0	RaGCAn split, GTDB one genus	15
+Fundidesulfovibrio	Bacteria	6	1121	1	65.53	72.24	0	1	5	1	nan	both coherent	8
+Furfurilactobacillus	Bacteria	6	988	1	74.62	79.59	3	1	4	2	nan	both coherent	5
+Fusibacter	Bacteria	5	606	4	59.67	62.63	0	3	3	2	nan	both split	5
+Fusobacterium	Bacteria	22	255	4	58.35	71.17	1	4	20	2	1.0	both split	15
+Gaetbulibacter	Bacteria	4	1129	1	69.94	71.72	0	4	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Galbibacter	Bacteria	5	1417	1	71.30	75.65	0	1	5	0	nan	both coherent	6
+Gallaecimonas	Bacteria	5	1566	1	72.93	76.53	0	1	4	1	nan	both coherent	6
+Gallibacterium	Bacteria	5	1337	1	82.65	86.35	0	1	5	0	nan	both coherent	5
+Gardnerella	Bacteria	19	531	1	79.72	85.53	13	1	15	4	nan	both coherent	8
+Gelidibacter	Bacteria	8	1894	1	80.28	83.51	0	1	8	0	nan	both coherent	7
+Gemella	Bacteria	8	873	1	77.62	81.54	1	1	5	3	nan	both coherent	5
+Gemmata	Bacteria	4	2846	1	74.79	80.31	0	1	4	0	nan	both coherent	10
+Gemmobacter	Bacteria	12	1177	1	67.83	76.05	1	2	12	0	0.0	RaGCAn one bin, GTDB splits	13
+Geobacillus	Bacteria	12	1760	1	86.40	91.79	18	1	11	1	nan	both coherent	10
+Geobacter	Bacteria	9	923	2	63.78	74.84	1	2	8	1	0.0	RaGCAn one bin, GTDB splits	9
+Geodermatophilus	Bacteria	20	1557	1	77.00	81.39	0	1	20	0	nan	both coherent	34
+Geomonas	Bacteria	14	1916	1	72.53	83.70	3	1	14	0	nan	both coherent	117
+Georgenia	Bacteria	16	608	2	64.34	70.68	0	5	15	1	0.5168	both split	46
+Geothrix	Bacteria	12	1622	1	76.94	85.57	2	1	12	0	nan	both coherent	10
+Gilliamella	Bacteria	6	1307	1	82.21	85.77	0	1	6	0	nan	both coherent	5
+Gillisia	Bacteria	6	1404	1	73.98	78.21	0	1	6	0	nan	both coherent	6
+Gilvimarinus	Bacteria	7	1426	1	70.24	74.75	0	1	7	0	nan	both coherent	7
+Gimesia	Bacteria	8	3026	1	76.31	80.98	1	1	8	0	nan	both coherent	16
+Gluconacetobacter	Bacteria	13	1112	1	69.65	81.84	3	2	13	0	0.0	RaGCAn one bin, GTDB splits	67
+Gluconobacter	Bacteria	17	1277	1	74.81	83.36	4	1	17	0	nan	both coherent	72
+Glutamicibacter	Bacteria	13	1328	1	72.07	78.03	2	1	12	1	nan	both coherent	77
+Glycomyces	Bacteria	24	1373	1	73.46	78.86	1	1	21	3	nan	both coherent	52
+Gordonia	Bacteria	59	560	2	64.36	71.19	4	2	59	0	1.0	both split	177
+Gottfriedia	Bacteria	4	1711	1	70.92	76.94	0	1	4	0	nan	both coherent	5
+Gracilibacillus	Bacteria	22	851	1	65.58	73.58	4	1	21	1	nan	both coherent	30
+Gracilimonas	Bacteria	6	1390	1	74.24	77.27	0	1	6	0	nan	both coherent	6
+Granulicatella	Bacteria	4	491	2	64.92	66.50	0	1	3	1	0.0	RaGCAn split, GTDB one genus	4
+Granulicella	Bacteria	9	568	2	62.18	66.05	0	2	9	0	1.0	both split	9
+Grimontia	Bacteria	6	2447	1	85.96	91.95	3	1	6	0	nan	both coherent	9
+Gryllotalpicola	Bacteria	6	1264	1	74.81	79.90	0	1	6	0	nan	both coherent	6
+Gulosibacter	Bacteria	6	711	1	66.71	71.05	1	1	6	0	nan	both coherent	5
+Guptibacillus	Bacteria	4	2537	1	76.72	81.18	0	1	4	0	nan	both coherent	5
+Gymnodinialimonas	Bacteria	5	1929	1	75.37	78.09	0	1	5	0	nan	both coherent	6
+Haemophilus	Bacteria	10	656	1	69.16	77.23	1	4	10	0	0.0	RaGCAn one bin, GTDB splits	41
+Haladaptatus	Archaea	10	1817	1	75.84	79.91	0	1	7	3	nan	both coherent	14
+Halalkalibacter	Bacteria	13	1212	1	68.80	74.84	1	2	11	2	0.0	RaGCAn one bin, GTDB splits	76
+Halalkalicoccus	Archaea	6	1584	1	74.54	78.14	0	1	5	1	nan	both coherent	77
+Halanaerobium	Bacteria	8	816	1	68.32	75.31	0	1	7	1	nan	both coherent	6
+Halarchaeum	Archaea	5	1364	1	79.30	83.36	0	1	5	0	nan	both coherent	61
+Halarcobacter	Bacteria	4	1382	1	73.19	75.79	0	1	4	0	nan	both coherent	5
+Hallella	Bacteria	7	717	1	67.64	72.33	0	1	7	0	nan	both coherent	5
+Haloarchaeobius	Archaea	10	1428	1	70.84	76.49	0	1	10	0	nan	both coherent	10
+Haloarcula	Archaea	32	1008	1	72.42	77.57	4	1	30	2	nan	both coherent	52
+Halobacillus	Bacteria	24	1102	1	69.13	73.76	2	3	24	0	0.0	RaGCAn one bin, GTDB splits	29
+Halobacterium	Archaea	10	903	1	71.14	76.06	0	1	9	1	nan	both coherent	7
+Halobaculum	Archaea	11	1452	1	79.77	83.74	0	1	11	0	nan	both coherent	9
+Halobellus	Archaea	13	1083	1	74.55	79.32	0	1	13	0	nan	both coherent	11
+Halocatena	Archaea	4	1341	1	65.95	72.17	0	1	4	0	nan	both coherent	59
+Halococcus	Archaea	10	1269	1	71.75	78.74	1	1	9	1	nan	both coherent	8
+Halodesulfovibrio	Bacteria	4	2167	1	84.20	85.49	0	1	3	1	nan	both coherent	5
+Haloechinothrix	Bacteria	4	1788	1	68.82	76.33	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	6
+Haloferax	Archaea	17	1615	1	77.25	84.02	3	1	17	0	nan	both coherent	89
+Haloferula	Bacteria	5	1153	1	67.09	69.53	0	1	5	0	nan	both coherent	6
+Halogeometricum	Archaea	6	1853	1	77.76	81.52	0	1	6	0	nan	both coherent	88
+Haloglomus	Archaea	4	1939	1	79.16	83.43	0	1	4	0	nan	both coherent	88
+Halogranum	Archaea	4	2129	1	79.14	82.52	0	1	3	1	nan	both coherent	94
+Haloimpatiens	Bacteria	4	1076	1	66.69	71.93	0	1	4	0	nan	both coherent	5
+Halolamina	Archaea	6	1479	1	81.06	83.62	0	1	5	1	nan	both coherent	70
+Halomarina	Archaea	7	1198	1	68.28	72.64	0	1	7	0	nan	both coherent	62
+Halomicrobium	Archaea	5	1321	1	69.72	75.22	1	1	5	0	nan	both coherent	59
+Halomonas	Bacteria	71	609	1	68.49	76.06	3	5	65	6	0.0	RaGCAn one bin, GTDB splits	175
+Halonotius	Archaea	4	1453	1	78.51	83.86	0	1	4	0	nan	both coherent	68
+Halopiger	Archaea	5	1641	1	75.58	80.32	0	3	4	1	0.0	RaGCAn one bin, GTDB splits	78
+Haloplanus	Archaea	13	1339	1	78.37	81.03	1	1	13	0	nan	both coherent	28
+Haloprofundus	Archaea	5	2222	1	84.34	86.50	0	1	5	0	nan	both coherent	103
+Halopseudomonas	Bacteria	17	1176	1	72.04	75.51	0	1	16	1	nan	both coherent	19
+Halorhabdus	Archaea	5	1402	1	75.61	78.57	0	1	5	0	nan	both coherent	66
+Halorhodospira	Bacteria	4	979	1	69.60	71.45	0	1	4	0	nan	both coherent	4
+Halorientalis	Archaea	8	1312	1	71.32	75.30	0	1	7	1	nan	both coherent	66
+Halorubrum	Archaea	48	714	1	71.47	79.83	0	1	40	8	nan	both coherent	75
+Halorussus	Archaea	17	1205	1	71.84	77.54	0	1	17	0	nan	both coherent	41
+Halosimplex	Archaea	11	1991	1	79.63	83.44	0	1	11	0	nan	both coherent	13
+Halostagnicola	Archaea	4	2196	1	80.04	83.60	0					not scored (no GTDB data)	7
+Halostella	Archaea	4	1826	1	76.56	78.85	0	1	4	0	nan	both coherent	7
+Haloterrigena	Archaea	6	2327	1	81.53	88.17	0	1	6	0	nan	both coherent	12
+Halovenus	Archaea	8	885	1	65.79	70.14	0	1	7	1	nan	both coherent	48
+Halovivax	Archaea	5	1406	1	71.92	77.01	0	1	5	0	nan	both coherent	66
+Hansschlegelia	Bacteria	4	1668	1	74.20	76.20	0	1	4	0	nan	both coherent	5
+Hanstruepera	Bacteria	4	1893	1	80.56	83.25	0	1	4	0	nan	both coherent	5
+Hathewaya	Bacteria	4	644	2	61.55	66.93	0	1	4	0	0.0	RaGCAn split, GTDB one genus	4
+Helcococcus	Bacteria	5	401	2	63.36	68.10	0	1	5	0	0.0	RaGCAn split, GTDB one genus	4
+Helicobacter	Bacteria	60	81	12	53.74	59.67	0	10	58	2	0.8857	both split	35
+Heliomicrobium	Bacteria	4	1831	1	85.35	87.46	0	1	3	1	nan	both coherent	5
+Henriciella	Bacteria	7	1664	1	74.27	77.27	0	1	7	0	nan	both coherent	6
+Herbaspirillum	Bacteria	12	1856	1	74.32	81.88	2	1	11	1	nan	both coherent	66
+Herbiconiux	Bacteria	13	1249	1	76.02	78.34	0	1	13	0	nan	both coherent	54
+Herbidospora	Bacteria	7	5093	1	87.62	90.72	0	1	7	0	nan	both coherent	18
+Herminiimonas	Bacteria	5	2019	1	81.84	85.41	0	1	5	0	nan	both coherent	6
+Herpetosiphon	Bacteria	4	3922	1	88.44	91.39	0	1	4	0	nan	both coherent	7
+Heyndrickxia	Bacteria	10	923	1	65.33	70.38	1	4	10	0	0.0	RaGCAn one bin, GTDB splits	61
+Hoeflea	Bacteria	5	1179	2	62.91	70.69	0	2	5	0	1.0	both split	6
+Holospora	Bacteria	4	446	1	71.44	77.15	1	1	4	0	nan	both coherent	3
+Homoserinimonas	Bacteria	4	1198	1	74.23	75.55	0	1	3	1	nan	both coherent	4
+Hoylesella	Bacteria	10	549	1	66.42	69.95	0	1	9	1	nan	both coherent	36
+Hoyosella	Bacteria	4	1675	1	70.29	75.50	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	5
+Humibacter	Bacteria	6	1452	1	77.50	80.96	1					not scored (no GTDB data)	6
+Hyalangium	Bacteria	4	4129	1	77.89	79.65	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	12
+Hydrogenimonas	Bacteria	4	1112	1	72.77	76.12	0	1	4	0	nan	both coherent	4
+Hydrogenophaga	Bacteria	18	855	1	68.94	75.12	1	1	16	2	nan	both coherent	66
+Hydrogenophilus	Bacteria	4	1510	1	79.98	87.77	1					not scored (no GTDB data)	4
+Hydrogenovibrio	Bacteria	5	797	1	65.73	71.51	0	1	4	1	nan	both coherent	4
+Hymenobacter	Bacteria	117	367	1	66.18	72.91	5	2	108	9	0.0	RaGCAn one bin, GTDB splits	523
+Hyphobacterium	Bacteria	4	1198	1	66.80	69.88	0	1	4	0	nan	both coherent	4
+Hyphococcus	Bacteria	5	1543	1	72.34	74.59	0	1	5	0	nan	both coherent	5
+Hyphomicrobium	Bacteria	7	753	3	62.72	66.42	0	3	7	0	1.0	both split	6
+Hyphomonas	Bacteria	10	1311	1	69.15	73.62	0	1	10	0	nan	both coherent	78
+Hyunsoonleella	Bacteria	7	1454	1	75.59	80.59	0	2	7	0	0.0	RaGCAn one bin, GTDB splits	6
+Ideonella	Bacteria	11	1031	1	69.28	72.58	0	1	11	0	nan	both coherent	14
+Idiomarina	Bacteria	14	885	1	66.39	76.07	2	1	14	0	nan	both coherent	54
+Ignatzschineria	Bacteria	5	1109	1	76.44	80.44	1	1	5	0	nan	both coherent	4
+Inhella	Bacteria	4	1472	1	72.72	75.30	0	1	4	0	nan	both coherent	5
+Intrasporangium	Bacteria	6	1103	1	71.36	75.32	0	4	5	1	0.0	RaGCAn one bin, GTDB splits	6
+Iodobacter	Bacteria	4	2395	1	89.22	90.87	1	1	4	0	nan	both coherent	6
+Isoptericola	Bacteria	15	1142	1	73.78	77.90	0	1	14	1	nan	both coherent	71
+Janibacter	Bacteria	14	571	1	65.72	73.57	0	4	14	0	0.0	RaGCAn one bin, GTDB splits	39
+Jannaschia	Bacteria	14	1054	1	69.35	73.82	0	1	14	0	nan	both coherent	64
+Janthinobacterium	Bacteria	29	2036	1	76.65	88.92	6	1	28	1	nan	both coherent	78
+Jatrophihabitans	Bacteria	5	696	2	61.69	65.50	0	3	4	1	0.5714	both split	5
+Jeongeupia	Bacteria	4	2454	1	85.28	87.62	0	1	4	0	nan	both coherent	5
+Jeotgalibaca	Bacteria	5	831	1	68.68	71.45	0	1	5	0	nan	both coherent	4
+Jeotgalibacillus	Bacteria	9	1197	1	68.51	74.52	1	1	9	0	nan	both coherent	8
+Jeotgalicoccus	Bacteria	7	1409	1	76.36	82.22	0	1	7	0	nan	both coherent	5
+Jiangella	Bacteria	11	2245	1	77.82	83.93	0	1	11	0	nan	both coherent	37
+Jiella	Bacteria	9	1417	1	72.00	78.20	0	2	9	0	0.0	RaGCAn one bin, GTDB splits	11
+Kaistella	Bacteria	18	1190	1	74.67	79.48	2	1	18	0	nan	both coherent	11
+Kaistia	Bacteria	10	1585	1	70.94	76.15	0	1	10	0	nan	both coherent	97
+Kangiella	Bacteria	10	1198	1	71.59	78.36	0	1	10	0	nan	both coherent	8
+Kibdelosporangium	Bacteria	5	4104	1	77.16	81.40	0	1	5	0	nan	both coherent	15
+Kiloniella	Bacteria	5	2277	1	73.79	80.16	0	1	5	0	nan	both coherent	7
+Kineococcus	Bacteria	25	764	1	67.15	75.16	0	2	24	1	0.0	RaGCAn one bin, GTDB splits	83
+Kineosporia	Bacteria	5	2817	1	76.72	78.47	0	1	5	0	nan	both coherent	10
+Kingella	Bacteria	7	563	1	66.93	72.84	1	6	7	0	0.0	RaGCAn one bin, GTDB splits	5
+Kitasatospora	Bacteria	37	780	1	65.05	75.07	0	2	36	1	0.0	RaGCAn one bin, GTDB splits	191
+Klebsiella	Bacteria	19	2254	1	86.95	89.88	21	1	19	0	nan	both coherent	39
+Klenkia	Bacteria	6	2563	1	84.38	86.34	0	1	6	0	nan	both coherent	8
+Kluyvera	Bacteria	8	2902	1	89.64	91.66	4	1	7	1	nan	both coherent	10
+Knoellia	Bacteria	11	1083	1	67.01	79.49	0	2	11	0	0.0	RaGCAn one bin, GTDB splits	66
+Kocuria	Bacteria	30	401	2	61.73	73.52	1	2	29	1	1.0	both split	51
+Komagataeibacter	Bacteria	14	1648	1	82.60	86.25	1	1	13	1	nan	both coherent	91
+Kordia	Bacteria	6	2012	1	77.95	79.79	0	1	6	0	nan	both coherent	7
+Kordiimonas	Bacteria	9	804	2	62.75	67.83	0	2	8	1	1.0	both split	7
+Kosakonia	Bacteria	12	2730	1	86.84	90.30	9	1	10	2	nan	both coherent	153
+Kribbella	Bacteria	39	1797	1	72.08	79.68	2	1	37	2	nan	both coherent	226
+Kroppenstedtia	Bacteria	4	1280	1	67.44	77.80	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Kurthia	Bacteria	7	1031	1	66.17	71.70	0	1	6	1	nan	both coherent	6
+Kushneria	Bacteria	9	1227	1	68.83	78.95	0	1	8	1	nan	both coherent	8
+Kutzneria	Bacteria	4	3213	1	71.50	78.79	0	1	4	0	nan	both coherent	11
+Labedella	Bacteria	4	1965	1	81.47	83.63	0	1	4	0	nan	both coherent	5
+Labilibaculum	Bacteria	4	2524	1	84.31	87.69	1	1	3	1	nan	both coherent	7
+Labrys	Bacteria	7	1841	1	68.18	77.07	0	1	7	0	nan	both coherent	16
+Laceyella	Bacteria	4	2280	1	81.79	89.57	3	1	4	0	nan	both coherent	5
+Lachnoanaerobaculum	Bacteria	5	1465	1	83.05	86.51	0	1	5	0	nan	both coherent	5
+Lachnospira	Bacteria	4	682	1	65.15	71.64	1	1	4	0	nan	both coherent	4
+Lacibacter	Bacteria	5	2389	1	79.90	83.66	0	1	5	0	nan	both coherent	6
+Lacinutrix	Bacteria	12	514	2	64.95	74.48	0	2	8	4	-0.1034	both split	39
+Lacrimispora	Bacteria	11	1666	1	75.18	79.80	3	1	10	1	nan	both coherent	103
+Lacticaseibacillus	Bacteria	37	365	3	61.53	67.99	15	1	34	3	0.0	RaGCAn split, GTDB one genus	53
+Lactiplantibacillus	Bacteria	22	1000	1	76.42	80.27	4	1	22	0	nan	both coherent	18
+Lactobacillus	Bacteria	49	123	5	53.35	69.21	7	3	48	1	0.0948	both split	39
+Lactococcus	Bacteria	15	483	1	67.64	73.67	4	1	15	0	nan	both coherent	33
+Lampropedia	Bacteria	4	958	1	69.55	72.99	0	1	4	0	nan	both coherent	4
+Lapidilactobacillus	Bacteria	9	715	1	67.83	73.37	1	1	8	1	nan	both coherent	6
+Larkinella	Bacteria	14	1590	1	69.60	79.09	2	2	12	2	0.0	RaGCAn one bin, GTDB splits	104
+Latilactobacillus	Bacteria	6	1043	1	78.49	83.85	1	1	5	1	nan	both coherent	5
+Leclercia	Bacteria	4	3234	1	89.25	91.88	1	1	4	0	nan	both coherent	6
+Lederbergia	Bacteria	9	1252	1	68.40	73.98	0	1	9	0	nan	both coherent	10
+Leeuwenhoekiella	Bacteria	9	1318	1	68.88	78.91	1	1	8	1	nan	both coherent	9
+Legionella	Bacteria	68	235	5	60.73	69.12	1	6	66	2	0.9923	both split	106
+Leifsonia	Bacteria	11	804	1	66.61	76.60	1	3	10	1	0.0	RaGCAn one bin, GTDB splits	53
+Leisingera	Bacteria	7	2881	1	87.13	89.67	1	1	7	0	nan	both coherent	9
+Lelliottia	Bacteria	5	426	2	52.34	77.17	3	1	4	1	nan	both coherent	6
+Lentibacillus	Bacteria	16	689	2	63.57	71.66	0	4	14	2	0.2222	both split	47
+Lentilactobacillus	Bacteria	21	461	1	65.15	73.25	1	1	19	2	nan	both coherent	38
+Lentzea	Bacteria	28	2419	1	74.85	86.17	4	1	26	2	nan	both coherent	156
+Leptolyngbya	Bacteria	4	928	4	60.46	62.27	0	4	4	0	nan	both split	6
+Leptospira	Bacteria	73	431	3	54.95	66.12	17	3	73	0	1.0	both split	174
+Leptotrichia	Bacteria	10	859	1	75.59	86.08	0	1	10	0	nan	both coherent	7
+Leucobacter	Bacteria	34	331	2	63.76	73.72	3	2	30	4	1.0	both split	62
+Leuconostoc	Bacteria	18	614	1	68.50	76.39	2	2	18	0	0.0	RaGCAn one bin, GTDB splits	9
+Levilactobacillus	Bacteria	32	577	2	64.66	79.75	12	1	31	1	0.0	RaGCAn split, GTDB one genus	59
+Ligilactobacillus	Bacteria	20	261	6	61.62	65.63	0	1	19	1	0.0	RaGCAn split, GTDB one genus	9
+Limimaricola	Bacteria	6	2015	1	81.19	85.06	0	1	5	1	nan	both coherent	6
+Limnobacter	Bacteria	7	1291	1	71.11	80.41	1	1	7	0	nan	both coherent	6
+Limnobaculum	Bacteria	5	2217	1	93.13	94.14	2	1	5	0	nan	both coherent	6
+Limnohabitans	Bacteria	5	1016	1	70.38	78.85	0	2	5	0	0.0	RaGCAn one bin, GTDB splits	6
+Limosilactobacillus	Bacteria	37	317	3	62.16	71.73	9	1	35	2	0.0	RaGCAn split, GTDB one genus	40
+Liquorilactobacillus	Bacteria	13	636	1	65.93	70.73	0	1	13	0	nan	both coherent	40
+Listeria	Bacteria	23	575	1	65.38	74.87	5	2	22	1	0.0	RaGCAn one bin, GTDB splits	19
+Litchfieldella	Bacteria	4	2088	1	78.72	82.86	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	5
+Litchfieldia	Bacteria	5	1318	1	67.43	71.26	0	3	5	0	0.0	RaGCAn one bin, GTDB splits	5
+Litoreibacter	Bacteria	8	1550	1	70.59	80.73	1	1	8	0	nan	both coherent	8
+Loigolactobacillus	Bacteria	8	724	1	65.66	74.47	1	1	8	0	nan	both coherent	5
+Loktanella	Bacteria	5	1363	1	68.47	74.20	0	2	5	0	0.0	RaGCAn one bin, GTDB splits	5
+Longispora	Bacteria	4	2431	1	72.42	79.78	0	1	3	1	nan	both coherent	8
+Lonsdalea	Bacteria	4	2512	1	93.09	93.85	0	1	4	0	nan	both coherent	5
+Luteibacter	Bacteria	11	1991	1	79.18	81.24	0	1	11	0	nan	both coherent	115
+Luteimonas	Bacteria	43	484	1	68.32	73.03	2	2	42	1	0.0	RaGCAn one bin, GTDB splits	58
+Luteococcus	Bacteria	5	992	1	69.82	73.20	0	1	4	1	nan	both coherent	5
+Luteolibacter	Bacteria	4	805	2	62.72	65.35	0	1	4	0	0.0	RaGCAn split, GTDB one genus	5
+Lutibacter	Bacteria	10	1220	1	73.58	76.68	0	1	10	0	nan	both coherent	31
+Lutimaribacter	Bacteria	4	1624	1	68.94	76.58	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	5
+Lutimonas	Bacteria	4	2025	1	76.75	79.83	0	1	4	0	nan	both coherent	5
+Lysinibacillus	Bacteria	27	667	1	65.10	76.52	8	5	26	1	0.0	RaGCAn one bin, GTDB splits	45
+Lysobacter	Bacteria	38	468	2	64.60	73.42	0	11	30	8	0.023	both split	49
+Macrococcoides	Bacteria	4	1335	1	75.30	81.61	0	1	4	0	nan	both coherent	4
+Macrococcus	Bacteria	12	840	1	68.61	73.63	0	2	12	0	0.0	RaGCAn one bin, GTDB splits	51
+Magnetospirillum	Bacteria	6	1028	1	65.77	70.92	0	2	6	0	0.0	RaGCAn one bin, GTDB splits	7
+Malaciobacter	Bacteria	6	1036	1	69.37	77.85	1	2	6	0	0.0	RaGCAn one bin, GTDB splits	6
+Mammaliicoccus	Bacteria	5	1764	1	82.10	84.87	0	1	5	0	nan	both coherent	5
+Mangrovimonas	Bacteria	6	1075	1	69.69	74.51	0	3	6	0	0.0	RaGCAn one bin, GTDB splits	5
+Mannheimia	Bacteria	10	768	1	68.84	84.92	2	2	10	0	0.0	RaGCAn one bin, GTDB splits	49
+Maribacter	Bacteria	37	490	1	66.26	74.55	2	5	37	0	0.0	RaGCAn one bin, GTDB splits	72
+Maribellus	Bacteria	5	1728	1	69.14	74.57	0	1	5	0	nan	both coherent	8
+Maricaulis	Bacteria	5	1507	1	70.71	75.12	0	1	5	0	nan	both coherent	5
+Maridesulfovibrio	Bacteria	8	1342	1	67.11	74.58	0	1	7	1	nan	both coherent	9
+Marilutibacter	Bacteria	6	1544	1	77.82	80.78	0	1	5	1	nan	both coherent	5
+Marinicella	Bacteria	8	714	3	60.73	66.76	0	2	8	0	0.3548	both split	6
+Marinifilum	Bacteria	4	2685	1	86.06	89.28	0	1	4	0	nan	both coherent	6
+Mariniflexile	Bacteria	9	1279	1	74.06	81.03	0	2	9	0	0.0	RaGCAn one bin, GTDB splits	8
+Marinimicrobium	Bacteria	5	1176	1	68.49	73.59	0	3	5	0	0.0	RaGCAn one bin, GTDB splits	5
+Marinitoga	Bacteria	7	916	1	75.21	80.38	0	1	5	2	nan	both coherent	6
+Marinobacter	Bacteria	73	534	1	68.12	76.59	4	2	71	2	0.0	RaGCAn one bin, GTDB splits	202
+Marinobacterium	Bacteria	23	498	4	60.40	69.63	0	5	22	1	0.5596	both split	33
+Marinococcus	Bacteria	5	2378	1	91.12	93.05	1	1	3	2	nan	both coherent	5
+Marinomonas	Bacteria	40	695	1	66.16	74.86	1	1	37	3	nan	both coherent	76
+Marinospirillum	Bacteria	6	1026	1	68.81	73.39	0	1	6	0	nan	both coherent	5
+Mariprofundus	Bacteria	5	1031	1	69.24	72.30	0	1	5	0	nan	both coherent	5
+Marisediminitalea	Bacteria	4	2334	1	75.59	82.19	1	1	4	0	nan	both coherent	6
+Maritalea	Bacteria	4	1597	1	69.96	78.86	0	1	4	0	nan	both coherent	5
+Maritimibacter	Bacteria	5	1560	1	71.05	77.60	1	2	5	0	0.0	RaGCAn one bin, GTDB splits	6
+Marivirga	Bacteria	8	1391	1	68.68	74.88	0	1	8	0	nan	both coherent	8
+Marivita	Bacteria	4	2466	1	80.23	83.37	0	1	4	0	nan	both coherent	6
+Marivivens	Bacteria	4	1296	1	69.79	72.45	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Martelella	Bacteria	8	1645	1	71.78	79.46	0	1	8	0	nan	both coherent	11
+Martinezella	Bacteria	9	2911	1	82.25	85.77	0	1	9	0	nan	both coherent	21
+Massilia	Bacteria	53	7	2	54.12	74.56	6	4	51	2	-0.0943	both split	180
+Mediterraneibacter	Bacteria	10	596	1	65.91	71.25	1	3	7	3	0.0	RaGCAn one bin, GTDB splits	42
+Megasphaera	Bacteria	16	383	3	62.89	69.96	1	2	16	0	-0.1399	both split	28
+Meiothermus	Bacteria	7	1349	1	72.15	79.91	0	1	7	0	nan	both coherent	6
+Meridianimarinicoccus	Bacteria	4	1574	1	69.53	74.07	0	1	4	0	nan	both coherent	5
+Mesobacillus	Bacteria	12	925	1	68.56	74.27	0	4	12	0	0.0	RaGCAn one bin, GTDB splits	61
+Mesomycoplasma	Bacteria	11	33	6	51.27	59.03	0	3	11	0	0.3605	both split	7
+Mesonia	Bacteria	11	812	1	67.10	72.49	0	1	11	0	nan	both coherent	51
+Mesoplasma	Bacteria	13	101	3	55.30	68.54	1	4	13	0	0.8082	both split	12
+Mesorhizobium	Bacteria	67	727	1	65.25	80.82	11	10	64	3	0.0	RaGCAn one bin, GTDB splits	447
+Metabacillus	Bacteria	26	806	2	63.27	69.94	4	5	25	1	0.738	both split	77
+Metallosphaera	Archaea	5	1100	1	67.60	71.44	0	1	5	0	nan	both coherent	54
+Metamycoplasma	Bacteria	18	39	5	52.29	64.64	0	2	18	0	0.0767	both split	5
+Metapseudomonas	Bacteria	7	2724	1	80.65	86.24	0	1	6	1	nan	both coherent	11
+Methanimicrococcus	Archaea	4	1050	1	82.73	84.18	0	1	4	0	nan	both coherent	4
+Methanobacterium	Archaea	21	476	4	62.43	67.40	2	6	17	4	0.8411	both split	15
+Methanobrevibacter	Archaea	16	298	5	59.06	65.22	0	8	16	0	0.8532	both split	26
+Methanocalculus	Archaea	5	1221	1	73.87	77.70	0	1	4	1	nan	both coherent	59
+Methanocaldococcus	Archaea	8	641	1	70.48	76.58	0	1	8	0	nan	both coherent	34
+Methanococcoides	Archaea	8	1366	1	77.76	83.55	1	1	8	0	nan	both coherent	6
+Methanococcus	Archaea	5	453	2	62.35	70.00	0	2	4	1	1.0	both split	25
+Methanocorpusculum	Archaea	5	972	1	71.84	79.83	1	1	5	0	nan	both coherent	46
+Methanoculleus	Archaea	16	999	1	69.46	80.91	1	2	16	0	0.0	RaGCAn one bin, GTDB splits	57
+Methanofollis	Archaea	6	1179	1	71.24	76.14	0	1	6	0	nan	both coherent	55
+Methanohalophilus	Archaea	6	887	1	67.50	84.76	0	1	6	0	nan	both coherent	4
+Methanolobus	Archaea	10	1161	1	70.62	77.50	0	1	10	0	nan	both coherent	8
+Methanosarcina	Archaea	17	1052	1	71.46	80.21	1	2	15	2	0.0	RaGCAn one bin, GTDB splits	19
+Methanospirillum	Archaea	4	1053	2	64.08	70.94	0	1	4	0	0.0	RaGCAn split, GTDB one genus	5
+Methanothermobacter	Archaea	6	798	1	67.29	75.90	1	2	5	1	0.0	RaGCAn one bin, GTDB splits	4
+Methylobacillus	Bacteria	8	1474	1	79.72	82.66	0	1	5	3	nan	both coherent	7
+Methylobacter	Bacteria	6	1420	1	72.02	77.83	0	3	6	0	0.0	RaGCAn one bin, GTDB splits	6
+Methylobacterium	Bacteria	62	756	1	68.27	74.05	3	1	59	3	nan	both coherent	254
+Methylocapsa	Bacteria	4	1492	1	71.48	75.80	0	1	4	0	nan	both coherent	5
+Methyloceanibacter	Bacteria	5	1092	1	73.50	78.71	0	1	5	0	nan	both coherent	4
+Methylocystis	Bacteria	11	1129	1	67.40	76.72	0	1	11	0	nan	both coherent	8
+Methylomonas	Bacteria	16	1119	1	70.54	77.72	1	1	16	0	nan	both coherent	29
+Methylophaga	Bacteria	9	835	1	67.39	72.90	0	1	9	0	nan	both coherent	7
+Methylophilus	Bacteria	7	1588	1	80.11	82.58	0	1	7	0	nan	both coherent	6
+Methylopila	Bacteria	5	1867	1	76.80	81.16	1	1	5	0	nan	both coherent	6
+Methylorubrum	Bacteria	11	2556	1	81.75	85.77	1	1	8	3	nan	both coherent	15
+Microbacterium	Bacteria	185	169	3	61.38	70.73	3	1	172	13	0.0	RaGCAn split, GTDB one genus	862
+Microbispora	Bacteria	12	2713	1	78.80	85.70	2	1	12	0	nan	both coherent	175
+Microbulbifer	Bacteria	33	1207	1	71.07	76.54	0	1	32	1	nan	both coherent	93
+Microcella	Bacteria	9	978	1	72.77	76.09	0	1	9	0	nan	both coherent	6
+Micrococcus	Bacteria	11	706	1	67.96	77.27	3	2	11	0	0.0	RaGCAn one bin, GTDB splits	7
+Microcoleus	Bacteria	14	2505	1	82.12	87.77	0	1	7	7	nan	both coherent	148
+Microcystis	Bacteria	5	2714	1	94.72	95.98	5	1	5	0	nan	both coherent	6
+Microlunatus	Bacteria	15	482	5	60.36	65.58	0	1	15	0	0.0	RaGCAn split, GTDB one genus	45
+Micromonospora	Bacteria	129	14	2	43.21	80.28	43	6	124	5	0.271	both split	1098
+Microtetraspora	Bacteria	4	4273	1	85.41	87.46	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	10
+Microvirga	Bacteria	38	1076	1	67.19	79.12	1	1	36	2	nan	both coherent	126
+Mixta	Bacteria	7	2039	1	78.38	86.35	0	2	7	0	0.0	RaGCAn one bin, GTDB splits	7
+Mobiluncus	Bacteria	4	737	1	70.80	76.38	1	1	4	0	nan	both coherent	4
+Modestobacter	Bacteria	10	1625	1	77.26	81.73	0	1	8	2	nan	both coherent	100
+Modicisalibacter	Bacteria	7	1504	1	75.57	77.85	0	1	6	1	nan	both coherent	7
+Mogibacterium	Bacteria	5	479	2	64.73	77.43	0	2	5	0	1.0	both split	4
+Moraxella	Bacteria	25	354	2	63.34	72.39	1	2	25	0	1.0	both split	30
+Moritella	Bacteria	4	2496	1	87.24	88.09	0	1	4	0	nan	both coherent	5
+Motilibacter	Bacteria	4	1247	1	68.33	72.08	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	5
+Motilimonas	Bacteria	4	1696	1	70.16	76.49	0	1	4	0	nan	both coherent	5
+Mucilaginibacter	Bacteria	85	187	2	61.59	70.47	5	2	81	4	-0.0193	both split	340
+Mumia	Bacteria	6	1822	1	72.81	79.45	0	1	6	0	nan	both coherent	7
+Muricoccus	Bacteria	6	1982	1	74.44	79.26	0	1	6	0	nan	both coherent	10
+Myceligenerans	Bacteria	7	1666	1	78.52	83.43	0	1	5	2	nan	both coherent	8
+Mycetocola	Bacteria	9	601	3	63.08	70.31	0	3	6	3	1.0	both split	7
+Mycobacterium	Bacteria	114	440	1	69.31	77.07	13	1	111	3	nan	both coherent	667
+Mycobacteroides	Bacteria	7	3295	1	88.19	90.00	1	1	7	0	nan	both coherent	10
+Mycolicibacter	Bacteria	15	1876	1	78.75	85.69	2	1	15	0	nan	both coherent	109
+Mycolicibacterium	Bacteria	94	647	1	68.91	74.66	7	1	88	6	nan	both coherent	597
+Mycoplana	Bacteria	4	2432	1	81.26	82.51	0	1	4	0	nan	both coherent	6
+Mycoplasma	Bacteria	50	2	24	40.85	51.21	1	11	48	2	0.4261	both split	19
+Mycoplasmoides	Bacteria	6	17	4	44.93	52.48	0	2	6	0	0.1429	both split	3
+Mycoplasmopsis	Bacteria	44	20	22	50.32	58.70	0	4	43	1	0.0179	both split	13
+Myroides	Bacteria	12	974	1	68.35	74.67	1	1	12	0	nan	both coherent	62
+Myxococcus	Bacteria	12	3417	1	76.29	81.87	2	1	12	0	nan	both coherent	208
+Nakamurella	Bacteria	11	461	4	61.37	64.46	0	1	11	0	0.0	RaGCAn split, GTDB one genus	12
+Nannocystis	Bacteria	5	5227	1	83.23	86.23	0	1	5	0	nan	both coherent	15
+Natrarchaeobius	Archaea	4	1790	1	75.91	77.86	0	1	4	0	nan	both coherent	5
+Natrialba	Archaea	7	1409	1	72.53	80.86	1	2	6	1	0.0	RaGCAn one bin, GTDB splits	68
+Natrinema	Archaea	23	1314	1	77.74	81.44	2	1	22	1	nan	both coherent	34
+Natronobacterium	Archaea	4	1947	1	78.82	82.78	1	1	4	0	nan	both coherent	5
+Natronococcus	Archaea	7	1878	1	77.81	81.80	0	1	7	0	nan	both coherent	84
+Natronomonas	Archaea	10	925	1	71.30	73.90	0	1	10	0	nan	both coherent	8
+Natronorubrum	Archaea	13	1562	1	76.23	80.93	1	1	13	0	nan	both coherent	81
+Natronosalvus	Archaea	6	1625	1	73.86	79.65	0	1	6	0	nan	both coherent	24
+Neisseria	Bacteria	41	543	1	68.50	78.03	36	2	41	0	0.0	RaGCAn one bin, GTDB splits	28
+Neobacillus	Bacteria	33	881	1	66.68	73.80	1	4	31	2	0.0	RaGCAn one bin, GTDB splits	110
+Neolewinella	Bacteria	10	1079	2	64.47	69.55	0	1	10	0	0.0	RaGCAn split, GTDB one genus	72
+Neoluteolibacter	Bacteria	6	1764	1	72.80	75.57	0	1	6	0	nan	both coherent	8
+Neomoorella	Bacteria	6	1352	1	77.65	83.70	0	1	6	0	nan	both coherent	5
+Neorhizobium	Bacteria	13	2051	1	76.65	82.92	1	1	13	0	nan	both coherent	130
+Neoroseomonas	Bacteria	8	2374	1	79.38	82.12	0	1	8	0	nan	both coherent	12
+Neotamlana	Bacteria	4	2000	1	82.86	87.15	0	1	4	0	nan	both coherent	5
+Neptuniibacter	Bacteria	4	1776	1	75.35	77.91	0	1	4	0	nan	both coherent	5
+Neptunomonas	Bacteria	6	1230	1	68.01	73.13	0	1	6	0	nan	both coherent	6
+Nesterenkonia	Bacteria	28	190	2	60.27	71.45	2	1	26	2	0.0	RaGCAn split, GTDB one genus	24
+Niabella	Bacteria	12	1032	1	66.32	73.06	0	1	10	2	nan	both coherent	61
+Niallia	Bacteria	10	1112	2	64.08	72.44	0	2	8	2	1.0	both split	72
+Niastella	Bacteria	6	2939	1	79.19	81.58	0	1	6	0	nan	both coherent	14
+Nioella	Bacteria	5	2126	1	79.09	83.58	0	1	5	0	nan	both coherent	6
+Nisaea	Bacteria	4	3116	1	80.81	84.02	0	1	4	0	nan	both coherent	6
+Nitratidesulfovibrio	Bacteria	4	1420	1	70.13	81.99	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	5
+Nitratireductor	Bacteria	15	999	2	64.23	73.81	3	3	14	1	0.0455	both split	68
+Nitrincola	Bacteria	9	963	1	67.92	74.06	1	1	9	0	nan	both coherent	9
+Nitrosococcus	Bacteria	4	1817	1	79.11	83.09	0	1	4	0	nan	both coherent	5
+Nitrosomonas	Bacteria	14	665	2	63.57	69.55	0	1	12	2	0.0	RaGCAn split, GTDB one genus	41
+Nitrosopumilus	Archaea	7	1254	1	80.50	82.67	0	1	7	0	nan	both coherent	56
+Nitrospira	Bacteria	7	531	3	57.20	65.24	0	4	5	2	0.1379	both split	7
+Nitrospirillum	Bacteria	9	3254	1	85.99	90.37	4	1	9	0	nan	both coherent	18
+Niveispirillum	Bacteria	4	2177	1	75.27	79.21	0	1	3	1	nan	both coherent	6
+Nocardia	Bacteria	127	803	1	67.91	74.06	18	1	119	8	nan	both coherent	1508
+Nocardioides	Bacteria	177	47	6	60.28	68.42	0	6	161	16	0.2195	both split	970
+Nocardiopsis	Bacteria	52	6	2	41.39	71.96	6	5	45	7	0.0	RaGCAn one bin, GTDB splits	208
+Nodularia	Bacteria	4	2571	1	85.62	86.93	0	1	4	0	nan	both coherent	6
+Nonlabens	Bacteria	11	962	1	67.76	71.55	0	1	11	0	nan	both coherent	8
+Nonomuraea	Bacteria	65	1343	1	72.00	78.21	4	1	64	1	nan	both coherent	745
+Nostoc	Bacteria	14	1920	1	75.52	82.37	0	3	14	0	0.0	RaGCAn one bin, GTDB splits	35
+Nostocoides	Bacteria	5	893	2	63.44	70.11	0	2	4	1	1.0	both split	5
+Novacetimonas	Bacteria	4	1979	1	85.74	88.46	1	1	4	0	nan	both coherent	5
+Noviherbaspirillum	Bacteria	17	1055	1	67.71	72.78	0	3	16	1	0.0	RaGCAn one bin, GTDB splits	81
+Novilysobacter	Bacteria	8	1059	1	72.23	77.24	0	3	8	0	0.0	RaGCAn one bin, GTDB splits	6
+Novipirellula	Bacteria	7	1413	1	68.67	74.06	0	2	7	0	0.0	RaGCAn one bin, GTDB splits	13
+Novosphingobium	Bacteria	69	492	3	63.77	69.34	1	1	69	0	0.0	RaGCAn split, GTDB one genus	182
+Occallatibacter	Bacteria	4	1346	1	67.89	69.98	0	1	4	0	nan	both coherent	6
+Occultella	Bacteria	4	3407	1	86.47	89.73	0	1	4	0	nan	both coherent	7
+Oceaniglobus	Bacteria	4	1616	1	72.37	74.52	0	1	4	0	nan	both coherent	5
+Oceanimonas	Bacteria	6	2114	1	86.12	88.30	0	1	6	0	nan	both coherent	7
+Oceanisphaera	Bacteria	10	1335	1	76.72	83.01	0	1	9	1	nan	both coherent	14
+Oceanobacillus	Bacteria	35	607	3	62.89	68.85	2	4	35	0	-0.126	both split	85
+Oceanospirillum	Bacteria	6	1491	1	72.53	76.03	0	1	6	0	nan	both coherent	8
+Ochrobactrum	Bacteria	5	2347	1	82.02	85.33	1	1	5	0	nan	both coherent	8
+Octadecabacter	Bacteria	6	1797	1	77.74	80.87	0	1	6	0	nan	both coherent	6
+Oerskovia	Bacteria	9	1517	1	73.99	87.19	1	2	9	0	0.0	RaGCAn one bin, GTDB splits	9
+Olivibacter	Bacteria	5	1255	1	65.87	73.96	1	1	5	0	nan	both coherent	8
+Olleya	Bacteria	4	1780	1	81.50	82.80	0	1	4	0	nan	both coherent	5
+Olsenella	Bacteria	9	366	2	63.52	67.88	0	8	9	0	0.0357	both split	6
+Orbus	Bacteria	5	1273	1	78.23	79.85	0	1	5	0	nan	both coherent	4
+Oricola	Bacteria	4	1757	1	73.11	75.82	0	1	4	0	nan	both coherent	5
+Ornithinibacillus	Bacteria	15	1034	1	65.89	74.96	6	2	14	1	0.0	RaGCAn one bin, GTDB splits	63
+Ornithinimicrobium	Bacteria	19	409	2	64.89	71.85	0	1	18	1	0.0	RaGCAn split, GTDB one genus	18
+Oscillibacter	Bacteria	4	767	1	66.53	68.88	0	1	4	0	nan	both coherent	4
+Ottowia	Bacteria	9	673	1	68.28	74.08	1	1	8	1	nan	both coherent	9
+Oxalobacter	Bacteria	5	846	1	66.83	74.47	0	1	5	0	nan	both coherent	4
+Pacificoceanicola	Bacteria	4	2421	1	77.60	80.14	0	1	4	0	nan	both coherent	6
+Paenalcaligenes	Bacteria	5	767	1	67.28	71.88	0	1	5	0	nan	both coherent	4
+Paenalicyclobacillus	Bacteria	5	599	3	60.54	63.89	0	4	5	0	0.6154	both split	5
+Paenarthrobacter	Bacteria	7	2330	1	84.57	87.20	0	1	7	0	nan	both coherent	9
+Paenibacillus	Bacteria	333	106	29	58.23	63.56	33	37	319	14	0.9341	both split	5677
+Paeniglutamicibacter	Bacteria	9	1345	1	71.28	79.15	0	1	9	0	nan	both coherent	9
+Paenilisteria	Bacteria	5	1810	1	83.92	88.59	1	1	5	0	nan	both coherent	5
+Paenimyroides	Bacteria	7	1001	1	68.16	76.82	0	1	6	1	nan	both coherent	6
+Paenirhizobium	Bacteria	4	2480	1	78.72	82.15	0	1	4	0	nan	both coherent	6
+Paenirhodobacter	Bacteria	5	1426	1	73.99	80.55	2	1	5	0	nan	both coherent	6
+Paenisporosarcina	Bacteria	5	1128	1	68.53	76.31	0	1	5	0	nan	both coherent	5
+Palleronia	Bacteria	9	1026	1	66.61	71.30	1	1	9	0	nan	both coherent	8
+Paludibacterium	Bacteria	5	592	1	65.03	68.99	0	2	5	0	0.0	RaGCAn one bin, GTDB splits	5
+Paludisphaera	Bacteria	4	2263	1	70.61	74.36	0	1	4	0	nan	both coherent	8
+Pandoraea	Bacteria	28	1406	1	70.20	87.25	15	1	28	0	nan	both coherent	70
+Pannonibacter	Bacteria	5	2184	1	75.86	82.72	2	1	5	0	nan	both coherent	7
+Pantoea	Bacteria	33	1645	1	75.57	84.16	18	3	32	1	0.0	RaGCAn one bin, GTDB splits	147
+Parabacteroides	Bacteria	22	900	1	67.78	78.97	7	2	22	0	0.0	RaGCAn one bin, GTDB splits	46
+Paraburkholderia	Bacteria	101	1035	1	73.17	79.50	21	1	97	4	nan	both coherent	865
+Paracidovorax	Bacteria	8	1989	1	79.15	84.86	1	1	8	0	nan	both coherent	11
+Paraclostridium	Bacteria	6	1704	1	78.65	84.61	3	1	6	0	nan	both coherent	6
+Paracoccus	Bacteria	98	283	1	66.52	72.29	5	1	97	0	nan	both coherent	345
+Paractinoplanes	Bacteria	19	2391	1	74.96	78.83	1	1	19	0	nan	both coherent	86
+Paraflavitalea	Bacteria	4	2760	1	75.55	78.69	0	1	4	0	nan	both coherent	9
+Parafrankia	Bacteria	5	2507	1	77.95	81.74	0	1	5	0	nan	both coherent	9
+Paragemmobacter	Bacteria	5	1991	1	77.20	80.72	0	1	5	0	nan	both coherent	6
+Parageobacillus	Bacteria	5	2063	1	86.55	89.68	1	3	5	0	0.0	RaGCAn one bin, GTDB splits	5
+Paraglaciecola	Bacteria	10	815	1	65.34	71.08	0	1	9	1	nan	both coherent	54
+Paraliobacillus	Bacteria	5	1021	1	69.05	73.79	0	2	4	1	0.0	RaGCAn one bin, GTDB splits	5
+Paramagnetospirillum	Bacteria	5	2136	1	76.30	80.39	0	1	5	0	nan	both coherent	8
+Paramesorhizobium	Bacteria	4	2033	1	79.55	82.14	0	1	4	0	nan	both coherent	6
+Paramicrobacterium	Bacteria	5	1538	1	74.52	79.14	0	1	5	0	nan	both coherent	5
+Paraniabella	Bacteria	4	1979	1	76.22	82.37	0	1	4	0	nan	both coherent	6
+Parapedobacter	Bacteria	12	1295	1	73.83	77.04	0	1	12	0	nan	both coherent	53
+Pararhizobium	Bacteria	7	941	2	61.73	74.63	0	2	7	0	1.0	both split	10
+Pararhodobacter	Bacteria	4	1858	1	72.27	75.27	0	1	4	0	nan	both coherent	5
+Parasedimentitalea	Bacteria	5	2563	1	82.43	85.25	1	1	5	0	nan	both coherent	6
+Parashewanella	Bacteria	4	1504	1	70.50	73.58	0	1	4	0	nan	both coherent	5
+Parasphingomonas	Bacteria	5	1336	1	71.39	73.07	0	1	5	0	nan	both coherent	6
+Parasphingorhabdus	Bacteria	6	8	2	39.89	65.13	0	1	5	1	nan	both coherent	5
+Parerythrobacter	Bacteria	5	1279	1	71.40	74.57	0	2	4	1	0.0	RaGCAn one bin, GTDB splits	4
+Parvimonas	Bacteria	4	982	1	85.58	88.29	0	1	4	0	nan	both coherent	4
+Parvularcula	Bacteria	7	466	4	59.82	63.96	0	1	7	0	0.0	RaGCAn split, GTDB one genus	5
+Pasteurella	Bacteria	7	863	1	68.79	77.97	0	3	7	0	0.0	RaGCAn one bin, GTDB splits	5
+Patulibacter	Bacteria	6	1096	1	68.28	72.06	0	1	5	1	nan	both coherent	7
+Paucilactobacillus	Bacteria	8	525	1	67.19	71.91	0	1	7	1	nan	both coherent	5
+Pectinatus	Bacteria	5	1177	1	72.32	74.61	0	1	5	0	nan	both coherent	5
+Pectobacterium	Bacteria	26	1941	1	84.21	93.41	62	2	26	0	0.0	RaGCAn one bin, GTDB splits	63
+Pediococcus	Bacteria	11	507	2	63.28	70.47	0	1	11	0	0.0	RaGCAn split, GTDB one genus	6
+Pedobacter	Bacteria	94	434	3	61.22	71.06	2	3	92	2	1.0	both split	390
+Pedococcus	Bacteria	7	1590	1	73.70	79.86	0	2	6	1	0.0	RaGCAn one bin, GTDB splits	7
+Pelagerythrobacter	Bacteria	4	1873	1	81.52	84.33	0	1	4	0	nan	both coherent	5
+Pelagibacterium	Bacteria	11	1141	1	69.98	74.97	0	1	11	0	nan	both coherent	11
+Pelistega	Bacteria	4	900	1	74.05	76.28	0	1	4	0	nan	both coherent	4
+Pelomonas	Bacteria	10	1964	1	81.32	83.08	0	1	10	0	nan	both coherent	117
+Pelotomaculum	Bacteria	4	982	1	66.15	70.03	0	3	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Peptoniphilus	Bacteria	27	141	7	54.16	66.29	3	6	27	0	0.8186	both split	15
+Peptostreptococcus	Bacteria	7	592	1	68.16	69.94	0	1	7	0	nan	both coherent	5
+Peribacillus	Bacteria	22	805	3	62.81	70.47	1	4	20	2	0.9368	both split	31
+Periweissella	Bacteria	5	640	1	68.22	74.42	0	1	5	0	nan	both coherent	4
+Peteryoungia	Bacteria	7	2171	1	77.55	82.54	0	1	7	0	nan	both coherent	9
+Petrotoga	Bacteria	6	1425	1	91.55	93.16	3	1	5	1	nan	both coherent	5
+Phaeobacter	Bacteria	7	2653	1	82.87	88.46	1	1	7	0	nan	both coherent	8
+Phenylobacterium	Bacteria	16	602	2	63.84	70.48	0	2	15	1	1.0	both split	41
+Phocaeicola	Bacteria	18	580	1	65.34	73.82	1	1	16	2	nan	both coherent	17
+Photobacterium	Bacteria	46	1188	1	69.62	75.91	12	1	46	0	nan	both coherent	119
+Photorhabdus	Bacteria	26	2014	1	88.51	91.13	26	1	25	1	nan	both coherent	117
+Phreatobacter	Bacteria	5	2262	1	74.11	77.89	0	1	4	1	nan	both coherent	8
+Phycicoccus	Bacteria	9	802	1	66.13	74.74	1	2	8	1	0.0	RaGCAn one bin, GTDB splits	9
+Phyllobacterium	Bacteria	14	1567	1	70.14	81.74	2	2	13	1	0.0	RaGCAn one bin, GTDB splits	100
+Phytoactinopolyspora	Bacteria	6	1581	1	71.02	73.61	0	2	6	0	0.0	RaGCAn one bin, GTDB splits	10
+Phytobacter	Bacteria	4	3044	1	86.61	88.89	1	2	3	1	0.0	RaGCAn one bin, GTDB splits	6
+Phytohabitans	Bacteria	7	2363	1	74.22	80.77	0	1	7	0	nan	both coherent	19
+Phytopseudomonas	Bacteria	6	2794	1	84.25	88.17	0	1	6	0	nan	both coherent	8
+Pigmentiphaga	Bacteria	6	982	2	64.69	71.92	0	1	6	0	0.0	RaGCAn split, GTDB one genus	13
+Planctomicrobium	Bacteria	5	1083	2	64.12	66.92	0	1	5	0	0.0	RaGCAn split, GTDB one genus	6
+Planktothrix	Bacteria	5	2672	1	83.18	86.12	0	1	5	0	nan	both coherent	8
+Planococcus	Bacteria	32	1090	1	67.30	77.40	7	2	31	1	0.0	RaGCAn one bin, GTDB splits	91
+Planomonospora	Bacteria	5	3349	1	84.12	87.56	0	2	4	1	0.0	RaGCAn one bin, GTDB splits	10
+Planosporangium	Bacteria	4	2610	1	78.92	80.28	0	1	4	0	nan	both coherent	7
+Planotetraspora	Bacteria	5	4652	1	83.34	88.03	0	1	5	0	nan	both coherent	12
+Plantactinospora	Bacteria	8	1689	1	70.92	80.67	0	2	8	0	0.0	RaGCAn one bin, GTDB splits	20
+Pleomorphomonas	Bacteria	4	2597	1	84.91	87.00	0	1	4	0	nan	both coherent	7
+Polaribacter	Bacteria	30	660	1	69.26	76.14	1	1	30	0	nan	both coherent	63
+Polaromonas	Bacteria	8	1257	1	73.49	77.83	1	1	8	0	nan	both coherent	9
+Pollutimonas	Bacteria	6	1549	1	75.59	78.64	0	4	6	0	0.0	RaGCAn one bin, GTDB splits	8
+Polyangium	Bacteria	6	3563	1	70.87	82.97	1	1	5	1	nan	both coherent	22
+Polynucleobacter	Bacteria	31	465	2	62.86	77.58	0	1	31	0	0.0	RaGCAn split, GTDB one genus	43
+Pontibacillus	Bacteria	7	1161	1	66.39	70.77	0	2	7	0	0.0	RaGCAn one bin, GTDB splits	6
+Pontibacter	Bacteria	46	1081	1	70.98	75.00	1	1	44	2	nan	both coherent	116
+Pontivivens	Bacteria	4	1427	1	70.81	73.27	0	1	4	0	nan	both coherent	5
+Pontixanthobacter	Bacteria	5	1454	1	76.54	77.63	0	1	5	0	nan	both coherent	5
+Porphyromonas	Bacteria	21	124	10	54.04	60.92	1	2	20	1	0.0914	both split	15
+Poseidonibacter	Bacteria	4	1446	1	74.85	79.29	0	1	4	0	nan	both coherent	5
+Prauserella	Bacteria	15	1686	1	70.73	78.29	3	4	15	0	0.0	RaGCAn one bin, GTDB splits	106
+Prescottella	Bacteria	5	2406	1	81.84	85.02	0	1	5	0	nan	both coherent	8
+Prevotella	Bacteria	36	210	4	59.10	69.87	1	2	31	5	0.1985	both split	28
+Priestia	Bacteria	10	685	3	59.71	68.28	3	5	10	0	0.5055	both split	48
+Primorskyibacter	Bacteria	4	1599	1	69.23	78.73	1	2	4	0	0.0	RaGCAn one bin, GTDB splits	5
+Promicromonospora	Bacteria	13	1900	1	81.31	84.51	0	1	11	2	nan	both coherent	114
+Propionibacterium	Bacteria	5	770	1	66.93	72.66	0	1	5	0	nan	both coherent	5
+Propioniciclava	Bacteria	5	618	2	63.78	69.26	0	1	5	0	0.0	RaGCAn split, GTDB one genus	5
+Propionivibrio	Bacteria	4	1219	1	71.67	72.92	0	1	3	1	nan	both coherent	5
+Prosthecobacter	Bacteria	7	1455	1	67.23	73.20	0	1	6	1	nan	both coherent	12
+Prosthecochloris	Bacteria	4	966	1	67.98	70.71	0	1	4	0	nan	both coherent	4
+Proteus	Bacteria	11	2226	1	86.00	91.98	21	1	11	0	nan	both coherent	10
+Providencia	Bacteria	17	1725	1	81.21	85.10	5	1	17	0	nan	both coherent	99
+Pseudaeromonas	Bacteria	4	1466	1	70.54	75.20	0	1	3	1	nan	both coherent	5
+Pseudalkalibacillus	Bacteria	4	1702	1	72.23	74.83	0	1	4	0	nan	both coherent	5
+Pseudanabaena	Bacteria	7	1794	1	78.17	83.39	1	1	7	0	nan	both coherent	8
+Pseudaquabacterium	Bacteria	4	1202	1	67.13	70.45	0	1	4	0	nan	both coherent	7
+Pseudarthrobacter	Bacteria	27	1317	1	77.41	82.68	5	1	16	11	nan	both coherent	42
+Pseudidiomarina	Bacteria	24	833	1	68.28	75.43	3	1	23	1	nan	both coherent	16
+Pseudoalteromonas	Bacteria	57	898	3	62.66	72.06	16	1	56	1	0.0	RaGCAn split, GTDB one genus	143
+Pseudoblastomonas	Bacteria	4	1025	1	68.33	75.17	1	2	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Pseudochrobactrum	Bacteria	7	1870	1	83.20	88.74	3	1	7	0	nan	both coherent	8
+Pseudocitrobacter	Bacteria	4	3424	1	93.31	94.90	3	1	4	0	nan	both coherent	6
+Pseudoclavibacter	Bacteria	6	240	3	56.25	62.66	0	2	6	0	0.4444	both split	5
+Pseudodesulfovibrio	Bacteria	18	799	2	63.03	72.19	0	1	17	1	0.0	RaGCAn split, GTDB one genus	20
+Pseudoduganella	Bacteria	19	1376	1	72.30	76.46	0	1	19	0	nan	both coherent	43
+Pseudoflavonifractor	Bacteria	5	736	1	65.01	72.69	1	3	5	0	0.0	RaGCAn one bin, GTDB splits	5
+Pseudofrankia	Bacteria	4	2996	1	77.71	82.70	0	1	4	0	nan	both coherent	10
+Pseudogemmobacter	Bacteria	7	1224	1	71.37	73.98	0	1	7	0	nan	both coherent	8
+Pseudolactococcus	Bacteria	11	853	1	75.29	81.54	1	1	9	2	nan	both coherent	6
+Pseudomaricurvus	Bacteria	4	1229	1	66.16	70.12	0	1	4	0	nan	both coherent	6
+Pseudomonas	Bacteria	391	226	2	63.66	77.73	213	12	362	29	0.2325	both split	6926
+Pseudonocardia	Bacteria	49	575	2	64.24	70.54	1	1	45	4	0.0	RaGCAn split, GTDB one genus	267
+Pseudooceanicola	Bacteria	17	582	2	64.51	70.48	1	2	15	2	-0.0448	both split	51
+Pseudophaeobacter	Bacteria	4	1988	1	81.54	85.02	1	1	4	0	nan	both coherent	5
+Pseudorhizobium	Bacteria	8	2248	1	79.78	84.13	4	1	8	0	nan	both coherent	11
+Pseudorhodobacter	Bacteria	5	1693	1	78.17	80.58	0	1	5	0	nan	both coherent	5
+Pseudotabrizicola	Bacteria	4	2469	1	84.19	86.44	0	1	4	0	nan	both coherent	7
+Pseudothauera	Bacteria	4	1691	1	78.73	79.88	0	1	4	0	nan	both coherent	5
+Pseudothermotoga	Bacteria	5	755	2	64.67	70.17	1	3	5	0	0.2857	both split	4
+Pseudovibrio	Bacteria	7	1421	1	66.83	76.85	1	1	7	0	nan	both coherent	8
+Pseudoxanthomonas	Bacteria	24	790	1	70.26	74.11	0	2	22	2	0.0	RaGCAn one bin, GTDB splits	24
+Psychrobacillus	Bacteria	11	1514	1	75.51	79.27	0	1	10	1	nan	both coherent	12
+Psychrobacter	Bacteria	45	660	1	69.88	80.52	10	1	45	0	nan	both coherent	48
+Psychroflexus	Bacteria	16	719	2	64.00	72.89	0	1	16	0	0.0	RaGCAn split, GTDB one genus	45
+Psychromicrobium	Bacteria	4	1137	1	71.57	76.33	0	1	4	0	nan	both coherent	4
+Psychromonas	Bacteria	10	1018	1	69.67	73.89	0	1	10	0	nan	both coherent	60
+Psychroserpens	Bacteria	9	1509	1	75.95	79.10	0	1	8	1	nan	both coherent	9
+Psychrosphaera	Bacteria	6	541	2	62.57	69.49	0	1	6	0	0.0	RaGCAn split, GTDB one genus	5
+Pyrobaculum	Archaea	7	1063	1	70.83	74.49	1	1	6	1	nan	both coherent	48
+Pyrococcus	Archaea	6	924	1	74.12	78.33	1	1	6	0	nan	both coherent	44
+Pyrodictium	Archaea	4	1198	1	74.91	80.82	1	1	3	1	nan	both coherent	4
+Pyxidicoccus	Bacteria	5	5026	1	81.76	83.66	0	1	5	0	nan	both coherent	21
+Qipengyuania	Bacteria	40	635	1	65.89	75.87	2	6	37	3	0.0	RaGCAn one bin, GTDB splits	41
+Rahnella	Bacteria	15	2983	1	89.86	92.29	18	1	15	0	nan	both coherent	166
+Ralstonia	Bacteria	18	2290	1	84.23	89.47	15	1	17	1	nan	both coherent	31
+Ramlibacter	Bacteria	19	758	1	68.93	73.83	0	1	18	1	nan	both coherent	34
+Rathayibacter	Bacteria	12	597	2	62.60	80.66	1	2	12	0	1.0	both split	41
+Reichenbachiella	Bacteria	6	1010	2	63.80	68.08	0	1	6	0	0.0	RaGCAn split, GTDB one genus	7
+Reinekea	Bacteria	5	868	2	64.92	66.97	0	1	5	0	0.0	RaGCAn split, GTDB one genus	5
+Reyranella	Bacteria	4	3229	1	77.37	81.81	0	1	4	0	nan	both coherent	8
+Rheinheimera	Bacteria	24	985	1	65.70	74.07	0	2	23	1	0.0	RaGCAn one bin, GTDB splits	30
+Rhizobacter	Bacteria	4	1106	1	65.86	68.27	0	3	3	1	0.0	RaGCAn one bin, GTDB splits	6
+Rhizobium	Bacteria	75	2	3	51.56	76.51	25	9	70	5	0.0	RaGCAn one bin, GTDB splits	505
+Rhizorhabdus	Bacteria	6	1637	1	75.26	78.94	0	1	6	0	nan	both coherent	8
+Rhodanobacter	Bacteria	19	1254	1	74.42	79.67	0	2	17	2	0.0	RaGCAn one bin, GTDB splits	18
+Rhodobacter	Bacteria	10	860	1	66.09	73.68	0	3	9	1	0.0	RaGCAn one bin, GTDB splits	53
+Rhodococcoides	Bacteria	6	1558	1	69.77	74.45	0	1	6	0	nan	both coherent	8
+Rhodococcus	Bacteria	50	533	2	62.08	72.10	13	6	43	7	0.0304	both split	248
+Rhodoferax	Bacteria	12	769	1	67.64	72.25	0	4	12	0	0.0	RaGCAn one bin, GTDB splits	52
+Rhodohalobacter	Bacteria	4	1185	1	66.63	70.07	0	1	4	0	nan	both coherent	4
+Rhodopirellula	Bacteria	6	1368	2	63.41	78.10	0	2	6	0	1.0	both split	10
+Rhodoplanes	Bacteria	5	2709	1	79.62	83.58	0	1	5	0	nan	both coherent	9
+Rhodopseudomonas	Bacteria	10	402	2	54.70	74.49	0	4	8	2	0.3125	both split	36
+Rhodovulum	Bacteria	13	1237	1	72.27	78.42	3	1	13	0	nan	both coherent	71
+Rickettsia	Bacteria	28	522	1	78.85	89.81	64	1	26	2	nan	both coherent	10
+Robertkochia	Bacteria	5	1242	1	68.66	71.56	0	1	5	0	nan	both coherent	5
+Robertmurraya	Bacteria	9	1384	1	68.49	73.89	0	2	9	0	0.0	RaGCAn one bin, GTDB splits	10
+Robiginitalea	Bacteria	8	1228	1	69.03	72.29	0	1	6	2	nan	both coherent	6
+Rodentibacter	Bacteria	10	1294	1	84.65	88.30	0	1	10	0	nan	both coherent	76
+Romboutsia	Bacteria	8	925	1	70.24	73.33	0	7	8	0	0.0	RaGCAn one bin, GTDB splits	7
+Roseateles	Bacteria	23	797	1	67.94	72.31	0	11	23	0	0.0	RaGCAn one bin, GTDB splits	45
+Roseburia	Bacteria	11	341	3	60.38	67.19	0	6	11	0	0.3304	both split	8
+Roseibium	Bacteria	18	1214	1	68.42	72.93	0	1	18	0	nan	both coherent	30
+Roseicyclus	Bacteria	7	1545	1	73.90	77.51	0	2	7	0	0.0	RaGCAn one bin, GTDB splits	7
+Roseinatronobacter	Bacteria	6	1492	1	72.85	77.86	0	1	6	0	nan	both coherent	6
+Roseivirga	Bacteria	7	1275	1	66.83	71.87	1	1	7	0	nan	both coherent	8
+Roseivivax	Bacteria	7	1463	1	70.98	74.70	0	1	7	0	nan	both coherent	7
+Roseixanthobacter	Bacteria	5	3022	1	87.56	90.78	0	1	5	0	nan	both coherent	8
+Rosenbergiella	Bacteria	6	2047	1	85.63	88.94	1	1	6	0	nan	both coherent	5
+Roseobacter	Bacteria	10	1761	1	74.95	77.49	0	1	9	1	nan	both coherent	103
+Roseococcus	Bacteria	4	1952	1	72.36	84.01	2	1	4	0	nan	both coherent	6
+Roseofilum	Bacteria	5	2175	1	74.18	82.33	0	1	5	0	nan	both coherent	7
+Roseomonas	Bacteria	16	698	2	63.88	69.02	0	4	16	0	0.6418	both split	64
+Roseospira	Bacteria	4	1741	1	72.64	75.50	0	1	4	0	nan	both coherent	5
+Roseovarius	Bacteria	40	761	1	68.09	72.60	0	1	39	1	nan	both coherent	68
+Rossellomorea	Bacteria	9	1449	1	67.63	75.93	0	1	9	0	nan	both coherent	9
+Rothia	Bacteria	17	393	2	62.38	68.29	2	1	16	1	0.0	RaGCAn split, GTDB one genus	29
+Rouxiella	Bacteria	4	2649	1	84.09	86.05	0	1	4	0	nan	both coherent	6
+Ruania	Bacteria	7	1271	1	69.48	76.61	0	1	7	0	nan	both coherent	9
+Rubellimicrobium	Bacteria	6	1026	1	71.46	76.72	0	1	6	0	nan	both coherent	7
+Rubripirellula	Bacteria	5	1352	1	67.30	70.42	0	1	5	0	nan	both coherent	9
+Rubritalea	Bacteria	5	893	1	65.84	69.88	0	1	5	0	nan	both coherent	5
+Rubrivirga	Bacteria	4	1258	1	70.97	75.52	0	1	4	0	nan	both coherent	5
+Rubrivivax	Bacteria	4	1375	1	68.94	73.77	0	1	4	0	nan	both coherent	5
+Rubrobacter	Bacteria	9	481	4	62.59	66.63	0	7	9	0	0.3415	both split	7
+Ruegeria	Bacteria	22	1617	1	72.79	78.36	0	3	21	1	0.0	RaGCAn one bin, GTDB splits	32
+Rufibacter	Bacteria	14	1831	1	76.09	80.92	2	1	13	1	nan	both coherent	17
+Rugamonas	Bacteria	7	2455	1	77.21	81.65	1	1	7	0	nan	both coherent	12
+Ruminiclostridium	Bacteria	7	1136	1	69.53	73.71	0	1	7	0	nan	both coherent	9
+Ruminococcus	Bacteria	11	73	9	48.56	54.21	0	7	9	2	0.3571	both split	7
+Runella	Bacteria	7	2656	1	76.18	81.71	3	1	7	0	nan	both coherent	12
+Saccharibacillus	Bacteria	7	2616	1	82.13	84.34	1	1	7	0	nan	both coherent	11
+Saccharolobus	Archaea	4	1706	1	75.19	83.66	0	1	4	0	nan	both coherent	4
+Saccharomonospora	Bacteria	11	1289	1	73.55	77.94	0	2	11	0	0.0	RaGCAn one bin, GTDB splits	12
+Saccharopolyspora	Bacteria	37	1124	1	70.47	76.52	4	3	35	2	0.0	RaGCAn one bin, GTDB splits	139
+Saccharospirillum	Bacteria	4	1617	1	70.34	74.28	0	1	4	0	nan	both coherent	5
+Saccharothrix	Bacteria	24	1846	1	74.88	80.53	0	1	21	3	nan	both coherent	187
+Salegentibacter	Bacteria	15	1423	1	73.19	80.84	1	2	13	2	0.0	RaGCAn one bin, GTDB splits	79
+Salibacterium	Bacteria	5	1745	1	71.96	79.12	0	1	5	0	nan	both coherent	5
+Salicibibacter	Bacteria	4	2067	1	85.12	86.19	0	1	4	0	nan	both coherent	5
+Salimicrobium	Bacteria	6	1858	1	79.33	87.24	6	1	6	0	nan	both coherent	5
+Salinarimonas	Bacteria	4	1617	1	65.96	76.21	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	6
+Salinibacter	Bacteria	4	2133	1	85.10	88.02	0	1	4	0	nan	both coherent	5
+Salinicoccus	Bacteria	14	937	1	67.20	75.36	2	2	12	2	0.0	RaGCAn one bin, GTDB splits	8
+Salinicola	Bacteria	14	1755	1	78.63	82.89	2	1	13	1	nan	both coherent	16
+Salinigranum	Archaea	4	1960	1	77.68	79.74	0	1	4	0	nan	both coherent	84
+Salinimicrobium	Bacteria	14	1431	1	73.56	78.24	0	1	13	1	nan	both coherent	11
+Salinimonas	Bacteria	6	1663	1	73.32	76.76	0	1	6	0	nan	both coherent	6
+Salinisphaera	Bacteria	6	1011	1	68.20	72.24	0	1	5	1	nan	both coherent	6
+Salinispora	Bacteria	9	2713	1	86.13	90.87	0	1	8	1	nan	both coherent	11
+Salinivibrio	Bacteria	6	1729	1	84.96	89.92	3	1	5	1	nan	both coherent	6
+Salipaludibacillus	Bacteria	5	1484	1	68.12	71.99	0	1	5	0	nan	both coherent	6
+Salipiger	Bacteria	11	1500	1	71.88	75.98	0	1	11	0	nan	both coherent	15
+Sandarakinorhabdus	Bacteria	6	1080	1	68.14	75.05	0	1	6	0	nan	both coherent	5
+Sanguibacter	Bacteria	9	693	1	65.85	73.04	1	2	9	0	0.0	RaGCAn one bin, GTDB splits	7
+Scandinavium	Bacteria	5	3200	1	91.26	94.43	6	1	5	0	nan	both coherent	7
+Schaalia	Bacteria	13	380	2	64.34	69.11	0	1	13	0	0.0	RaGCAn split, GTDB one genus	28
+Scytonema	Bacteria	4	1803	1	67.06	77.18	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	9
+Secundilactobacillus	Bacteria	16	602	1	65.06	75.11	1	1	14	2	nan	both coherent	44
+Sedimentitalea	Bacteria	5	1953	1	76.10	77.98	0	1	5	0	nan	both coherent	6
+Sediminibacillus	Bacteria	5	2000	1	72.90	80.51	0	2	5	0	0.0	RaGCAn one bin, GTDB splits	6
+Sediminibacterium	Bacteria	7	994	1	68.00	71.18	0	1	7	0	nan	both coherent	6
+Segatella	Bacteria	15	531	1	65.40	70.83	0	1	13	2	nan	both coherent	37
+Selenomonas	Bacteria	4	709	2	63.71	68.20	0	3	4	0	0.5714	both split	4
+Seonamhaeicola	Bacteria	5	1599	1	78.33	80.55	0	1	4	1	nan	both coherent	6
+Serinicoccus	Bacteria	7	1531	1	77.19	81.79	0	1	7	0	nan	both coherent	6
+Serratia	Bacteria	25	1139	1	76.14	87.08	32	5	25	0	0.0	RaGCAn one bin, GTDB splits	94
+Shewanella	Bacteria	105	385	1	65.28	72.63	46	1	103	2	nan	both coherent	410
+Shigella	Bacteria	4	2819	1	97.89	98.36	6	2	4	0	0.0	RaGCAn one bin, GTDB splits	6
+Shimia	Bacteria	13	932	1	65.15	73.10	0	4	13	0	0.0	RaGCAn one bin, GTDB splits	60
+Shinella	Bacteria	13	2021	1	78.51	84.55	1	1	13	0	nan	both coherent	28
+Shouchella	Bacteria	12	885	1	65.02	72.77	5	1	12	0	nan	both coherent	56
+Silvimonas	Bacteria	4	2862	1	81.01	85.88	0	1	4	0	nan	both coherent	6
+Simiduia	Bacteria	4	1794	1	71.33	75.31	0	1	4	0	nan	both coherent	5
+Siminovitchia	Bacteria	7	1668	1	72.51	79.30	0	1	6	1	nan	both coherent	8
+Simplicispira	Bacteria	7	1278	1	75.55	78.47	0	1	6	1	nan	both coherent	7
+Singulisphaera	Bacteria	4	2255	1	67.74	71.92	0	2	3	1	0.0	RaGCAn one bin, GTDB splits	9
+Sinomicrobium	Bacteria	7	1693	1	75.76	80.62	0	1	5	2	nan	both coherent	9
+Sinomonas	Bacteria	15	1205	1	75.23	79.08	0	1	14	1	nan	both coherent	73
+Sinorhizobium	Bacteria	18	2193	1	80.93	84.72	1	1	17	1	nan	both coherent	45
+Skermanella	Bacteria	6	3407	1	79.44	85.90	0	1	6	0	nan	both coherent	12
+Slackia	Bacteria	6	443	2	63.73	68.23	0	1	6	0	0.0	RaGCAn split, GTDB one genus	4
+Sneathiella	Bacteria	8	1269	1	65.50	70.33	0	1	7	1	nan	both coherent	8
+Sodalis	Bacteria	4	499	1	74.65	79.35	0	4	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Solemya	Bacteria	4	393	3	57.91	64.98	0	3	4	0	1.0	both split	4
+Solibacillus	Bacteria	9	1789	1	75.15	82.55	3	1	9	0	nan	both coherent	10
+Solidesulfovibrio	Bacteria	6	2108	1	73.68	77.57	0	1	6	0	nan	both coherent	8
+Solilutibacter	Bacteria	4	938	1	69.43	74.26	0	1	4	0	nan	both coherent	4
+Solimonas	Bacteria	7	1083	2	64.69	73.27	1	2	7	0	1.0	both split	7
+Solirubrobacter	Bacteria	5	2667	1	73.31	77.44	0	1	4	1	nan	both coherent	11
+Solitalea	Bacteria	5	1324	1	71.18	75.98	0	1	5	0	nan	both coherent	6
+Sorangium	Bacteria	4	5205	1	83.94	86.15	0					not scored (no GTDB data)	14
+Sphaerisporangium	Bacteria	15	301	2	53.75	75.45	0	1	14	1	nan	both coherent	64
+Sphaerochaeta	Bacteria	4	1119	1	66.92	72.40	0	1	4	0	nan	both coherent	5
+Sphaerotilus	Bacteria	7	1193	1	71.20	75.47	1	1	6	1	nan	both coherent	8
+Sphingobacterium	Bacteria	63	775	1	65.57	70.33	3	1	62	1	nan	both coherent	199
+Sphingobium	Bacteria	51	528	3	62.77	74.66	1	2	49	2	0.3063	both split	116
+Sphingomicrobium	Bacteria	11	881	1	69.24	72.63	0	1	11	0	nan	both coherent	6
+Sphingomonas	Bacteria	189	111	8	59.72	66.67	2	18	182	7	0.9849	both split	770
+Sphingopyxis	Bacteria	21	1158	1	72.60	81.30	0	1	21	0	nan	both coherent	71
+Sphingorhabdus	Bacteria	8	1008	1	68.88	76.60	0	1	8	0	nan	both coherent	6
+Sphingosinicella	Bacteria	5	634	2	59.08	69.19	0	2	5	0	1.0	both split	5
+Spiribacter	Bacteria	9	896	1	68.34	76.62	1	1	9	0	nan	both coherent	6
+Spirochaeta	Bacteria	5	156	4	47.99	51.90	0	4	4	1	nan	both split	5
+Spiroplasma	Bacteria	30	16	9	47.08	57.86	1	4	28	2	0.4154	both split	16
+Spirosoma	Bacteria	49	914	1	69.87	76.74	3	1	29	20	nan	both coherent	272
+Spongiibacter	Bacteria	6	1061	1	68.49	70.75	0	1	6	0	nan	both coherent	6
+Sporolactobacillus	Bacteria	13	919	1	68.50	73.92	2	1	13	0	nan	both coherent	10
+Sporomusa	Bacteria	10	1394	1	72.65	75.91	0	2	9	1	0.0	RaGCAn one bin, GTDB splits	88
+Sporosarcina	Bacteria	27	520	2	57.51	70.30	1	2	27	0	1.0	both split	34
+Stackebrandtia	Bacteria	4	1398	1	65.60	67.96	0	1	4	0	nan	both coherent	6
+Stakelama	Bacteria	7	1088	1	68.58	72.44	0	1	7	0	nan	both coherent	6
+Staphylococcus	Bacteria	70	601	1	66.69	71.90	15	1	70	0	nan	both coherent	93
+Stappia	Bacteria	6	1649	1	68.63	73.45	0	2	6	0	0.0	RaGCAn one bin, GTDB splits	7
+Stenotrophomonas	Bacteria	38	993	1	70.57	80.69	25	2	34	4	0.0	RaGCAn one bin, GTDB splits	63
+Steroidobacter	Bacteria	5	1211	1	68.39	78.70	0	1	4	1	nan	both coherent	8
+Stieleria	Bacteria	9	991	3	62.03	72.20	0	2	9	0	0.5714	both split	21
+Streptacidiphilus	Bacteria	13	1556	1	71.14	76.26	0	1	13	0	nan	both coherent	33
+Streptantibioticus	Bacteria	5	2023	1	72.32	76.12	0	4	5	0	0.0	RaGCAn one bin, GTDB splits	9
+Streptobacillus	Bacteria	5	891	1	81.75	84.42	0	1	5	0	nan	both coherent	4
+Streptococcus	Bacteria	158	245	2	63.59	70.68	121	1	141	17	0.0	RaGCAn split, GTDB one genus	317
+Streptomonospora	Bacteria	9	2186	1	75.43	81.25	1	1	8	1	nan	both coherent	12
+Streptomyces	Bacteria	831	0	5	59.08	74.72	155	6	776	55	0.0356	both split	48075
+Streptosporangium	Bacteria	21	1972	1	74.98	79.86	3	1	20	1	nan	both coherent	90
+Stutzerimonas	Bacteria	17	1295	1	73.60	80.29	1	2	15	2	0.0	RaGCAn one bin, GTDB splits	22
+Subtercola	Bacteria	5	1289	1	74.81	76.37	0	1	5	0	nan	both coherent	6
+Sulfitobacter	Bacteria	31	851	1	71.17	75.12	0	2	31	0	0.0	RaGCAn one bin, GTDB splits	83
+Sulfuriferula	Bacteria	4	1245	1	70.38	75.48	0	1	4	0	nan	both coherent	4
+Sulfurimonas	Bacteria	18	472	2	61.55	71.21	0	2	16	2	1.0	both split	11
+Sulfurospirillum	Bacteria	10	612	3	61.21	74.96	1	3	10	0	1.0	both split	43
+Sulfurovum	Bacteria	8	888	1	71.50	75.42	0	1	6	2	nan	both coherent	5
+Sunxiuqinia	Bacteria	4	1904	1	75.69	77.50	0	1	4	0	nan	both coherent	6
+Sutcliffiella	Bacteria	6	1351	1	68.07	74.62	0	2	6	0	0.0	RaGCAn one bin, GTDB splits	6
+Sutterella	Bacteria	6	713	1	67.13	71.31	0	1	6	0	nan	both coherent	5
+Symbiobacterium	Bacteria	4	2202	1	79.76	83.24	0					not scored (no GTDB data)	5
+Syntrophomonas	Bacteria	5	511	4	61.04	63.64	0	3	3	2	nan	both split	4
+Tabrizicola	Bacteria	8	1497	1	72.28	77.92	0	3	8	0	0.0	RaGCAn one bin, GTDB splits	8
+Tahibacter	Bacteria	5	1794	1	71.41	74.43	0	1	5	0	nan	both coherent	7
+Taibaiella	Bacteria	5	817	2	59.94	67.11	0	2	5	0	1.0	both split	6
+Tateyamaria	Bacteria	5	1861	1	75.69	78.08	0	1	5	0	nan	both coherent	6
+Tatumella	Bacteria	6	1910	1	80.14	83.73	0	1	6	0	nan	both coherent	6
+Tautonia	Bacteria	4	2573	1	73.91	77.23	0	1	4	0	nan	both coherent	7
+Teichococcus	Bacteria	10	1440	1	72.12	76.02	0	1	9	1	nan	both coherent	90
+Telluria	Bacteria	4	2213	1	73.18	76.86	0	1	4	0	nan	both coherent	7
+Tenacibaculum	Bacteria	43	718	1	68.35	77.06	5	1	43	0	nan	both coherent	61
+Tepidibacillus	Bacteria	4	1082	1	69.61	77.17	1	2	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Tepidibacter	Bacteria	5	1270	1	73.73	79.34	0	2	5	0	0.0	RaGCAn one bin, GTDB splits	5
+Tepidimonas	Bacteria	8	1288	1	78.95	82.43	0	1	8	0	nan	both coherent	6
+Tepidiphilus	Bacteria	5	1560	1	89.80	92.40	2	1	5	0	nan	both coherent	4
+Terasakiella	Bacteria	4	1742	1	75.20	76.42	0	1	4	0	nan	both coherent	6
+Teredinibacter	Bacteria	5	1100	1	66.51	68.92	0	1	5	0	nan	both coherent	6
+Terrabacter	Bacteria	9	2056	1	82.06	84.88	0	1	8	1	nan	both coherent	11
+Terribacillus	Bacteria	4	2556	1	84.19	87.56	1	1	4	0	nan	both coherent	5
+Terriglobus	Bacteria	5	712	3	62.20	65.76	0	1	5	0	0.0	RaGCAn split, GTDB one genus	6
+Terrimonas	Bacteria	5	1096	1	65.07	69.33	0	3	5	0	0.0	RaGCAn one bin, GTDB splits	7
+Terrisporobacter	Bacteria	7	2126	1	86.18	89.95	2	1	7	0	nan	both coherent	8
+Tessaracoccus	Bacteria	16	258	3	62.04	69.89	1	1	15	1	0.0	RaGCAn split, GTDB one genus	27
+Tetragenococcus	Bacteria	5	1334	1	82.07	83.99	0	1	5	0	nan	both coherent	5
+Thalassobacillus	Bacteria	4	1686	1	71.52	74.93	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	5
+Thalassococcus	Bacteria	4	1556	1	69.66	71.59	0	4	4	0	0.0	RaGCAn one bin, GTDB splits	5
+Thalassolituus	Bacteria	6	1288	1	68.27	75.90	0	2	6	0	0.0	RaGCAn one bin, GTDB splits	6
+Thalassospira	Bacteria	14	1977	1	73.16	81.74	5	1	14	0	nan	both coherent	20
+Thalassotalea	Bacteria	27	636	2	63.31	67.07	0	8	22	5	0.389	both split	29
+Thalassovita	Bacteria	7	1478	1	72.67	76.32	0	2	7	0	0.0	RaGCAn one bin, GTDB splits	7
+Thauera	Bacteria	14	1120	1	72.98	78.45	0	2	14	0	0.0	RaGCAn one bin, GTDB splits	15
+Thermaerobacter	Bacteria	4	1465	1	85.01	88.09	1					not scored (no GTDB data)	4
+Thermoactinomyces	Bacteria	4	1284	1	68.12	75.16	1	2	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Thermoanaerobacter	Bacteria	8	1119	1	86.35	92.61	4	1	8	0	nan	both coherent	6
+Thermoanaerobacterium	Bacteria	7	1690	1	86.14	91.50	6	1	6	1	nan	both coherent	6
+Thermobifida	Bacteria	4	2311	1	81.36	84.23	0	1	4	0	nan	both coherent	6
+Thermococcus	Archaea	41	480	1	67.88	75.42	4	4	34	7	0.0	RaGCAn one bin, GTDB splits	32
+Thermocrinis	Bacteria	4	697	1	66.43	69.21	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	4
+Thermodesulfobacterium	Bacteria	5	840	1	68.86	77.53	1	1	5	0	nan	both coherent	4
+Thermodesulfovibrio	Bacteria	6	1125	1	72.70	78.66	0	1	4	2	nan	both coherent	5
+Thermogemmatispora	Bacteria	5	3136	1	88.26	90.99	1	1	4	1	nan	both coherent	8
+Thermomonas	Bacteria	11	1044	1	74.09	78.52	0	1	11	0	nan	both coherent	7
+Thermomonospora	Bacteria	6	2207	1	76.22	80.77	1	1	6	0	nan	both coherent	9
+Thermophilibacter	Bacteria	4	823	1	72.64	77.22	0	1	4	0	nan	both coherent	4
+Thermosipho	Bacteria	7	796	1	68.47	75.42	3	3	7	0	0.0	RaGCAn one bin, GTDB splits	5
+Thermotoga	Bacteria	4	394	2	57.01	72.76	1	2	4	0	1.0	both split	4
+Thermus	Bacteria	28	725	1	75.90	84.02	2	2	27	1	0.0	RaGCAn one bin, GTDB splits	22
+Thioalkalivibrio	Bacteria	8	590	2	61.33	68.15	0	2	8	0	1.0	both split	6
+Thiobacillus	Bacteria	4	1645	1	80.09	82.39	0					not scored (no GTDB data)	5
+Thiocapsa	Bacteria	5	2083	1	75.61	83.85	0	1	5	0	nan	both coherent	6
+Thioclava	Bacteria	11	1218	1	68.09	78.17	1	1	11	0	nan	both coherent	11
+Thiomicrolovo	Bacteria	4	2152	1	90.66	92.62	2	1	4	0	nan	both coherent	4
+Thiomicrorhabdus	Bacteria	12	739	1	66.84	70.83	0	1	11	1	nan	both coherent	46
+Thiomicrospira	Bacteria	4	859	1	69.75	73.68	0	1	4	0	nan	both coherent	4
+Thiomonas	Bacteria	5	1291	1	70.15	79.54	0	2	4	1	0.0	RaGCAn one bin, GTDB splits	5
+Thiorhodococcus	Bacteria	4	2078	1	74.13	79.09	0	2	4	0	0.0	RaGCAn one bin, GTDB splits	6
+Thiothrix	Bacteria	9	937	1	66.03	78.45	0	2	9	0	0.0	RaGCAn one bin, GTDB splits	8
+Thomasclavelia	Bacteria	4	1178	1	75.64	78.73	0	1	4	0	nan	both coherent	5
+Tissierella	Bacteria	5	652	2	61.95	70.01	0	3	5	0	0.4444	both split	5
+Tomitella	Bacteria	4	1633	1	69.26	79.57	0	1	4	0	nan	both coherent	5
+Treponema	Bacteria	25	31	15	48.66	55.84	1	6	24	1	0.216	both split	19
+Trichococcus	Bacteria	9	1109	1	79.04	89.78	0	1	9	0	nan	both coherent	7
+Trinickia	Bacteria	12	1827	1	75.09	78.89	0	2	11	1	0.0	RaGCAn one bin, GTDB splits	113
+Tritonibacter	Bacteria	6	1524	1	70.89	75.07	0	1	6	0	nan	both coherent	6
+Tropicimonas	Bacteria	5	1099	1	65.22	74.37	1	2	5	0	0.0	RaGCAn one bin, GTDB splits	6
+Trueperella	Bacteria	6	813	1	72.25	76.35	0	1	6	0	nan	both coherent	4
+Tsukamurella	Bacteria	13	1447	1	70.56	83.58	0	1	11	2	nan	both coherent	16
+Tsuneonella	Bacteria	11	1131	1	73.23	77.13	0	1	11	0	nan	both coherent	7
+Tumebacillus	Bacteria	7	1353	1	67.28	71.58	0	2	7	0	0.0	RaGCAn one bin, GTDB splits	9
+Tunturiibacter	Bacteria	4	2365	1	81.49	84.05	0	1	4	0	nan	both coherent	6
+Uliginosibacterium	Bacteria	7	980	1	65.08	69.38	0	2	6	1	0.0	RaGCAn one bin, GTDB splits	7
+Undibacterium	Bacteria	4	3200	1	82.14	84.48	0	1	4	0	nan	both coherent	7
+Ureaplasma	Bacteria	7	55	5	52.44	60.70	0	1	7	0	0.0	RaGCAn split, GTDB one genus	4
+Ureibacillus	Bacteria	15	1191	1	70.56	75.28	0	1	14	1	nan	both coherent	68
+Vagococcus	Bacteria	24	312	6	59.91	64.80	1	6	24	0	0.9634	both split	32
+Vallitalea	Bacteria	6	680	2	56.31	71.29	0	2	5	1	1.0	both split	9
+Varibaculum	Bacteria	5	1127	1	82.22	86.55	0	1	5	0	nan	both coherent	4
+Variovorax	Bacteria	41	875	1	69.37	78.90	3	2	38	3	0.0	RaGCAn one bin, GTDB splits	192
+Veillonella	Bacteria	22	597	1	66.25	77.57	17	2	22	0	0.0	RaGCAn one bin, GTDB splits	12
+Vibrio	Bacteria	179	246	2	63.11	73.32	55	2	171	8	1.0	both split	1090
+Virgibacillus	Bacteria	35	573	2	62.91	69.58	1	15	31	4	0.0108	both split	51
+Vogesella	Bacteria	13	1557	1	74.79	81.39	3	1	11	2	nan	both coherent	13
+Vreelandella	Bacteria	39	231	2	55.19	79.81	7	2	36	3	1.0	both split	64
+Vulcanisaeta	Archaea	4	1038	1	68.11	75.17	0	1	4	0	nan	both coherent	50
+Weissella	Bacteria	23	290	4	61.65	67.82	4	1	23	0	0.0	RaGCAn split, GTDB one genus	11
+Wenyingzhuangia	Bacteria	6	1459	1	78.41	82.05	0	1	5	1	nan	both coherent	6
+Wenzhouxiangella	Bacteria	5	1045	1	66.78	72.14	0	1	5	0	nan	both coherent	5
+Williamsia	Bacteria	9	1241	1	67.46	72.50	0	3	9	0	0.0	RaGCAn one bin, GTDB splits	11
+Winogradskyella	Bacteria	44	780	1	68.48	77.13	1	2	44	0	0.0	RaGCAn one bin, GTDB splits	68
+Xanthobacter	Bacteria	16	1516	1	73.97	79.35	1	1	16	0	nan	both coherent	98
+Xanthomarina	Bacteria	4	1828	1	81.37	83.01	0	1	4	0	nan	both coherent	5
+Xanthomonas	Bacteria	47	953	1	72.78	82.43	30	5	46	1	0.0	RaGCAn one bin, GTDB splits	146
+Xenorhabdus	Bacteria	36	1310	1	81.91	86.48	5	1	33	3	nan	both coherent	69
+Xylanibacter	Bacteria	7	560	1	65.85	68.57	0	1	7	0	nan	both coherent	5
+Xylanimonas	Bacteria	5	1100	1	76.17	78.65	0	2	5	0	0.0	RaGCAn one bin, GTDB splits	5
+Yersinia	Bacteria	27	1877	1	83.76	89.63	15	1	26	1	nan	both coherent	17
+Yoonia	Bacteria	11	1165	1	70.43	75.49	0	1	11	0	nan	both coherent	10
+Zhihengliuella	Bacteria	4	1502	1	75.50	78.68	0	1	4	0	nan	both coherent	5
+Zhongshania	Bacteria	8	1851	1	76.97	81.35	1	1	8	0	nan	both coherent	8
+Zobellella	Bacteria	6	1911	1	78.93	83.71	0	1	6	0	nan	both coherent	6
+Zobellia	Bacteria	8	2586	1	83.64	87.20	2	1	7	1	nan	both coherent	11
+Zoogloea	Bacteria	6	2047	1	79.42	81.50	0	1	4	2	nan	both coherent	9
+Zunongwangia	Bacteria	5	2370	1	83.55	87.42	0	1	5	0	nan	both coherent	6
