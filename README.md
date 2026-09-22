@@ -115,10 +115,24 @@ above threshold can be seen for what it is.
 
 ## What it has been tested on
 
-We ran it across 1,160 prokaryotic genera, bacteria and archaea, on one machine: 17,979 genomes
-selected, 17,978 screened (one had no protein annotation), 30.8 h of run time in total. Against GTDB, 93.78% of genomes (15,984 of 17,045 with a GTDB assignment) fall in a bin
+We ran it across 1,160 prokaryotic genera with four or more named species, bacteria and archaea,
+on one machine: 17,979 genomes selected, 17,978 screened (one had no protein annotation), 30.8 h of
+run time in total. Against GTDB, 93.78% of genomes (15,984 of 17,045 with a GTDB assignment) fall in a bin
 whose majority label matches their GTDB genus. When RaGCAn does flag a genus, GTDB agrees that the
 genus should be divided in 70.0% of cases (95% CI 63.3-75.9).
+
+We then ran the 1,046 genera with two or three named species: 2,456 genomes, 7.0 h, none failed.
+That brings the total to 2,206 genera and 20,434 genomes screened in 37.9 h, which is every
+bacterial and archaeal genus with at least two named species that have a usable RefSeq genome. Of
+the smaller genera, 309 had enough genomes in GTDB to score: both kept 251 whole, both divided 10,
+42 divisions were missed and 6 were flagged that GTDB does not make. Of the 659 genera with exactly
+two genomes in GTDB, 604 gave the same number of groups as GTDB. Every genus and every genome is
+listed in `results/` and `data/`.
+
+We also wanted to know how far the measurement itself carries, so we ran it on yeasts,
+*Caenorhabditis*, *Drosophila* and primates. It groups them sensibly, but the 65% cut-off does not
+transfer: each group needs its own. The runs, and the six predictions written before them, are in
+`results/eukaryote_sets.tsv`.
 
 RaGCAn also set apart 25 genomes that GTDB has not classified, so they could not be scored. NCBI's
 own ANI check places 16 of them closest to a type strain of a different genus. One is the NCBI
@@ -140,8 +154,8 @@ claim is made here.
 ## Rerunning the analysis in the paper
 
 `RaGCAn.py` runs anywhere. The survey, analysis and figure scripts are the record of how the paper
-was produced. They need the result tables, which are too large for this repository, and they
-contain no paths tied to our machine.
+was produced. The result tables they read are in `results/` and `data/`, and the scripts contain no
+paths tied to our machine.
 
 **Settings used in the paper.** The survey ran with `--pident 60 --bin-aai 65`, DIAMOND
 `--very-sensitive`, at 96 threads, using DIAMOND **2.1.8**. The program's own default for
@@ -191,7 +205,9 @@ RaGCAn.py              the program. Run this one
 fast_aai.py            vectorised AAI for large genera
 run_fast.py            driver that calls it
 environment.yml        DIAMOND and numpy, nothing else
-survey_scripts/        how the 1,160-genus survey selected, fetched and ran
+survey_scripts/        how the survey and the extension selected, fetched and ran the genomes
+results/               every result table in the paper, and the workbook
+data/                  the manifest of all 20,522 genomes screened, with their NCBI links
 analysis_scripts/      the GTDB comparison, the statistics, the internal verification
 figures/               every figure in the paper, drawn from the result tables
 versions/              the 2021 original and the full pipeline, for checking the lineage
