@@ -162,6 +162,47 @@ same-species pairs in the survey stayed together and 99.6% of 788,943 different-
 separated (99.81% balanced accuracy). RaGCAn does not perform species delimitation and no such
 claim is made here.
 
+## Why the percentages are scored on 1,147 genera
+
+The screen ran on all 2,206 genera, and every result is published in [`results/`](results),
+including the genera where it did badly. Scoring is a separate step, and it is the one that is
+restricted: a genus can only be scored where there is an independent classification detailed enough
+to score it against.
+
+**The rule.** A genus is scored only when GTDB classifies at least three of its genomes. With three
+or more, the two groupings can genuinely disagree in more than one way, and the agreement index we
+use (adjusted Rand) is defined and means something. With two genomes there are only two possible
+answers, together or apart, so agreeing with GTDB carries almost no information: a coin would be
+right about half the time. Scoring those cases would inflate the denominator and tell a reader
+nothing, which is the opposite of what a benchmark is for.
+
+**In the survey.** Of the 1,160 genera with four or more named species, 1,147 met that rule. The
+other 13 are small, four to six genomes each, and GTDB contains only one or two genomes of each: 57
+genomes in all, 0.3% of the survey. They were not set aside for their results. The screen ran on
+them, and its answers are in `results/survey_per_genus.tsv` with the rest. They are missing only
+from the comparison, because there is nothing on the other side to compare with.
+
+**Why the survey went after the bigger genera first.** The entry rule was four or more validly
+named species, with one genome per species. That was a deliberate choice, for three reasons. Those
+genera hold most of the described diversity, so they are where a wrong boundary does the most
+damage. They are the genera people actually work on, so a flag there is a question someone wants
+answered. And the more species a genus has, the more pairwise measurements stand behind a division:
+a split in a 100-genome genus rests on thousands of AAI values, where a split in a 2-genome genus
+rests on one. The evidence is simply thicker where the genus is bigger.
+
+**The smaller genera, and what could be said about them.** We then screened the 1,046 genera with
+two or three named species so that no testable genus was left out. Only 309 of them cleared the
+three-genome rule. For 659, GTDB classifies exactly two genomes, so we report those descriptively
+rather than scoring them: we ask only whether the screen made the same *number* of groups as GTDB,
+and it did for 604 of the 659 (91.7%). For the remaining 78, GTDB holds one genome or none, so
+there is nothing to compare at all.
+
+**So the headline figures stay where the evidence is.** Across both runs 1,456 of the 2,206 genera
+could be scored. The percentages quoted above come from the survey's 1,147, because those are the
+genera with enough independent detail to judge. It makes almost no difference to the numbers:
+scored across both runs, a flag is corroborated 69.4% of the time against the survey's 70.0%. It
+makes a large difference to what the numbers mean.
+
 ## Rerunning the analysis in the paper
 
 `RaGCAn.py` runs anywhere. The survey, analysis and figure scripts are the record of how the paper
