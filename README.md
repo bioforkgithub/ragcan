@@ -7,11 +7,21 @@
 **Rapid Genome Coherence Analyzer.** Ask one question about a named prokaryotic genus in minutes,
 on a laptop. Do these genomes hold together?
 
-Given 389 *Pseudomonas* genomes and no taxonomic labels, RaGCAn pulled out exactly seven. All seven
-have since been reassigned to *Halopseudomonas*. The same seven came back on two further genome
-sets chosen a different way.
+**Three datasets. The same seven genomes. One chance in 253 trillion.**
+
+Given 389 *Pseudomonas* genomes and not one taxonomic label, RaGCAn pulled out exactly seven. All
+seven have since been reassigned to *Halopseudomonas*. There are 253,302,681,901,632 ways to choose
+seven genomes out of 389, so landing on that exact set by luck is **one in 253 trillion**.
+
+It was not a one-off. The same seven came back in a second set of 432 genomes, and again in a third
+set of 391 genomes chosen by a different rule and processed by different code. Three datasets, three
+times the same answer, with no taxonomy given to the program at any point.
 
 It needs one protein search. No tree, no alignment, no reference database to download.
+
+It has been run on **2,206 prokaryotic genera and 20,434 genomes**, on one machine, in 38 hours:
+every bacterial and archaeal genus with at least two named species that have a usable RefSeq
+genome. Every genus and every genome is listed in [`results/`](results) and [`data/`](data).
 
 ## Try it in two minutes
 
@@ -50,7 +60,8 @@ Measured, not estimated. One genus of 17 genomes (78,933 proteins), on **2 CPU c
 | Cores used | 2 |
 
 So an ordinary laptop with 8 GB of RAM runs a typical genus. Nothing here needs a cluster. The
-1,160-genus survey used many cores because it ran 1,160 genera, not because one genus is expensive.
+survey used many cores because it ran thousands of genera one after another, not because any one
+genus is expensive.
 
 Measured on an AMD EPYC 7763 with DIAMOND 2.1.8 at default settings. The identity threshold is
 applied after the DIAMOND search, so changing `--pident` does not change this cost. Lowering
