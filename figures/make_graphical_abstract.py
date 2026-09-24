@@ -199,11 +199,11 @@ tile(70.0, 47.0, TW, TH, f'{SPEC:.1f}%', 'of sound genera are\nleft alone', BLUE
 tile(41.5, 28.6, TW, TH, f'{SENS:.1f}%', 'of genera needing attention\nare found. It misses the rest', ORANGE)
 tile(70.0, 28.6, TW, TH, f'{SPREAD:.1f}', 'points the ideal threshold\nmoves between genera', ORANGE)
 
-ax.text(41.5, 24.6, '1,160 genera  ·  17,979 genomes  ·  bacteria and archaea  ·  30 h on one machine',
+ax.text(41.5, 24.6, '2,206 genera  ·  20,434 genomes  ·  bacteria and archaea  ·  38 h on one machine',
         fontsize=7.3, color=INK, va='top', fontweight='bold')
-ax.text(41.5, 20.2, f'Divisions identical to the expert ones in {IDENT} genera. Not one bin in the\n'
-                    f'survey cuts a named species in half, so every flag can be stated by\n'
-                    f'species name ({NFLAG} of them).',
+ax.text(41.5, 20.2, f'The four figures above are from the {len(ag):,} genera that could be scored against\n'
+                    f'GTDB. Divisions identical to the expert ones in {IDENT}. No bin cuts a named species\n'
+                    f'in half, so every flag can be stated by species name ({NFLAG} of them).',
         fontsize=6.9, color=MUTED, va='top', linespacing=1.55)
 
 # ---- footer

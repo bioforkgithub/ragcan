@@ -122,7 +122,7 @@ ax.text(61.0, 45.5, f'{NBIG+NSMALL} $\\it{{Pseudomonas}}$ genomes, no labels giv
         fontsize=9.5, color=INK, va='top')
 ax.text(61.0, 37.5, f'All {NSMALL} have since been reassigned\nto $\\it{{Halopseudomonas}}$.',
         fontsize=9.5, color=ORANGE, va='top', fontweight='bold', linespacing=1.45)
-ax.text(61.0, 22.0, '1,160 genera screened in 30 hours.',
+ax.text(61.0, 22.0, '2,206 genera screened in 38 hours.',
         fontsize=9, color=MUTED, va='top')
 
 # --- the limitation, carried over from the long version. The paper's own framing, and the
